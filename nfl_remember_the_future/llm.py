@@ -39,7 +39,7 @@ def draft_one(
     user_prompt: str,
     temperature: float,
     max_completion_tokens: int,
-) -> str:
+) -> tuple[str, Optional[int]]:
     resp = client.chat.completions.create(
         model=model,
         temperature=temperature,
@@ -49,4 +49,55 @@ def draft_one(
             {"role": "user", "content": user_prompt},
         ],
     )
-    return (resp.choices[0].message.content or "").strip()
+    content = (resp.choices[0].message.content or "").strip()
+    usage_tokens = None
+    try:
+        usage_tokens = getattr(resp, "usage", None).completion_tokens  # type: ignore[attr-defined]
+    except Exception:
+        usage_tokens = None
+    return content, usage_tokens
+
+
+def generate_image_prompt(
+    client: OpenAI,
+    model: str,
+    article_title: str,
+    article_format: str,
+    anchors: list[str],
+    writing_directions: list[str],
+    style_context: str,
+    temperature: float = 0.3,
+    max_completion_tokens: int = 120,
+) -> tuple[str, Optional[int]]:
+    system = (
+        "You generate concise text-to-image prompts for editorial illustration. "
+        "The prompt should characterize a specific visual that complements the article title, format, anchors. If the article is technical or data-driven, consider suggesting an infographic, diagram, or data visualization."
+        "The images are meant to complement the article in a journalistic fashion, so less cinematic and more editorial in visual style and tone. Consider things like portrait photographs if the article is highlighting an individual or team; consider production-style photos if the article is about an event or activity; consider infographics or diagrams if the article is technical or data-driven."
+        "The photograph should avoid cues that the image is staged or artificially generated overly dramatic, too stylized or cinematic. Instead, aim for a natural, candid, journalistic style that feels authentic and real."
+        "Return one short prompt (2-4 sentences) describing a compelling, specific visual. "
+        "Match the tone and format; avoid generic 'photo of X' phrasing; suggest illustration/diagram/infographic/scene if fitting. "
+        "No line breaks, no markdown."
+    )
+    user = f"""ARTICLE
+Title: {article_title}
+Format: {article_format}
+Anchors: {anchors}
+Directions: {writing_directions}
+Style context: {style_context[:500]}
+Output: one text-to-image prompt."""
+    resp = client.chat.completions.create(
+        model=model,
+        temperature=temperature,
+        max_completion_tokens=max_completion_tokens,
+        messages=[
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ],
+    )
+    content = (resp.choices[0].message.content or "").strip()
+    usage_tokens = None
+    try:
+        usage_tokens = getattr(resp, "usage", None).completion_tokens  # type: ignore[attr-defined]
+    except Exception:
+        usage_tokens = None
+    return content, usage_tokens

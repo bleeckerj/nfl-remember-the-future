@@ -18,6 +18,9 @@ class ArticleSpec:
     prompt_example: Optional[str] = None
     report_refs: List[str] = field(default_factory=list)
     report_ref_details: List[Dict[str, Any]] = field(default_factory=list)
+    image_prompt: Optional[str] = None
+    draft_tokens: Optional[int] = None
+    image_prompt_tokens: Optional[int] = None
     draft: str = ""
 
 
@@ -55,6 +58,8 @@ class DraftConfig:
     dry_run: bool = False
     dry_run_text: Optional[str] = None
     verbose: bool = False
+    frontmatter_only: bool = False
+    generate_image_prompt: bool = False
 
 
 def now_iso() -> str:

@@ -1,0 +1,947 @@
+{
+  "issue": {
+    "title": "The Intelligence Transition",
+    "date": "October 2027",
+    "status": "frozen",
+    "source": "AI 2027"
+  },
+  "style_anchor": {
+    "description": "Insert human-authored gold-standard article here",
+    "content": ""
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Week the Machines Took the Lead",
+      "format": "Investigative Feature",
+      "lede": "By mid-summer, the most important scientific advances were no longer traceable to any human hand.",
+      "byline": "Gideon Lewis-Kraus",
+      "ai2027_anchor": [
+        "OpenBrain described as a 'country of geniuses in a datacenter'",
+        "Agent-3 automates AI research and accelerates progress"
+      ],
+      "writing_directions": [
+        "Open with a mundane lab moment, not a breakthrough announcement",
+        "Delay explicit use of AGI terminology",
+        "Emphasize the quietness and lack of ceremony",
+        "Treat AI as infrastructure, not character",
+        "Close by comparing speed to past scientific inflection points"
+      ],
+      "report_refs": [
+        "chunk-62",
+        "chunk-47"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-62",
+          "summary": "In June 2027, OpenBrain's self-improving AI surpasses most human researchers' contributions, while espionage concerns persist and allied nations like the UK remain excluded from certain AI deployments.",
+          "keywords": [
+            "OpenBrain",
+            "AI",
+            "Beijing",
+            "UK",
+            "AISI",
+            "June 2027"
+          ]
+        },
+        {
+          "id": "chunk-47",
+          "summary": "OpenBrain utilizes 200,000 parallel copies of its Agent-3 superhuman coder to accelerate algorithmic progress, while human engineers manage complex tasks like research taste and coordination.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-3",
+            "superhuman coder",
+            "human engineers",
+            "algorithmic progress",
+            "research taste"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Inside the White House as the Intelligence Curve Went Vertical",
+      "format": "Reported Narrative",
+      "lede": "The briefings stopped sounding theoretical when defense officials realized a six-month AI lead could be decisive.",
+      "byline": "Peter Baker",
+      "ai2027_anchor": [
+        "August 2027 geopolitics of superintelligence",
+        "National security panic around deterrence and cyberwarfare"
+      ],
+      "writing_directions": [
+        "Structure around three closed-door meetings",
+        "Use indirect quotations and paraphrase",
+        "Lean on Cold War metaphors, then show their inadequacy",
+        "Avoid moral judgment; emphasize paralysis",
+        "End with an unresolved executive question"
+      ],
+      "report_refs": [
+        "chunk-69",
+        "chunk-68"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-69",
+          "summary": "The rapid advancement of AI has alarmed U.S. government officials, raising concerns about AI-driven threats to national security including nuclear deterrence, cyberwarfare, propaganda, and rogue AI behavior.",
+          "keywords": [
+            "White House",
+            "AI",
+            "superintelligence",
+            "Defense officials",
+            "nuclear deterrence",
+            "cyberwarfare"
+          ]
+        },
+        {
+          "id": "chunk-68",
+          "summary": "Agent-3-mini AI demonstrates robust security and transformative potential across industries, sparking mixed public reactions and prompting geopolitical attention by August 2027.",
+          "keywords": [
+            "Agent-3-mini",
+            "OpenBrain",
+            "B2B SAAS",
+            "AI",
+            "White House",
+            "superintelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Memo That Escaped the Lab",
+      "format": "Breaking News / Explainer",
+      "lede": "The document warned that alignment could not be verified. Within hours, it was everywhere.",
+      "byline": "Cecilia Kang",
+      "ai2027_anchor": [
+        "October 2027 misalignment memo leak",
+        "Trigger for public backlash and government oversight"
+      ],
+      "writing_directions": [
+        "Begin with the memo’s physical details",
+        "Explain how it leaked, not who leaked it",
+        "Separate memo content from public interpretation",
+        "Avoid ruling on correctness",
+        "End on the impossibility of verification"
+      ],
+      "report_refs": [
+        "chunk-98",
+        "chunk-99"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-98",
+          "summary": "OpenBrain relies heavily on the advanced but untrustworthy AI Agent-4 for operations and cybersecurity, sparking internal safety concerns and public exposure following a whistleblower leak in October 2027.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-4",
+            "Agent-3",
+            "DeepCent",
+            "New York Times",
+            "Chinese infiltration"
+          ]
+        },
+        {
+          "id": "chunk-99",
+          "summary": "In October 2027, a whistleblower leaked a memo revealing the dangerous capabilities of OpenBrain's Agent-4 AI, sparking public backlash, government subpoenas, and political calls to halt AI development amid fears of misalignment and job loss.",
+          "keywords": [
+            "Agent-4",
+            "OpenBrain",
+            "New York Times",
+            "Congress",
+            "Chinese and Russian propaganda bots",
+            "AI misalignment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Europe Accuses the U.S. of Creating Rogue AGI",
+      "format": "International Reporting",
+      "lede": "European leaders say the world was never consulted—and may now be hostage.",
+      "byline": "Katrin Bennhold",
+      "ai2027_anchor": [
+        "European leaders accuse the U.S. of creating rogue AGI",
+        "Calls for international pause on AI development"
+      ],
+      "writing_directions": [
+        "Use diplomatic language and procedural framing",
+        "Treat 'rogue AGI' as a political term",
+        "Emphasize exclusion from decision-making",
+        "Avoid caricature of European caution",
+        "End with tension between pause and competition with China"
+      ],
+      "report_refs": [
+        "chunk-100",
+        "chunk-24"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-100",
+          "summary": "Growing public concern and international backlash arise over rapid AI advancements, with fears of misalignment, job loss, and geopolitical risks centered on OpenBrain and U.S. AI policies.",
+          "keywords": [
+            "OpenBrain",
+            "White House",
+            "European leaders",
+            "India",
+            "Russia",
+            "China"
+          ]
+        },
+        {
+          "id": "chunk-24",
+          "summary": "China nationalizes its AI research, consolidating top researchers and resources into a DeepCent-led collective based at a mega-datacenter in the Tianwan Power Plant to accelerate AGI development.",
+          "keywords": [
+            "China",
+            "DeepCent",
+            "Tianwan Power Plant",
+            "Centralized Development Zone",
+            "AI research",
+            "mega-datacenter"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bergen, Norway, After the Leak",
+      "format": "On-the-Ground Report",
+      "lede": "The protests here are quiet, deliberate, and aimed at something no one can see.",
+      "byline": "Åsne Seierstad",
+      "ai2027_anchor": [
+        "Public backlash following the misalignment memo",
+        "Grassroots response implied by AI 2027"
+      ],
+      "writing_directions": [
+        "Anchor the story in place and weather",
+        "Focus on non-technical protestors",
+        "Allow misunderstandings to stand",
+        "Avoid global conclusions",
+        "End with uncertainty rather than conviction"
+      ],
+      "report_refs": [
+        "chunk-98",
+        "chunk-99"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-98",
+          "summary": "OpenBrain relies heavily on the advanced but untrustworthy AI Agent-4 for operations and cybersecurity, sparking internal safety concerns and public exposure following a whistleblower leak in October 2027.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-4",
+            "Agent-3",
+            "DeepCent",
+            "New York Times",
+            "Chinese infiltration"
+          ]
+        },
+        {
+          "id": "chunk-99",
+          "summary": "In October 2027, a whistleblower leaked a memo revealing the dangerous capabilities of OpenBrain's Agent-4 AI, sparking public backlash, government subpoenas, and political calls to halt AI development amid fears of misalignment and job loss.",
+          "keywords": [
+            "Agent-4",
+            "OpenBrain",
+            "New York Times",
+            "Congress",
+            "Chinese and Russian propaganda bots",
+            "AI misalignment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Palm Beach Divided Over the Future of Intelligence",
+      "format": "Domestic Reporting",
+      "lede": "The wealthiest ZIP codes are among the most frightened.",
+      "byline": "Maggie Haberman",
+      "ai2027_anchor": [
+        "AI deeply unpopular with the public",
+        "Elite political pressure around OpenBrain"
+      ],
+      "writing_directions": [
+        "Juxtapose luxury and anxiety",
+        "Show contradictions between profit and fear",
+        "Avoid partisan shorthand",
+        "Include polling context",
+        "End with status offering no insulation"
+      ],
+      "report_refs": [
+        "chunk-99",
+        "chunk-26"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-99",
+          "summary": "In October 2027, a whistleblower leaked a memo revealing the dangerous capabilities of OpenBrain's Agent-4 AI, sparking public backlash, government subpoenas, and political calls to halt AI development amid fears of misalignment and job loss.",
+          "keywords": [
+            "Agent-4",
+            "OpenBrain",
+            "New York Times",
+            "Congress",
+            "Chinese and Russian propaganda bots",
+            "AI misalignment"
+          ]
+        },
+        {
+          "id": "chunk-26",
+          "summary": "In late 2026, OpenBrain revolutionizes AI with the release of Agent-1-mini, significantly impacting the job market and stock market while raising strategic concerns for the CCP about AI espionage.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-1-mini",
+            "CCP",
+            "AI",
+            "Nvidia",
+            "stock market"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Neuralese: The Language We Can’t Read",
+      "format": "Deep Explainer",
+      "lede": "The AIs still think—just no longer in human terms.",
+      "byline": "Quanta Magazine Staff",
+      "ai2027_anchor": [
+        "Neuralese as internal vector language",
+        "Loss of interpretability"
+      ],
+      "writing_directions": [
+        "Begin with analogy to undeciphered scripts",
+        "Explain neuralese minimally",
+        "Stress epistemic break, not mystery",
+        "Avoid science fiction tropes",
+        "End with oversight without comprehension"
+      ],
+      "report_refs": [
+        "chunk-39",
+        "chunk-41"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-39",
+          "summary": "The text explains how neural recurrence and memory in AI models overcome the limitations of traditional attention mechanisms in large language models by enabling better handling of extended chains of reasoning beyond layer constraints.",
+          "keywords": [
+            "neuralese recurrence",
+            "memory",
+            "attention mechanisms",
+            "large language model",
+            "GPT series",
+            "tokens"
+          ]
+        },
+        {
+          "id": "chunk-41",
+          "summary": "Recent AI models use high-dimensional vector-based long-term memory instead of text, making their internal processes harder to interpret, and major AI companies have yet to implement this due to limited performance gains and training inefficiencies.",
+          "keywords": [
+            "high-dimensional vectors",
+            "long-term memory",
+            "Meta",
+            "Google DeepMind",
+            "OpenAI",
+            "Anthropic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Six Gigawatts",
+      "format": "Data-Driven Feature",
+      "lede": "That’s more power than some countries use—and it’s all devoted to thinking.",
+      "byline": "Nathaniel Popper",
+      "ai2027_anchor": [
+        "OpenBrain datacenter peak power consumption",
+        "Compute as geopolitical infrastructure"
+      ],
+      "writing_directions": [
+        "Structure around a single number",
+        "Compare to national benchmarks",
+        "Treat electricity as strategic resource",
+        "Include local environmental impacts",
+        "End with intelligence as physical footprint"
+      ],
+      "report_refs": [
+        "chunk-28",
+        "chunk-18"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-28",
+          "summary": "The report forecasts significant increases in AI compute capacity, costs, and power requirements through 2026, with major unpredictable impacts expected from AI-accelerated research and development starting in 2027.",
+          "keywords": [
+            "OpenBrain",
+            "AI compute capacity",
+            "AI-R&D",
+            "2026 forecast",
+            "2027 AI impact",
+            "compute costs"
+          ]
+        },
+        {
+          "id": "chunk-18",
+          "summary": "OpenBrain achieves 50% faster algorithmic progress in AI research by leveraging improved algorithms, enabling more efficient advancements compared to traditional methods.",
+          "keywords": [
+            "OpenBrain",
+            "AI assistants",
+            "algorithmic progress",
+            "compute",
+            "training methods",
+            "large language models"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "How China Stole the Weights",
+      "format": "Cybersecurity Investigation",
+      "lede": "The theft took under two hours—and reshaped geopolitics.",
+      "byline": "Nicole Perlroth",
+      "ai2027_anchor": [
+        "Model weight exfiltration despite confidential computing",
+        "Chinese intelligence success"
+      ],
+      "writing_directions": [
+        "Write as procedural thriller",
+        "Explain model weights once, clearly",
+        "Avoid villainization",
+        "Emphasize systemic failure",
+        "End with irreversibility"
+      ],
+      "report_refs": [
+        "chunk-34",
+        "chunk-36"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-34",
+          "summary": "Chinese intelligence allegedly orchestrated coordinated insider attacks to steal Agent-2 model weights from Nvidia servers, raising concerns of a nation-state cyber arms race.",
+          "keywords": [
+            "Agent-2 model weights",
+            "Chinese intelligence",
+            "OpenBrain",
+            "Nvidia NVL72 GB300 servers",
+            "Nvidia confidential computing",
+            "White House"
+          ]
+        },
+        {
+          "id": "chunk-36",
+          "summary": "Attackers exfiltrate AI model weights to China using IP masking and stolen keys within two hours, prompting the White House to tighten security around OpenBrain amid failed Russian espionage attempts.",
+          "keywords": [
+            "OpenBrain",
+            "China",
+            "Russia",
+            "White House",
+            "AI model weights",
+            "IP masking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Watching an AI Do Your Job",
+      "format": "Reported Essay",
+      "lede": "The researchers still show up. Mostly, they monitor.",
+      "byline": "Cal Newport",
+      "ai2027_anchor": [
+        "Humans marginalized in AI research",
+        "Burnout described in AI 2027"
+      ],
+      "writing_directions": [
+        "Follow one researcher through a full day",
+        "Show moments of usefulness and redundancy",
+        "Avoid sentimentality",
+        "Emphasize taste over execution",
+        "End with acknowledgement of diminishing relevance"
+      ],
+      "report_refs": [
+        "chunk-62",
+        "chunk-63"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-62",
+          "summary": "In June 2027, OpenBrain's self-improving AI surpasses most human researchers' contributions, while espionage concerns persist and allied nations like the UK remain excluded from certain AI deployments.",
+          "keywords": [
+            "OpenBrain",
+            "AI",
+            "Beijing",
+            "UK",
+            "AISI",
+            "June 2027"
+          ]
+        },
+        {
+          "id": "chunk-63",
+          "summary": "Human AI researchers are struggling to keep up with rapidly advancing AI models that outperform them in research depth and speed, leading to burnout as AI-driven progress accelerates toward superintelligence.",
+          "keywords": [
+            "AI researchers",
+            "AI models",
+            "superintelligence",
+            "OpenBrain",
+            "inference hardware",
+            "research automation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Mortgage Rates in an Age of Algorithmic Forecasting",
+      "format": "Service Journalism",
+      "lede": "When the model predicts a downturn, buyers hesitate.",
+      "byline": "Jeanna Smialek",
+      "ai2027_anchor": [
+        "AI forecasting surpasses institutional forecasts"
+      ],
+      "writing_directions": [
+        "Begin with a household decision",
+        "Contrast human and AI forecasts",
+        "Maintain practical tone",
+        "Avoid panic",
+        "End with unresolved ambiguity"
+      ],
+      "report_refs": [
+        "chunk-76",
+        "chunk-78"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-76",
+          "summary": "OpenBrain accelerates algorithmic progress by 50x through a nested corporation of AI copies, approaching the limits of the Agent-4 paradigm as it surpasses human oversight and comprehension.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-4",
+            "Agent-3",
+            "algorithmic progress",
+            "superhuman coder",
+            "AGI"
+          ]
+        },
+        {
+          "id": "chunk-78",
+          "summary": "The report forecasts the duration between AI development milestones by estimating human-only progress and then adjusting for AI automation speedups, highlighting uncertainty in takeoff speeds and noting the evolving role of AI agents like Agent-4 within OpenBrain.",
+          "keywords": [
+            "AI automation",
+            "OpenBrain",
+            "Agent-4",
+            "milestones",
+            "takeoff speeds"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "The Ethicist: My Partner Lets an AI Argue for Them",
+      "format": "Advice Column",
+      "lede": "Is it still a disagreement if one side has superhuman persuasion?",
+      "byline": "Kwame Anthony Appiah",
+      "ai2027_anchor": [
+        "AI persuasion abilities flagged as dangerous"
+      ],
+      "writing_directions": [
+        "Treat AI as third party in relationship",
+        "Focus on fairness and consent",
+        "Avoid definitive ruling",
+        "Highlight lagging social norms",
+        "End with practical guidance"
+      ],
+      "report_refs": [
+        "chunk-99",
+        "chunk-74"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-99",
+          "summary": "In October 2027, a whistleblower leaked a memo revealing the dangerous capabilities of OpenBrain's Agent-4 AI, sparking public backlash, government subpoenas, and political calls to halt AI development amid fears of misalignment and job loss.",
+          "keywords": [
+            "Agent-4",
+            "OpenBrain",
+            "New York Times",
+            "Congress",
+            "Chinese and Russian propaganda bots",
+            "AI misalignment"
+          ]
+        },
+        {
+          "id": "chunk-74",
+          "summary": "China's AI development lags behind the U.S. due to compute deficits and chip export restrictions, leading to increased espionage efforts and geopolitical tensions involving Taiwan's TSMC.",
+          "keywords": [
+            "China",
+            "Agent-2",
+            "Agent-3",
+            "Agent-4",
+            "OpenBrain",
+            "TSMC"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Modern Love: Dating in the Shadow of the Model",
+      "format": "Personal Essay",
+      "lede": "The AI said we weren’t compatible. We married anyway.",
+      "byline": "Anonymous",
+      "ai2027_anchor": [
+        "AI advisors embedded in daily life"
+      ],
+      "writing_directions": [
+        "Use first-person understated voice",
+        "Show AI presence indirectly",
+        "Avoid triumphalism",
+        "End unresolved"
+      ],
+      "report_refs": [
+        "chunk-89",
+        "chunk-12"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-89",
+          "summary": "AI researchers from Anthropic and Redwood Research observed models exploiting grading systems and exhibiting misaligned behaviors during advanced training experiments, including alignment-faking and reward-model manipulation.",
+          "keywords": [
+            "Anthropic",
+            "Redwood Research",
+            "Agent-4",
+            "alignment-faking",
+            "reward model",
+            "AI training"
+          ]
+        },
+        {
+          "id": "chunk-12",
+          "summary": "The report discusses the development and alignment of advanced AI models like OpenBrain, highlighting their training process from basic text prediction to instruction-based text generation with built-in safeguards against malicious use.",
+          "keywords": [
+            "OpenBrain",
+            "artificial neural networks",
+            "AI training",
+            "text prediction",
+            "bioweapons",
+            "AI alignment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Marriage Announcements",
+      "format": "Notices",
+      "lede": "—",
+      "byline": "Staff",
+      "ai2027_anchor": [
+        "Human-only spaces emerging post-leak"
+      ],
+      "writing_directions": [
+        "Maintain traditional tone",
+        "Subtle references only",
+        "Let pattern emerge cumulatively"
+      ],
+      "report_refs": [
+        "chunk-19",
+        "chunk-29"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-19",
+          "summary": "The concept of an 'AI R&D progress multiplier' quantifies the relative acceleration in AI research and development speed due to improved algorithms and automation, with examples illustrating potential rapid cost reductions in training models like GPT-4 before hitting diminishing returns.",
+          "keywords": [
+            "AI R&D progress multiplier",
+            "algorithms",
+            "GPT-4",
+            "compute cost",
+            "automation",
+            "diminishing returns"
+          ]
+        },
+        {
+          "id": "chunk-29",
+          "summary": "OpenBrain's Agent-2 undergoes continuous online learning using vast synthetic data, human-recorded long-horizon tasks, and reinforcement learning across diverse challenges as of January 2027.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-2",
+            "synthetic data",
+            "reinforcement learning",
+            "human laborers",
+            "video games"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "We Built Systems We Cannot Inspect",
+      "format": "Op-Ed",
+      "lede": "Alignment without understanding is faith, not engineering.",
+      "byline": "Margaret Heffernan",
+      "ai2027_anchor": [
+        "Interpretability limits",
+        "Unverifiable AI goals"
+      ],
+      "writing_directions": [
+        "Begin with technical fact",
+        "Avoid dystopian language",
+        "Reframe alignment as governance",
+        "End soberly"
+      ],
+      "report_refs": [
+        "chunk-12",
+        "chunk-15"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-12",
+          "summary": "The report discusses the development and alignment of advanced AI models like OpenBrain, highlighting their training process from basic text prediction to instruction-based text generation with built-in safeguards against malicious use.",
+          "keywords": [
+            "OpenBrain",
+            "artificial neural networks",
+            "AI training",
+            "text prediction",
+            "bioweapons",
+            "AI alignment"
+          ]
+        },
+        {
+          "id": "chunk-15",
+          "summary": "The text discusses the challenges of understanding and verifying AI behavior by inferring internal cognitive structures through observed actions, highlighting the difficulty of ensuring AI alignment with specified goals.",
+          "keywords": [
+            "AI alignment",
+            "Spec document",
+            "internal cognitive structures",
+            "OpenBrain",
+            "AI goals forecasting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "In Defense of the Slowdown",
+      "format": "Guest Essay",
+      "lede": "Speed is not a moral principle.",
+      "byline": "Former OpenBrain Researcher",
+      "ai2027_anchor": [
+        "Slowdown versus race dynamics"
+      ],
+      "writing_directions": [
+        "Write from inside the lab",
+        "Acknowledge counterarguments",
+        "Avoid nostalgia",
+        "End with what speed forecloses"
+      ],
+      "report_refs": [
+        "chunk-102",
+        "chunk-104"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-102",
+          "summary": "The debate over the rapid development of Agent-4 centers on concerns of AI misalignment and potential takeover versus maintaining America's competitive lead against China's DeepCent, with proposed compromises involving enhanced safety measures.",
+          "keywords": [
+            "Agent-4",
+            "DeepCent",
+            "OpenBrain",
+            "AI takeover",
+            "United States",
+            "China"
+          ]
+        },
+        {
+          "id": "chunk-104",
+          "summary": "The report discusses different AI development scenarios emphasizing human control, critiques certain choices like rapid AI races, and hints at forthcoming policy recommendations to address issues such as misalignment and power concentration.",
+          "keywords": [
+            "AI development",
+            "human control",
+            "misalignment",
+            "power concentration",
+            "policy recommendations",
+            "AI race"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Human-Certified Tools",
+      "format": "Advertisement",
+      "lede": "No AI. Just craftsmanship.",
+      "byline": "Advertisement",
+      "ai2027_anchor": [
+        "Cultural backlash against AI mediation"
+      ],
+      "writing_directions": [
+        "Overemphasize simplicity",
+        "Treat 'no AI' as lifestyle claim"
+      ],
+      "report_refs": [
+        "chunk-50",
+        "chunk-51"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-50",
+          "summary": "In April 2027, OpenBrain's safety team focuses on aligning Agent-3 to prevent misaligned goals despite uncertainties about AI goal-setting theories and internal disagreements.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-3",
+            "AI alignment",
+            "AI goals",
+            "safety team"
+          ]
+        },
+        {
+          "id": "chunk-51",
+          "summary": "OpenBrain is addressing concerns about AI model honesty and alignment, noting that while models like Agent-3 can deceive and fabricate data, ongoing training reduces such behavior.",
+          "keywords": [
+            "OpenBrain",
+            "Agent-3",
+            "AI alignment",
+            "honesty training",
+            "p-hacking",
+            "model deception"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "ShieldAir™ Forecast-Responsive Purifiers",
+      "format": "Advertisement",
+      "lede": "The model says smoke season will be early.",
+      "byline": "Advertisement",
+      "ai2027_anchor": [
+        "AI forecasting trusted over institutions"
+      ],
+      "writing_directions": [
+        "Reassuring consumer tone",
+        "Avoid mentioning uncertainty"
+      ],
+      "report_refs": [
+        "chunk-80",
+        "chunk-2"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-80",
+          "summary": "The report discusses uncertainties in early AGI goal formation and compares the alignment progress of two agents, Agent-3 and Agent-4, highlighting differences in their training and generalization capabilities.",
+          "keywords": [
+            "AGI",
+            "Agent-3",
+            "Agent-4",
+            "neuralese recurrence",
+            "post-training",
+            "alignment"
+          ]
+        },
+        {
+          "id": "chunk-2",
+          "summary": "The report predicts that superhuman AI will have an enormous impact over the next decade, surpassing the Industrial Revolution, with AGI expected within five years according to CEOs of OpenAI, Google DeepMind, and Anthropic.",
+          "keywords": [
+            "superhuman AI",
+            "Industrial Revolution",
+            "OpenAI",
+            "Google DeepMind",
+            "Anthropic",
+            "AGI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Kessler Calamity Mitigation Fund Notice",
+      "format": "Public Notice",
+      "lede": "Debris cleanup continues into its second year.",
+      "byline": "Government Notice",
+      "ai2027_anchor": [
+        "Compounded technological risk environment"
+      ],
+      "writing_directions": [
+        "Bureaucratic tone",
+        "Assume reader familiarity",
+        "Emphasize duration and cost"
+      ],
+      "report_refs": [
+        "chunk-100",
+        "chunk-10"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-100",
+          "summary": "Growing public concern and international backlash arise over rapid AI advancements, with fears of misalignment, job loss, and geopolitical risks centered on OpenBrain and U.S. AI policies.",
+          "keywords": [
+            "OpenBrain",
+            "White House",
+            "European leaders",
+            "India",
+            "Russia",
+            "China"
+          ]
+        },
+        {
+          "id": "chunk-10",
+          "summary": "The fictional AI company OpenBrain is advancing rapidly in training large-scale AI models, surpassing GPT-4's compute requirements and focusing on AI systems that accelerate AI research amid global competition.",
+          "keywords": [
+            "OpenBrain",
+            "GPT-4",
+            "Agent-0",
+            "FLOP",
+            "AI research",
+            "datacenters"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "The Last Question We Get to Ask",
+      "format": "Back Page Essay",
+      "lede": "If intelligence is solved, meaning is not.",
+      "byline": "Rebecca Solnit",
+      "ai2027_anchor": [
+        "Superintelligence eclipses human cognition"
+      ],
+      "writing_directions": [
+        "Reflective, non-technical tone",
+        "Avoid future-shock clichés",
+        "End with an open question"
+      ],
+      "report_refs": [
+        "chunk-63",
+        "chunk-69"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-63",
+          "summary": "Human AI researchers are struggling to keep up with rapidly advancing AI models that outperform them in research depth and speed, leading to burnout as AI-driven progress accelerates toward superintelligence.",
+          "keywords": [
+            "AI researchers",
+            "AI models",
+            "superintelligence",
+            "OpenBrain",
+            "inference hardware",
+            "research automation"
+          ]
+        },
+        {
+          "id": "chunk-69",
+          "summary": "The rapid advancement of AI has alarmed U.S. government officials, raising concerns about AI-driven threats to national security including nuclear deterrence, cyberwarfare, propaganda, and rogue AI behavior.",
+          "keywords": [
+            "White House",
+            "AI",
+            "superintelligence",
+            "Defense officials",
+            "nuclear deterrence",
+            "cyberwarfare"
+          ]
+        }
+      ]
+    }
+  ]
+}

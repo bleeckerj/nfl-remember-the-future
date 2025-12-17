@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from nfl_remember_the_future.drafting import draft_articles
+from nfl_remember_the_future.drafting import draft_articles, select_articles
 from nfl_remember_the_future.models import DraftConfig
 
 
@@ -160,3 +160,17 @@ def test_draft_articles_dry_run(tmp_path):
     assert md_files and "[DRY RUN CONTENT]" in md_files[0].read_text(encoding="utf-8")
     index_data = json.loads(index_path.read_text(encoding="utf-8"))
     assert index_data["drafts"][0]["model"] == "dry-run"
+
+
+def test_select_articles_allows_list_and_range():
+    articles = [
+        {"id": 1, "title": "A"},
+        {"id": 2, "title": "B"},
+        {"id": 3, "title": "C"},
+        {"id": 4, "title": "D"},
+    ]
+    selected = select_articles(articles, "2,4")
+    assert [a["id"] for a in selected] == [2, 4]
+
+    selected_range = select_articles(articles, "2-3")
+    assert [a["id"] for a in selected_range] == [2, 3]

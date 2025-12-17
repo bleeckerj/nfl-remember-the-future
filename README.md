@@ -1,6 +1,20 @@
-# nfl-remember-the-future — Issue JSON → Drafts (OpenAI-Compatible Endpoints)
+# nfl-remember-the-future 
+
+## Issue JSON → Drafts
 
 This project ingests an **issue JSON** (e.g. `intelligence_transition_full_issue.json`), validates it against a **JSON Schema**, and drafts articles via an **OpenAI-API-compatible endpoint** (OpenAI, or a compatible gateway like LiteLLM/OpenRouter/self-hosted proxies).
+
+The purpose is an experiment in **data-driven long-form article drafting** guided by structured metadata:
+- title, byline, lede
+- anchors to cover
+- writing directions
+- report references for grounding
+
+This project is **not** meant to be an exploration in replacing true journalistic craft with AI. My father was a journalist and writer; I've written books and articles as a professional academic and researcher; I respect the integrity of the craft. With this project I am experimenting with the possibility of near futures where AI just ends up assisting human writers in more structured ways and, not inevitably, where AI helps draft first versions of articles that human writers then refine, edit, and polish. Or maybe even does articles.
+
+One of the Design Fictions that appears in the first issue of [Applied Intelligence](https://nearfuturelaboratory.com/library/2024/12/applied-intelligence-issue-001/) I created late 2026 was the implication that agents of some description reasoned that they should write news articles that they also decided they would print and distribute. There was no explanation of how that happened in the Design Fiction — some wondered if the newspapers were ways for the AIs to communicate with one another in an unexpected backchannel, the theory being that people reading the articles (cyborgs — nothing more than humans wearing active glasses that had cameras in them) were providing the ingestion surface through which the messaging in the printed newspaper could be read. (The undergirding speculation/theory being that the usual internet channels itself were monitored; some thought that the articles' text was embedded with code, others noticed missprints and smudges in the newsprint that could be possibly QR-code like glyphs containing messages, etc.).
+
+In any case, all of that is to say that this is an experiment rather than an application prototype.
 
 By default the issue JSON stays pristine. Drafts are written to Markdown files plus a `drafts/index.json` index (article ID → draft path/metadata). An optional flag lets you emit an annotated copy of the issue JSON without touching the input.
 
@@ -12,7 +26,7 @@ This is designed as the drafting **engine** for a future **non-chat writing assi
 
 **Inputs**
 - `issue.json` — structured issue spec with article metadata, anchors, and writing directions
-- `ai2027_issue.schema.json` — JSON Schema for validation
+- `issue.schema.json` — JSON Schema for validation
 - `prompts/` — system instructions + optional format-specific style examples
 - `prompts/report_context.md` — optional report excerpts/summary injected into the system prompt
 - `.env` — secrets/config (API key, base URL, default model)
@@ -108,26 +122,32 @@ Prompt example selection:
 
 ## Running the drafter
 
+Note that the first example of this I ran was to use a futures report as a basis for drafting a magazine that contained articles based on the report. The report was chunked and indexed, and relevant chunks were attached to each article as grounding references.
+
+The reason I did this is I wanted the articles to be based on real data from the report rather than hallucinated or made-up data. This is an important step in making AI-assisted writing more factually grounded, or so I am hypothesizing. 
+
+Each article could index directly back to an element in the report, and the relevant chunks of the report were pulled into the prompt to provide context. Then in the output of the draft, those indices (chunk number, and some other context free text) were included in the frontmatter so that the provenance of the article could be traced back to the report, evaluated for its faithfulness to the report, etc.
+
 ### Draft one article by ID
 ```bash
-python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/ai2027_issue.schema.json   --prompt-dir prompts   --article-id 7
+python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/issue.schema.json   --prompt-dir prompts   --article-id 7
 ```
 
 ### Draft all articles
 ```bash
-python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/ai2027_issue.schema.json   --prompt-dir prompts   --article-id all
+python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/issue.schema.json   --prompt-dir prompts   --article-id all
 ```
 
 ### Overwrite an existing draft
 ```bash
-python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/ai2027_issue.schema.json   --prompt-dir prompts   --article-id 7   --overwrite-existing
+python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/issue.schema.json   --prompt-dir prompts   --article-id 7   --overwrite-existing
 ```
 
 ### Write an annotated copy of the issue JSON (optional)
 ```bash
 python drafter.py draft \
   --issue-json intelligence_transition_full_issue.json \
-  --schema-json ai2027_issue.schema.json \
+  --schema-json issue.schema.json \
   --write-annotated-json \
   --out-json drafts/intelligence_transition_full_issue.annotated.json
 ```
@@ -136,20 +156,20 @@ python drafter.py draft \
 ```bash
 python drafter.py draft \
   --issue-json intelligence_transition_full_issue.json \
-  --schema-json ai2027_issue.schema.json \
+  --schema-json issue.schema.json \
   --prompt-dir prompts \
   --article-id 1 \
   --dry-run \
   --dry-run-text "[DRY RUN] Placeholder draft content."
 ```
 
-### Convert HTML report to Markdown (helper)
+### Convert HTML context/report to Markdown (helper)
 ```bash
-python -m tools.html_to_md --html "AI 2027.html" --out report.md
+python -m tools.html_to_md --html "issue.html" --out report.md
 # Copy the best 2–4 paragraphs into prompts/report_context.md or style_anchor.content
 ```
 
-### Chunk the report and build an index (helper)
+### Chunk the context/report and build an index (helper)
 ```bash
 python -m tools.chunk_report --md report.md --out report_chunks.json --out-md report_chunks.md --max-chars 1200 --overlap 200
 # Skim report_chunks.md or report_chunks.json for chunk ids; use them in article `report_refs`
@@ -171,7 +191,7 @@ python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labe
 4) **Auto-ground articles** (attach chunk ids/details + build context):  
    `python -m tools.auto_ground --issue intelligence_transition_full_issue.json --chunks report_chunk_labels.json --out-issue intelligence_transition_full_issue.grounded.json --report-context-out prompts/report_context.md --refs-per-article 2 --context-chunks 2 --include-ref-details`
 5) **Draft** (reads grounded issue, writes MD with frontmatter):  
-   `python -m nfl_remember_the_future.cli --issue-json intelligence_transition_full_issue.grounded.json --schema-json ai2027_issue.schema.json --prompt-dir prompts --article-id all --overwrite-existing`
+   `python -m nfl_remember_the_future.cli --issue-json intelligence_transition_full_issue.grounded.json --schema-json issue.schema.json --prompt-dir prompts --article-id all --overwrite-existing`
 
 Notes:
 - `report_context.md` and `report_ref_details` are pulled into prompts and draft frontmatter to keep drafts anchored.

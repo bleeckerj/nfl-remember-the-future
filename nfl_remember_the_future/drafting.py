@@ -16,12 +16,12 @@ from .io_utils import (
     upsert_record,
     write_json,
 )
-from .llm import draft_one, resolve_model
+from .llm import draft_one, generate_image_prompt, resolve_model
 from .models import ArticleSpec, DraftConfig, DraftRecord, now_iso
 from .prompts import build_system_prompt, build_user_prompt
 
 
-def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any]) -> str:
+def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any], image_prompt: str | None = None) -> str:
     """Render metadata as YAML frontmatter for MD/MDX consumers."""
     def esc(s: str) -> str:
         return s.replace("\\", "\\\\").replace('"', '\\"').replace("\n", " ").strip()
@@ -57,6 +57,13 @@ def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any]) -> str:
             for kw in kws:
                 lines.append(f'      - "{esc(kw)}"')
 
+    if image_prompt:
+        lines.append(f'image_prompt: "{esc(image_prompt)}"')
+
+    if spec.draft_tokens is not None:
+        lines.append(f"draft_tokens: {spec.draft_tokens}")
+    if spec.image_prompt_tokens is not None:
+        lines.append(f"image_prompt_tokens: {spec.image_prompt_tokens}")
     lines.append("---\n")
     return "\n".join(lines)
 
@@ -68,6 +75,27 @@ def load_issue_and_schema(issue_json, schema_json) -> Dict[str, Any]:
     return issue
 
 
+def _parse_article_ids(raw: str) -> List[int]:
+    ids: List[int] = []
+    for part in raw.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        if "-" in part:
+            try:
+                start_s, end_s = part.split("-", 1)
+                start, end = int(start_s), int(end_s)
+            except ValueError as exc:
+                raise typer.BadParameter("Invalid range in article_id.") from exc
+            ids.extend(range(start, end + 1))
+        else:
+            try:
+                ids.append(int(part))
+            except ValueError as exc:
+                raise typer.BadParameter("article_id must be integers, ranges, comma-separated, or 'all'.") from exc
+    return ids
+
+
 def select_articles(articles: Sequence[Dict[str, Any]], article_id: str) -> List[Dict[str, Any]]:
     if not isinstance(articles, list) or not articles:
         raise typer.BadParameter("No articles found in issue JSON.")
@@ -75,14 +103,13 @@ def select_articles(articles: Sequence[Dict[str, Any]], article_id: str) -> List
     if article_id.lower() == "all":
         return list(articles)
 
-    try:
-        wanted = int(article_id)
-    except ValueError as exc:
-        raise typer.BadParameter("article_id must be an integer or 'all'.") from exc
+    wanted_ids = _parse_article_ids(article_id)
+    if not wanted_ids:
+        raise typer.BadParameter("No valid article ids provided.")
 
-    selected = [a for a in articles if int(a.get("id")) == wanted]
+    selected = [a for a in articles if int(a.get("id")) in wanted_ids]
     if not selected:
-        raise typer.BadParameter(f"No article with id={wanted} found.")
+        raise typer.BadParameter(f"No articles found for ids: {wanted_ids}")
     return selected
 
 
@@ -142,10 +169,28 @@ def draft_articles(config: DraftConfig, client, now_fn=now_iso) -> None:
             if spec.report_refs or spec.report_ref_details:
                 typer.echo(f"  → Report refs: {', '.join(spec.report_refs) if spec.report_refs else 'none'}")
             typer.echo(f"  → Anchors: {len(spec.ai2027_anchor)} | Directions: {len(spec.writing_directions)}")
-        if config.dry_run:
+        image_prompt_text: str | None = None
+        image_prompt_tokens: int | None = None
+        if config.generate_image_prompt and not config.dry_run:
+            image_prompt_text, image_prompt_tokens = generate_image_prompt(
+                client=client,
+                model=resolved_model,
+                article_title=spec.title,
+                article_format=spec.format,
+                anchors=spec.ai2027_anchor,
+                writing_directions=spec.writing_directions,
+                style_context=style_anchor_text or report_context,
+                temperature=0.3,
+                max_completion_tokens=120,
+            )
+            if config.verbose:
+                typer.echo(f"  → Image prompt generated.")
+
+        draft_tokens: int | None = None
+        if config.dry_run or config.frontmatter_only:
             draft_text = config.dry_run_text or "[DRY RUN] Draft placeholder."
         else:
-            draft_text = draft_one(
+            draft_text, draft_tokens = draft_one(
                 client=client,
                 model=resolved_model,
                 system_prompt=system_prompt,
@@ -159,8 +204,28 @@ def draft_articles(config: DraftConfig, client, now_fn=now_iso) -> None:
                     typer.echo(f"  ! Empty draft received from model; writing warning placeholder.")
                 draft_text = warning
 
-        metadata_block = render_metadata_block(spec, issue_meta)
-        md_path.write_text(metadata_block + draft_text + "\n", encoding="utf-8")
+        spec.draft_tokens = draft_tokens
+        spec.image_prompt = image_prompt_text or spec.image_prompt
+        spec.image_prompt_tokens = image_prompt_tokens or spec.image_prompt_tokens
+
+        metadata_block = render_metadata_block(spec, issue_meta, image_prompt=spec.image_prompt)
+
+        # Preserve body if frontmatter-only and file exists
+        body = ""
+        if config.frontmatter_only and md_path.exists():
+            content = md_path.read_text(encoding="utf-8")
+            if content.startswith("---"):
+                parts = content.split("---", 2)
+                if len(parts) > 2:
+                    body = parts[2]
+                else:
+                    body = ""
+            else:
+                body = content
+        else:
+            body = draft_text + "\n"
+
+        md_path.write_text(metadata_block + body, encoding="utf-8")
 
         record = DraftRecord(
             article_id=spec.id,

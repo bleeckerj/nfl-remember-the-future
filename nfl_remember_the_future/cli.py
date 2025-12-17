@@ -33,6 +33,9 @@ def draft(
     dry_run: bool = typer.Option(False, help="Skip API calls and write placeholder drafts"),
     dry_run_text: Optional[str] = typer.Option(None, help="Custom placeholder text for --dry-run"),
     verbose: bool = typer.Option(False, help="Verbose logging"),
+    frontmatter_only: bool = typer.Option(False, help="Only refresh frontmatter; leave body untouched"),
+    generate_image_prompt: bool = typer.Option(False, help="Generate an image prompt and store in frontmatter"),
+    overwrite_frontmatter_only: bool = typer.Option(False, help="Force frontmatter refresh while preserving body (alias: implies --frontmatter-only and --overwrite-existing)"),
 ):
     """
     Draft one article or all articles, writing results to Markdown and a draft index.
@@ -49,12 +52,14 @@ def draft(
         model=model,
         temperature=temperature,
         max_completion_tokens=max_completion_tokens,
-        overwrite_existing=overwrite_existing,
+        overwrite_existing=overwrite_existing or overwrite_frontmatter_only,
         write_annotated_json=write_annotated_json,
         out_json=out_json,
         dry_run=dry_run,
         dry_run_text=dry_run_text,
         verbose=verbose,
+        frontmatter_only=frontmatter_only or overwrite_frontmatter_only,
+        generate_image_prompt=generate_image_prompt,
     )
     draft_articles(config=config, client=client)
 
