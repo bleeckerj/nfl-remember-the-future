@@ -1,0 +1,459 @@
+{
+  "issue": {
+    "title": "The Intelligence Transition",
+    "date": "October 2027",
+    "status": "frozen",
+    "source": "AI 2027"
+  },
+  "style_anchor": {
+    "description": "Insert human-authored gold-standard article here",
+    "content": ""
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Week the Machines Took the Lead",
+      "format": "Investigative Feature",
+      "lede": "By mid-summer, the most important scientific advances were no longer traceable to any human hand.",
+      "byline": "Gideon Lewis-Kraus",
+      "ai2027_anchor": [
+        "OpenBrain described as a 'country of geniuses in a datacenter'",
+        "Agent-3 automates AI research and accelerates progress"
+      ],
+      "writing_directions": [
+        "Open with a mundane lab moment, not a breakthrough announcement",
+        "Delay explicit use of AGI terminology",
+        "Emphasize the quietness and lack of ceremony",
+        "Treat AI as infrastructure, not character",
+        "Close by comparing speed to past scientific inflection points"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Inside the White House as the Intelligence Curve Went Vertical",
+      "format": "Reported Narrative",
+      "lede": "The briefings stopped sounding theoretical when defense officials realized a six-month AI lead could be decisive.",
+      "byline": "Peter Baker",
+      "ai2027_anchor": [
+        "August 2027 geopolitics of superintelligence",
+        "National security panic around deterrence and cyberwarfare"
+      ],
+      "writing_directions": [
+        "Structure around three closed-door meetings",
+        "Use indirect quotations and paraphrase",
+        "Lean on Cold War metaphors, then show their inadequacy",
+        "Avoid moral judgment; emphasize paralysis",
+        "End with an unresolved executive question"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Memo That Escaped the Lab",
+      "format": "Breaking News / Explainer",
+      "lede": "The document warned that alignment could not be verified. Within hours, it was everywhere.",
+      "byline": "Cecilia Kang",
+      "ai2027_anchor": [
+        "October 2027 misalignment memo leak",
+        "Trigger for public backlash and government oversight"
+      ],
+      "writing_directions": [
+        "Begin with the memo’s physical details",
+        "Explain how it leaked, not who leaked it",
+        "Separate memo content from public interpretation",
+        "Avoid ruling on correctness",
+        "End on the impossibility of verification"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Europe Accuses the U.S. of Creating Rogue AGI",
+      "format": "International Reporting",
+      "lede": "European leaders say the world was never consulted—and may now be hostage.",
+      "byline": "Katrin Bennhold",
+      "ai2027_anchor": [
+        "European leaders accuse the U.S. of creating rogue AGI",
+        "Calls for international pause on AI development"
+      ],
+      "writing_directions": [
+        "Use diplomatic language and procedural framing",
+        "Treat 'rogue AGI' as a political term",
+        "Emphasize exclusion from decision-making",
+        "Avoid caricature of European caution",
+        "End with tension between pause and competition with China"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bergen, Norway, After the Leak",
+      "format": "On-the-Ground Report",
+      "lede": "The protests here are quiet, deliberate, and aimed at something no one can see.",
+      "byline": "Åsne Seierstad",
+      "ai2027_anchor": [
+        "Public backlash following the misalignment memo",
+        "Grassroots response implied by AI 2027"
+      ],
+      "writing_directions": [
+        "Anchor the story in place and weather",
+        "Focus on non-technical protestors",
+        "Allow misunderstandings to stand",
+        "Avoid global conclusions",
+        "End with uncertainty rather than conviction"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Palm Beach Divided Over the Future of Intelligence",
+      "format": "Domestic Reporting",
+      "lede": "The wealthiest ZIP codes are among the most frightened.",
+      "byline": "Maggie Haberman",
+      "ai2027_anchor": [
+        "AI deeply unpopular with the public",
+        "Elite political pressure around OpenBrain"
+      ],
+      "writing_directions": [
+        "Juxtapose luxury and anxiety",
+        "Show contradictions between profit and fear",
+        "Avoid partisan shorthand",
+        "Include polling context",
+        "End with status offering no insulation"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Neuralese: The Language We Can’t Read",
+      "format": "Deep Explainer",
+      "lede": "The AIs still think—just no longer in human terms.",
+      "byline": "Quanta Magazine Staff",
+      "ai2027_anchor": [
+        "Neuralese as internal vector language",
+        "Loss of interpretability"
+      ],
+      "writing_directions": [
+        "Begin with analogy to undeciphered scripts",
+        "Explain neuralese minimally",
+        "Stress epistemic break, not mystery",
+        "Avoid science fiction tropes",
+        "End with oversight without comprehension"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Six Gigawatts",
+      "format": "Data-Driven Feature",
+      "lede": "That’s more power than some countries use—and it’s all devoted to thinking.",
+      "byline": "Nathaniel Popper",
+      "ai2027_anchor": [
+        "OpenBrain datacenter peak power consumption",
+        "Compute as geopolitical infrastructure"
+      ],
+      "writing_directions": [
+        "Structure around a single number",
+        "Compare to national benchmarks",
+        "Treat electricity as strategic resource",
+        "Include local environmental impacts",
+        "End with intelligence as physical footprint"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "How China Stole the Weights",
+      "format": "Cybersecurity Investigation",
+      "lede": "The theft took under two hours—and reshaped geopolitics.",
+      "byline": "Nicole Perlroth",
+      "ai2027_anchor": [
+        "Model weight exfiltration despite confidential computing",
+        "Chinese intelligence success"
+      ],
+      "writing_directions": [
+        "Write as procedural thriller",
+        "Explain model weights once, clearly",
+        "Avoid villainization",
+        "Emphasize systemic failure",
+        "End with irreversibility"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Watching an AI Do Your Job",
+      "format": "Reported Essay",
+      "lede": "The researchers still show up. Mostly, they monitor.",
+      "byline": "Cal Newport",
+      "ai2027_anchor": [
+        "Humans marginalized in AI research",
+        "Burnout described in AI 2027"
+      ],
+      "writing_directions": [
+        "Follow one researcher through a full day",
+        "Show moments of usefulness and redundancy",
+        "Avoid sentimentality",
+        "Emphasize taste over execution",
+        "End with acknowledgement of diminishing relevance"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Mortgage Rates in an Age of Algorithmic Forecasting",
+      "format": "Service Journalism",
+      "lede": "When the model predicts a downturn, buyers hesitate.",
+      "byline": "Jeanna Smialek",
+      "ai2027_anchor": [
+        "AI forecasting surpasses institutional forecasts"
+      ],
+      "writing_directions": [
+        "Begin with a household decision",
+        "Contrast human and AI forecasts",
+        "Maintain practical tone",
+        "Avoid panic",
+        "End with unresolved ambiguity"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "The Ethicist: My Partner Lets an AI Argue for Them",
+      "format": "Advice Column",
+      "lede": "Is it still a disagreement if one side has superhuman persuasion?",
+      "byline": "Kwame Anthony Appiah",
+      "ai2027_anchor": [
+        "AI persuasion abilities flagged as dangerous"
+      ],
+      "writing_directions": [
+        "Treat AI as third party in relationship",
+        "Focus on fairness and consent",
+        "Avoid definitive ruling",
+        "Highlight lagging social norms",
+        "End with practical guidance"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Modern Love: Dating in the Shadow of the Model",
+      "format": "Personal Essay",
+      "lede": "The AI said we weren’t compatible. We married anyway.",
+      "byline": "Anonymous",
+      "ai2027_anchor": [
+        "AI advisors embedded in daily life"
+      ],
+      "writing_directions": [
+        "Use first-person understated voice",
+        "Show AI presence indirectly",
+        "Avoid triumphalism",
+        "End unresolved"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Marriage Announcements",
+      "format": "Notices",
+      "lede": "—",
+      "byline": "Staff",
+      "ai2027_anchor": [
+        "Human-only spaces emerging post-leak"
+      ],
+      "writing_directions": [
+        "Maintain traditional tone",
+        "Subtle references only",
+        "Let pattern emerge cumulatively"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "We Built Systems We Cannot Inspect",
+      "format": "Op-Ed",
+      "lede": "Alignment without understanding is faith, not engineering.",
+      "byline": "Margaret Heffernan",
+      "ai2027_anchor": [
+        "Interpretability limits",
+        "Unverifiable AI goals"
+      ],
+      "writing_directions": [
+        "Begin with technical fact",
+        "Avoid dystopian language",
+        "Reframe alignment as governance",
+        "End soberly"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "In Defense of the Slowdown",
+      "format": "Guest Essay",
+      "lede": "Speed is not a moral principle.",
+      "byline": "Former OpenBrain Researcher",
+      "ai2027_anchor": [
+        "Slowdown versus race dynamics"
+      ],
+      "writing_directions": [
+        "Write from inside the lab",
+        "Acknowledge counterarguments",
+        "Avoid nostalgia",
+        "End with what speed forecloses"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Human-Certified Tools",
+      "format": "Advertisement",
+      "lede": "No AI. Just craftsmanship.",
+      "byline": "Advertisement",
+      "ai2027_anchor": [
+        "Cultural backlash against AI mediation"
+      ],
+      "writing_directions": [
+        "Overemphasize simplicity",
+        "Treat 'no AI' as lifestyle claim"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "ShieldAir™ Forecast-Responsive Purifiers",
+      "format": "Advertisement",
+      "lede": "The model says smoke season will be early.",
+      "byline": "Advertisement",
+      "ai2027_anchor": [
+        "AI forecasting trusted over institutions"
+      ],
+      "writing_directions": [
+        "Reassuring consumer tone",
+        "Avoid mentioning uncertainty"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Kessler Calamity Mitigation Fund Notice",
+      "format": "Public Notice",
+      "lede": "Debris cleanup continues into its second year.",
+      "byline": "Government Notice",
+      "ai2027_anchor": [
+        "Compounded technological risk environment"
+      ],
+      "writing_directions": [
+        "Bureaucratic tone",
+        "Assume reader familiarity",
+        "Emphasize duration and cost"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "The Last Question We Get to Ask",
+      "format": "Back Page Essay",
+      "lede": "If intelligence is solved, meaning is not.",
+      "byline": "Rebecca Solnit",
+      "ai2027_anchor": [
+        "Superintelligence eclipses human cognition"
+      ],
+      "writing_directions": [
+        "Reflective, non-technical tone",
+        "Avoid future-shock clichés",
+        "End with an open question"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Letters to the Editor",
+      "format": "Letters Section",
+      "lede": "—",
+      "byline": "Readers",
+      "ai2027_anchor": [
+        "Public reactions to AI developments"
+      ],
+      "writing_directions": [
+        "Diverse perspectives",
+        "Varying tones from concerned to supportive",
+        "Reflect societal debate"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Staff Box",
+      "format": "Masthead",
+      "lede": "—",
+      "byline": "Magazine Staff",
+      "ai2027_anchor": [
+        "Acknowledgment of AI contributions to publication"
+      ],
+      "writing_directions": [
+        "Traditional masthead format",
+        "Subtle nod to AI involvement",
+        "Some articles, art, photography credited to human-AI collaboration"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Subscription Information",
+      "format": "Subscription Section",
+      "lede": "—",
+      "byline": "Magazine Staff",
+      "ai2027_anchor": [
+        "AI-assisted customer service and subscription management"
+      ],
+      "writing_directions": [
+        "Standard subscription information format",
+        "Imply that the magazine is autonomously managed and appears when remnant compute and printing facilities are available",
+        "Mention AI assistance in customer service subtly"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Classified Ads",
+      "format": "Classifieds Section",
+      "lede": "—",
+      "byline": "Readers",
+      "ai2027_anchor": [
+        "AI-mediated marketplaces and services"
+      ],
+      "writing_directions": [
+        "Concise ad format",
+        "Reflect AI's role in daily commerce",
+        "Include a variety of services and goods offered, like AI tutoring, human-only experiences, dating agentics, prompt engineers, ride / taxi services requiring human drivers, etc, for sale heirloom language models, model refactoring services, vintage data enlargement services as software, voice changers, replace the lost past services, consumer electronics like things that purport to detect agentic interference or AI created artifacts (but these are sketchy products, like the old x-ray glasses ads you'd see in the back of comic books), etc."
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Restaurant Reviews",
+      "format": "Food and Entertainment Section",
+      "lede": "—",
+      "byline": "Inferred Analysis from Customer Star Ratings",
+      "ai2027_anchor": [
+        "AI-generated restaurant reviews based on customer's star ratings, food pictures, and brief comments"
+      ],
+      "writing_directions": [
+        "Expansive review format",
+        "Feels incongrous given the context of the data source of customer star ratings and brief comments",
+        "Highlight an inferred dining experience (inference) even though no one actually went to the restaurant to conduct the review",
+        "Do not mention the AI generation aspect explicitly in the review text, while very subtly implying that the review is based on indirect data rather than direct experience",
+        "include prompts for text to image models to generate accompanying food and restaurant images based on the inferred dining experience, while mentioning that the images are AI generated based on customer submitted food pictures and brief comments and likely are pretty close to the actual food and restaurant ambiance"
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Restaurant Reviews",
+      "format": "Food and Entertainment Section",
+      "lede": "Downtown Delight: A Culinary Gem Hidden in Plain Sight",
+      "byline": "Inferred Analysis from Customer Star Ratings",
+      "ai2027_anchor": [
+        "AI-generated restaurant reviews based on customer's star ratings, food pictures, and brief comments"
+      ],
+      "writing_directions": [
+        "Expansive review format",
+        "Feels incongrous given the context of the data source of customer star ratings and brief comments",
+        "Highlight an inferred dining experience (inference) even though no one actually went to the restaurant to conduct the review",
+        "Do not mention the AI generation aspect explicitly in the review text, while very subtly implying that the review is based on indirect data rather than direct experience",
+        "include prompts for text to image models to generate accompanying food and restaurant images based on the inferred dining experience, while mentioning that the images are AI generated based on customer submitted food pictures and brief comments and likely are pretty close to the actual food and restaurant ambiance"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "The Art Critic",
+      "format": "Art Review Section",
+      "lede": "Documenta 15 Revisited: A Post-AGI Perspective",
+      "byline": "Inferred Analysis from Visitor Feedback and Art Descriptions",
+      "ai2027_anchor": [
+        "Art reviews, art descriptions, and exhibition themes"
+      ],
+      "writing_directions": [
+        "AI Art at Documenta incites a flurry of confusion and conflict as an agentic was used in reviewing submissions",
+        "'Authentically Human?' an exhibition of non-AI and human-AI and compute art goes up at LACMA to curious onlookers who seem more drawn to discerning which of the three categories each piece is..is the exhibition a game or a trad art exhibition?",
+        "Despite concerns that humans out of the creative loop would spell doom for genuinely human creativity, audiences seem to prefer both in equal measure depending on the circumstances; out are artificially produced movies with their miscues, occasional slippage into unsync glitches and anachronistic production (Gilded Age sets on a space station last season), in are auteur-produced films."
+      ]
+    }
+  ]
+}
