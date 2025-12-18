@@ -52,9 +52,26 @@ nfl_remember_the_future/
     examples_oped.md
     examples_ad.md
   drafts/               # generated
-tests/
-  test_drafter.py
+  projects/             # optional per-project workspaces
+  tests/
+    test_drafter.py
 ```
+
+### Project workspaces (optional but recommended)
+If you want to keep each backing project fully isolated, create a workspace under `projects/`:
+```
+projects/my-project/
+  issue.json
+  issue.grounded.json
+  report.md
+  report_chunks.json
+  report_chunk_labels.json
+  prompts/            # optional overrides
+  drafts/             # per-project outputs
+```
+
+When you pass `--project-root projects/my-project`, all relative paths are resolved within that folder.
+`prompts/` is optional per-project; if missing, the global `prompts/` directory is used.
 
 ---
 
@@ -117,16 +134,20 @@ Prompt example selection:
 - Override per-article: set `"prompt_example": "examples_oped"` (or other stem) in the issue JSON
 - Issue-wide context: put curated report excerpts in `style_anchor.content` (issue JSON) or `prompts/report_context.md`
 - Article grounding: add `"report_refs": ["Section 2.1 — Alignment warning", ...]` to each article; these show up in the user prompt
+- Anchors field: use `report_anchor` in issue JSON (legacy `ai2027_anchor` is still supported).
 
 ---
 
 ## Running the drafter
 
 Note that the first example of this I ran was to use a futures report as a basis for drafting a magazine that contained articles based on the report. The report was chunked and indexed, and relevant chunks were attached to each article as grounding references.
+If you want the simplest path, prefer the one-command `tools.publish_issue` flow below.
 
 The reason I did this is I wanted the articles to be based on real data from the report rather than hallucinated or made-up data. This is an important step in making AI-assisted writing more factually grounded, or so I am hypothesizing. 
 
 Each article could index directly back to an element in the report, and the relevant chunks of the report were pulled into the prompt to provide context. Then in the output of the draft, those indices (chunk number, and some other context free text) were included in the frontmatter so that the provenance of the article could be traced back to the report, evaluated for its faithfulness to the report, etc.
+
+If you are using project workspaces, add `--project-root projects/<name>` (or `--project <name>` where supported) and keep paths relative to that folder. If `projects/<name>/prompts/` exists, it overrides the global `prompts/`.
 
 ### Draft one article by ID
 ```bash
@@ -136,6 +157,15 @@ python drafter.py draft   --issue-json /path/to/intelligence_transition_full_iss
 ### Draft all articles
 ```bash
 python drafter.py draft   --issue-json /path/to/intelligence_transition_full_issue.json   --schema-json /path/to/issue.schema.json   --prompt-dir prompts   --article-id all
+```
+
+Project-root variant:
+```bash
+python drafter.py draft   --project-root projects/my-project   --issue-json issue.grounded.json   --schema-json ../issue.schema.json   --article-id all
+```
+Project shortcut:
+```bash
+python drafter.py draft   --project my-project   --issue-json issue.grounded.json   --schema-json ../issue.schema.json   --article-id all
 ```
 
 ### Overwrite an existing draft
@@ -175,23 +205,84 @@ python -m tools.chunk_report --md report.md --out report_chunks.json --out-md re
 # Skim report_chunks.md or report_chunks.json for chunk ids; use them in article `report_refs`
 ```
 
-### Label chunks to speed up selection (heuristic)
+### Label chunks (LLM-assisted, default; `--no-llm` for heuristics)
 ```bash
-python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labels.json
-# Open report_chunk_labels.json to see summaries/keywords per chunk
+python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labels.json --llm-model gpt-4.1-mini --llm-temperature 0
+# Open report_chunk_labels.json for summaries/keywords per chunk
 ```
-
 ## End-to-end processing order
 
 1) **Convert HTML → Markdown** (one-time): `python -m tools.html_to_md --html "AI 2027.html" --out report.md`
 2) **Chunk the report**: `python -m tools.chunk_report --md report.md --out report_chunks.json --out-md report_chunks.md --max-chars 1200 --overlap 200`
-3) **Label chunks** (better keywords/summaries):  
-   - Heuristic: `python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labels.json`  
-   - LLM-assisted: `python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labels.json --use-llm --llm-model gpt-4.1-mini --llm-temperature 0`
+3) **Label chunks** (LLM-assisted summary/keywords are the default):  
+   - Default/LLM: `python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labels.json --llm-model gpt-4.1-mini --llm-temperature 0`  
+   - Heuristic fallback: add `--no-llm` to skip the LLM and run the heuristic labeller
 4) **Auto-ground articles** (attach chunk ids/details + build context):  
    `python -m tools.auto_ground --issue intelligence_transition_full_issue.json --chunks report_chunk_labels.json --out-issue intelligence_transition_full_issue.grounded.json --report-context-out prompts/report_context.md --refs-per-article 2 --context-chunks 2 --include-ref-details`
 5) **Draft** (reads grounded issue, writes MD with frontmatter):  
-   `python -m nfl_remember_the_future.cli --issue-json intelligence_transition_full_issue.grounded.json --schema-json issue.schema.json --prompt-dir prompts --article-id all --overwrite-existing`
+   `python -m nfl_remember_the_future.cli --issue-json intelligence_transition_full_issue.grounded.json --prompt-dir prompts --article-id all --overwrite-existing`  
+   The drafter now assumes `issue.schema.json` lives in the project root; pass `--schema-json` only if you need a different schema location.
+
+### One-command corpus prep (project workflow)
+This wrapper runs steps 2–4, and will also run step 1 if the input file is HTML. Outputs are always written to `projects/<project>/`.
+You still need an `issue.json` (your editorial plan) in that project folder; use `--init-issue` to scaffold one.
+```bash
+python -m tools.prepare_corpus \
+  --project my-project \
+  --input /path/to/report.html \
+  --refs-per-article 2 \
+  --context-chunks 2 \
+  --include-ref-details
+```
+# LLM labeling is enabled by default; pass `--no-llm` if you want the heuristic instead.
+This writes:
+- `projects/my-project/report.md`
+- `projects/my-project/report_chunks.json`
+- `projects/my-project/report_chunk_labels.json`
+- `projects/my-project/issue.grounded.json`
+- `projects/my-project/prompts/report_context.md`
+
+### LLM-assisted issue.json generator
+Generates a starter `issue.json` from a report. Defaults: magazine=20 items, newspaper=20 items, catalog=30 items.
+```bash
+python -m tools.generate_issue \
+  --project my-project \
+  --input /path/to/report.txt /path/to/panel.txt \
+  --artifact magazine
+```
+You can override the count with `--num-items` and the model with `--model`. Use `--append` to add new articles (auto-increment ids) to an existing issue.json.
+
+### One-command end-to-end publish
+Generates `issue.json` if missing, prepares the corpus, grounds the issue, and drafts articles. This is the recommended default path.
+```bash
+python -m tools.publish_issue \
+  --project my-project \
+  --input /path/to/report.txt /path/to/panel.txt \
+  --artifact magazine \
+  --draft all
+```
+Optional flags:
+- `--no-llm` (opt out of the default LLM labeling flow)
+- `--draft-prefix` (prefix to use for draft filenames and the drafts folder when using the default location)
+- `--include-ref-details` (enriched grounding)
+- `--generate-image-prompt` (image prompts in frontmatter)
+- `--skip-chunk` / `--skip-label` (reuse existing chunks/labels)
+- `--skip-generate` / `--skip-prepare` / `--skip-draft` (skip stages)
+- `--overwrite-issue` / `--append-issue` (for issue generation) / `--overwrite-drafts` (force draft regeneration)
+
+### Project-root workflow (isolated per backing project)
+```bash
+project_root=projects/my-project
+
+python -m tools.html_to_md --project-root "$project_root" --html "report.html" --out report.md
+python -m tools.chunk_report --project-root "$project_root" --md report.md --out report_chunks.json --out-md report_chunks.md --max-chars 1200 --overlap 200
+python -m tools.label_chunks --project-root "$project_root" --chunks report_chunks.json --out report_chunk_labels.json
+python -m tools.auto_ground --project-root "$project_root" --issue issue.json --chunks report_chunk_labels.json --out-issue issue.grounded.json --report-context-out prompts/report_context.md --refs-per-article 2 --context-chunks 2 --include-ref-details
+python -m nfl_remember_the_future.cli --project-root "$project_root" --issue-json issue.grounded.json --schema-json ../issue.schema.json --article-id all --overwrite-existing
+```
+Notes:
+- If `projects/my-project/prompts/` exists, it overrides the global `prompts/`.
+- Use a relative `--schema-json` that points back to the repo root if you keep a single schema there.
 
 Notes:
 - `report_context.md` and `report_ref_details` are pulled into prompts and draft frontmatter to keep drafts anchored.

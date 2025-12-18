@@ -43,7 +43,7 @@ def build_system_prompt(
 
 
 def build_user_prompt(article: ArticleSpec, issue_meta: Dict[str, Any]) -> str:
-    anchors = "\n".join([f"- {a}" for a in article.ai2027_anchor])
+    anchors = "\n".join([f"- {a}" for a in article.report_anchor])
     directions = "\n".join([f"- {d}" for d in article.writing_directions])
     references_block = ""
     if article.report_refs:
@@ -58,7 +58,7 @@ def build_user_prompt(article: ArticleSpec, issue_meta: Dict[str, Any]) -> str:
 
     return f"""ASSIGNMENT
 You are drafting a piece for a newspaper/magazine issue titled: "{issue_meta.get('title')}" dated {issue_meta.get('date')}.
-The world is the AI 2027 scenario. You must stay within the constraints implied by the anchors.
+The world and implications are derived from the source report. You must stay within the constraints implied by the anchors.
 
 ARTICLE METADATA
 - ID: {article.id}
@@ -67,7 +67,7 @@ ARTICLE METADATA
 - Byline: {article.byline}
 - Provided lede (keep angle, you may tighten): {article.lede}
 
-AI 2027 ANCHORS (must be directly reflected)
+REPORT ANCHORS (must be directly reflected)
 {anchors}
 
 WRITING DIRECTIONS (follow as structure)

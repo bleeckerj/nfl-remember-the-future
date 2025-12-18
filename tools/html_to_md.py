@@ -14,6 +14,9 @@ import argparse
 import re
 import sys
 from pathlib import Path
+from typing import Optional
+
+from tools.project_paths import normalize_project_root
 
 try:
     from markdownify import markdownify as md
@@ -33,18 +36,24 @@ def clean_html(html: str, strip_data: bool, gibberish_threshold: int) -> str:
     return cleaned
 
 
-def html_to_md(html_path: Path, out_path: Path, strip_data: bool, gibberish_threshold: int) -> None:
+def html_to_md(html_path: Path, out_path: Path, strip_data: bool, gibberish_threshold: int, quiet: bool = False) -> None:
+    in_size = html_path.stat().st_size if html_path.exists() else 0
+    if not quiet:
+        print(f"[html_to_md] input={html_path} bytes={in_size}")
     html = html_path.read_text(encoding="utf-8")
     html = clean_html(html, strip_data=strip_data, gibberish_threshold=gibberish_threshold)
     markdown = md(html, heading_style="ATX")
     out_path.write_text(markdown, encoding="utf-8")
-    print(f"🧹 Cleaned HTML (strip_data={strip_data}, gibberish_threshold={gibberish_threshold})")
-    print(f"📝 Wrote Markdown to {out_path}")
+    out_size = out_path.stat().st_size if out_path.exists() else 0
+    if not quiet:
+        print(f"[html_to_md] strip_data={strip_data} gibberish_threshold={gibberish_threshold}")
+        print(f"[html_to_md] output={out_path} bytes={out_size}")
     sys.stdout.flush()
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Convert HTML to Markdown for prompt context.")
+    parser.add_argument("--project-root", type=Path, help="Project workspace root for inputs/outputs")
     parser.add_argument("--html", type=Path, required=True, help="Input HTML file")
     parser.add_argument("--out", type=Path, required=True, help="Output Markdown file")
     parser.add_argument(
@@ -59,12 +68,30 @@ def parse_args() -> argparse.Namespace:
         default=200,
         help="Remove contiguous base64-like runs longer than this (0 to disable)",
     )
+    parser.add_argument("--quiet", action="store_true", help="Minimal logging")
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
-    html_to_md(args.html, args.out, strip_data=args.strip_data, gibberish_threshold=args.gibberish_threshold)
+    html_path = resolve_path(args.html, args.project_root)
+    out_path = resolve_path(args.out, args.project_root)
+    html_to_md(
+        html_path,
+        out_path,
+        strip_data=args.strip_data,
+        gibberish_threshold=args.gibberish_threshold,
+        quiet=args.quiet,
+    )
+
+
+def resolve_path(path: Optional[Path], project_root: Optional[Path]) -> Optional[Path]:
+    if path is None:
+        return None
+    normalized_root = normalize_project_root(project_root)
+    if normalized_root and not path.is_absolute():
+        return normalized_root / path
+    return path
 
 
 if __name__ == "__main__":

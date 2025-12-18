@@ -21,7 +21,7 @@ def test_build_prompts_include_metadata():
         format="Explainer",
         lede="Lede goes here",
         byline="Byline",
-        ai2027_anchor=["Anchor A", "Anchor B"],
+        report_anchor=["Anchor A", "Anchor B"],
         writing_directions=["Direction 1"],
         report_refs=["Section 2.1 — Alignment warnings"],
     )

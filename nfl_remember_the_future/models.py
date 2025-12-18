@@ -13,7 +13,7 @@ class ArticleSpec:
     format: str
     lede: str
     byline: str
-    ai2027_anchor: List[str]
+    report_anchor: List[str]
     writing_directions: List[str]
     prompt_example: Optional[str] = None
     report_refs: List[str] = field(default_factory=list)
@@ -43,6 +43,7 @@ class DraftIndex:
 
 @dataclass
 class DraftConfig:
+    project_root: Optional[Path]
     issue_json: Path
     schema_json: Path
     prompt_dir: Path
@@ -60,6 +61,7 @@ class DraftConfig:
     verbose: bool = False
     frontmatter_only: bool = False
     generate_image_prompt: bool = False
+    draft_prefix: Optional[str] = None
 
 
 def now_iso() -> str:

@@ -40,7 +40,7 @@ def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any], image_p
     lines.append(f'format: "{esc(spec.format)}"')
     lines.append(f'byline: "{esc(spec.byline)}"')
 
-    lines.extend(list_block("anchors", spec.ai2027_anchor))
+    lines.extend(list_block("anchors", spec.report_anchor))
     lines.extend(list_block("writing_directions", spec.writing_directions))
 
     if spec.report_refs:
@@ -114,13 +114,16 @@ def select_articles(articles: Sequence[Dict[str, Any]], article_id: str) -> List
 
 
 def hydrate_article(raw: Dict[str, Any]) -> ArticleSpec:
+    anchors = raw.get("report_anchor")
+    if anchors is None:
+        anchors = raw.get("ai2027_anchor", [])
     return ArticleSpec(
         id=int(raw["id"]),
         title=raw["title"],
         format=raw["format"],
         lede=raw["lede"],
         byline=raw["byline"],
-        ai2027_anchor=list(raw["ai2027_anchor"]),
+        report_anchor=list(anchors),
         writing_directions=list(raw["writing_directions"]),
         prompt_example=raw.get("prompt_example"),
         report_refs=list(raw.get("report_refs", []) or []),
@@ -149,13 +152,14 @@ def draft_articles(config: DraftConfig, client, now_fn=now_iso) -> None:
     ensure_dir(config.out_md_dir)
     index = load_index(config.index_json, issue_meta)
     resolved_model = resolve_model(config.model)
+    prefix_segment = f"{slugify(config.draft_prefix)}_" if config.draft_prefix else ""
 
     for raw in articles:
         spec = hydrate_article(raw)
-        md_name = f"{spec.id:02d}_{slugify(spec.title)}.md"
+        md_name = f"{spec.id:02d}_{prefix_segment}{slugify(spec.title)}.md"
         md_path = config.out_md_dir / md_name
 
-        if md_path.exists() and not config.overwrite_existing:
+        if md_path.exists() and not config.overwrite_existing and not config.frontmatter_only:
             typer.echo(f"Skipping id={spec.id} (draft exists; use --overwrite-existing).")
             continue
 
@@ -168,7 +172,7 @@ def draft_articles(config: DraftConfig, client, now_fn=now_iso) -> None:
             typer.echo(f"  → Model: {resolved_model} | Temp: {config.temperature} | Max completion tokens: {config.max_completion_tokens}")
             if spec.report_refs or spec.report_ref_details:
                 typer.echo(f"  → Report refs: {', '.join(spec.report_refs) if spec.report_refs else 'none'}")
-            typer.echo(f"  → Anchors: {len(spec.ai2027_anchor)} | Directions: {len(spec.writing_directions)}")
+            typer.echo(f"  → Anchors: {len(spec.report_anchor)} | Directions: {len(spec.writing_directions)}")
         image_prompt_text: str | None = None
         image_prompt_tokens: int | None = None
         if config.generate_image_prompt and not config.dry_run:
@@ -177,7 +181,7 @@ def draft_articles(config: DraftConfig, client, now_fn=now_iso) -> None:
                 model=resolved_model,
                 article_title=spec.title,
                 article_format=spec.format,
-                anchors=spec.ai2027_anchor,
+                anchors=spec.report_anchor,
                 writing_directions=spec.writing_directions,
                 style_context=style_anchor_text or report_context,
                 temperature=0.3,

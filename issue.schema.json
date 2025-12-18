@@ -51,7 +51,6 @@
           "format",
           "lede",
           "byline",
-          "ai2027_anchor",
           "writing_directions"
         ],
         "properties": {
@@ -70,11 +69,18 @@
           "byline": {
             "type": "string"
           },
-          "ai2027_anchor": {
+          "report_anchor": {
             "type": "array",
             "items": {
               "type": "string"
             }
+          },
+          "ai2027_anchor": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Deprecated: use report_anchor"
           },
           "writing_directions": {
             "type": "array",
@@ -109,6 +115,11 @@
             }
           }
         }
+        ,
+        "anyOf": [
+          { "required": ["report_anchor"] },
+          { "required": ["ai2027_anchor"] }
+        ]
       }
     }
   }

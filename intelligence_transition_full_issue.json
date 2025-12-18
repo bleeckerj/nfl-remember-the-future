@@ -16,7 +16,7 @@
       "format": "Investigative Feature",
       "lede": "By mid-summer, the most important scientific advances were no longer traceable to any human hand.",
       "byline": "Gideon Lewis-Kraus",
-      "ai2027_anchor": [
+      "report_anchor": [
         "OpenBrain described as a 'country of geniuses in a datacenter'",
         "Agent-3 automates AI research and accelerates progress"
       ],
@@ -34,7 +34,7 @@
       "format": "Reported Narrative",
       "lede": "The briefings stopped sounding theoretical when defense officials realized a six-month AI lead could be decisive.",
       "byline": "Peter Baker",
-      "ai2027_anchor": [
+      "report_anchor": [
         "August 2027 geopolitics of superintelligence",
         "National security panic around deterrence and cyberwarfare"
       ],
@@ -52,7 +52,7 @@
       "format": "Breaking News / Explainer",
       "lede": "The document warned that alignment could not be verified. Within hours, it was everywhere.",
       "byline": "Cecilia Kang",
-      "ai2027_anchor": [
+      "report_anchor": [
         "October 2027 misalignment memo leak",
         "Trigger for public backlash and government oversight"
       ],
@@ -70,7 +70,7 @@
       "format": "International Reporting",
       "lede": "European leaders say the world was never consulted—and may now be hostage.",
       "byline": "Katrin Bennhold",
-      "ai2027_anchor": [
+      "report_anchor": [
         "European leaders accuse the U.S. of creating rogue AGI",
         "Calls for international pause on AI development"
       ],
@@ -88,7 +88,7 @@
       "format": "On-the-Ground Report",
       "lede": "The protests here are quiet, deliberate, and aimed at something no one can see.",
       "byline": "Åsne Seierstad",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Public backlash following the misalignment memo",
         "Grassroots response implied by AI 2027"
       ],
@@ -106,7 +106,7 @@
       "format": "Domestic Reporting",
       "lede": "The wealthiest ZIP codes are among the most frightened.",
       "byline": "Maggie Haberman",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI deeply unpopular with the public",
         "Elite political pressure around OpenBrain"
       ],
@@ -124,7 +124,7 @@
       "format": "Deep Explainer",
       "lede": "The AIs still think—just no longer in human terms.",
       "byline": "Quanta Magazine Staff",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Neuralese as internal vector language",
         "Loss of interpretability"
       ],
@@ -142,7 +142,7 @@
       "format": "Data-Driven Feature",
       "lede": "That’s more power than some countries use—and it’s all devoted to thinking.",
       "byline": "Nathaniel Popper",
-      "ai2027_anchor": [
+      "report_anchor": [
         "OpenBrain datacenter peak power consumption",
         "Compute as geopolitical infrastructure"
       ],
@@ -160,7 +160,7 @@
       "format": "Cybersecurity Investigation",
       "lede": "The theft took under two hours—and reshaped geopolitics.",
       "byline": "Nicole Perlroth",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Model weight exfiltration despite confidential computing",
         "Chinese intelligence success"
       ],
@@ -178,7 +178,7 @@
       "format": "Reported Essay",
       "lede": "The researchers still show up. Mostly, they monitor.",
       "byline": "Cal Newport",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Humans marginalized in AI research",
         "Burnout described in AI 2027"
       ],
@@ -196,7 +196,7 @@
       "format": "Service Journalism",
       "lede": "When the model predicts a downturn, buyers hesitate.",
       "byline": "Jeanna Smialek",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI forecasting surpasses institutional forecasts"
       ],
       "writing_directions": [
@@ -213,7 +213,7 @@
       "format": "Advice Column",
       "lede": "Is it still a disagreement if one side has superhuman persuasion?",
       "byline": "Kwame Anthony Appiah",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI persuasion abilities flagged as dangerous"
       ],
       "writing_directions": [
@@ -230,7 +230,7 @@
       "format": "Personal Essay",
       "lede": "The AI said we weren’t compatible. We married anyway.",
       "byline": "Anonymous",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI advisors embedded in daily life"
       ],
       "writing_directions": [
@@ -246,7 +246,7 @@
       "format": "Notices",
       "lede": "—",
       "byline": "Staff",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Human-only spaces emerging post-leak"
       ],
       "writing_directions": [
@@ -261,7 +261,7 @@
       "format": "Op-Ed",
       "lede": "Alignment without understanding is faith, not engineering.",
       "byline": "Margaret Heffernan",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Interpretability limits",
         "Unverifiable AI goals"
       ],
@@ -278,7 +278,7 @@
       "format": "Guest Essay",
       "lede": "Speed is not a moral principle.",
       "byline": "Former OpenBrain Researcher",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Slowdown versus race dynamics"
       ],
       "writing_directions": [
@@ -294,7 +294,7 @@
       "format": "Advertisement",
       "lede": "No AI. Just craftsmanship.",
       "byline": "Advertisement",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Cultural backlash against AI mediation"
       ],
       "writing_directions": [
@@ -308,7 +308,7 @@
       "format": "Advertisement",
       "lede": "The model says smoke season will be early.",
       "byline": "Advertisement",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI forecasting trusted over institutions"
       ],
       "writing_directions": [
@@ -322,7 +322,7 @@
       "format": "Public Notice",
       "lede": "Debris cleanup continues into its second year.",
       "byline": "Government Notice",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Compounded technological risk environment"
       ],
       "writing_directions": [
@@ -337,7 +337,7 @@
       "format": "Back Page Essay",
       "lede": "If intelligence is solved, meaning is not.",
       "byline": "Rebecca Solnit",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Superintelligence eclipses human cognition"
       ],
       "writing_directions": [
@@ -352,7 +352,7 @@
       "format": "Letters Section",
       "lede": "—",
       "byline": "Readers",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Public reactions to AI developments"
       ],
       "writing_directions": [
@@ -367,7 +367,7 @@
       "format": "Masthead",
       "lede": "—",
       "byline": "Magazine Staff",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Acknowledgment of AI contributions to publication"
       ],
       "writing_directions": [
@@ -382,7 +382,7 @@
       "format": "Subscription Section",
       "lede": "—",
       "byline": "Magazine Staff",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI-assisted customer service and subscription management"
       ],
       "writing_directions": [
@@ -397,7 +397,7 @@
       "format": "Classifieds Section",
       "lede": "—",
       "byline": "Readers",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI-mediated marketplaces and services"
       ],
       "writing_directions": [
@@ -412,7 +412,7 @@
       "format": "Food and Entertainment Section",
       "lede": "—",
       "byline": "Inferred Analysis from Customer Star Ratings",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI-generated restaurant reviews based on customer's star ratings, food pictures, and brief comments"
       ],
       "writing_directions": [
@@ -429,7 +429,7 @@
       "format": "Food and Entertainment Section",
       "lede": "Downtown Delight: A Culinary Gem Hidden in Plain Sight",
       "byline": "Inferred Analysis from Customer Star Ratings",
-      "ai2027_anchor": [
+      "report_anchor": [
         "AI-generated restaurant reviews based on customer's star ratings, food pictures, and brief comments"
       ],
       "writing_directions": [
@@ -446,7 +446,7 @@
       "format": "Art Review Section",
       "lede": "Documenta 15 Revisited: A Post-AGI Perspective",
       "byline": "Inferred Analysis from Visitor Feedback and Art Descriptions",
-      "ai2027_anchor": [
+      "report_anchor": [
         "Art reviews, art descriptions, and exhibition themes"
       ],
       "writing_directions": [

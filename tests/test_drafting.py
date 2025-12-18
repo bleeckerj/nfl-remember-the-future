@@ -48,10 +48,10 @@ def build_schema(tmp_path: Path) -> Path:
                         "format": {"type": "string"},
                         "lede": {"type": "string"},
                         "byline": {"type": "string"},
-                        "ai2027_anchor": {"type": "array", "items": {"type": "string"}},
+                        "report_anchor": {"type": "array", "items": {"type": "string"}},
                         "writing_directions": {"type": "array", "items": {"type": "string"}},
                     },
-                    "required": ["id", "title", "format", "lede", "byline", "ai2027_anchor", "writing_directions"],
+                    "required": ["id", "title", "format", "lede", "byline", "report_anchor", "writing_directions"],
                 },
             },
         },
@@ -71,7 +71,7 @@ def build_issue(tmp_path: Path) -> Path:
                 "format": "Feature",
                 "lede": "Lede here",
                 "byline": "Byline",
-                "ai2027_anchor": ["Anchor"],
+                "report_anchor": ["Anchor"],
                 "writing_directions": ["Direction"],
             }
         ],
@@ -98,6 +98,7 @@ def test_draft_articles_writes_md_and_index(tmp_path):
     client = FakeClient("DRAFT CONTENT")
 
     config = DraftConfig(
+        project_root=None,
         issue_json=issue_path,
         schema_json=schema_path,
         prompt_dir=prompt_dir,
@@ -138,6 +139,7 @@ def test_draft_articles_dry_run(tmp_path):
     index_path = drafts_dir / "index.json"
 
     config = DraftConfig(
+        project_root=None,
         issue_json=issue_path,
         schema_json=schema_path,
         prompt_dir=prompt_dir,
