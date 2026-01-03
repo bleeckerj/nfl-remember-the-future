@@ -1,0 +1,76 @@
+{
+  "issue": {
+    "title": "AI 2027: Futures in Flux",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "AI 2027"
+  },
+  "style_anchor": {
+    "description": "A lucid, literary, and intellectually rigorous magazine voice, blending narrative depth with analytical clarity. The tone is thoughtful, skeptical, and occasionally wry, inviting readers to grapple with the complexities of technological transformation.",
+    "content": "This issue explores the near-term future of artificial intelligence as forecasted by leading researchers and scenario writers. Through features, essays, and profiles, we examine the technical, social, and ethical stakes of superhuman AI, the shifting global power dynamics, and the lived experience of those at the epicenter of the AI revolution."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Race to Superintelligence: Inside the AI 2027 Scenario",
+      "format": "Feature / Longform",
+      "lede": "As the world barrels toward the threshold of superhuman AI, a handful of researchers and policymakers attempt to chart the uncharted. What does the future look like when the machines outpace their makers?",
+      "byline": "By [Staff Writer]",
+      "report_anchor": [
+        "AI 2027 forecasts AGI arrival within five years",
+        "Scenario methodology: trend extrapolation, expert wargames, and concrete branching futures",
+        "Key actors: OpenBrain, DeepCent, global governments",
+        "Risks: misalignment, cyberwarfare, concentration of power",
+        "Two endings: 'race' vs. 'slowdown' branches"
+      ],
+      "writing_directions": [
+        "Weave narrative storytelling with explanatory journalism, moving between scenario details and real-world analogues.",
+        "Introduce principal organizations and individuals, grounding them in plausible near-future settings.",
+        "Concretely explain the two scenario branches and their implications, using vivid scenes and dialogue where possible.",
+        "Highlight the interplay between technical progress, security dilemmas, and political responses.",
+        "Include expert commentary and skepticism, but avoid simplistic dystopian or utopian framing."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Alignment at the Edge: A Conversation with Daniel Kokotajlo",
+      "format": "Profile / Interview",
+      "lede": "The forecaster whose predictions reshaped the AI debate reflects on the perils of getting it right—and what he fears most about the next leap.",
+      "byline": "By [Staff Writer]",
+      "report_anchor": [
+        "Daniel Kokotajlo's track record: chain-of-thought, inference scaling, chip export controls",
+        "Role at OpenAI and contributions to AI 2027",
+        "Forecasting as an iterative, scenario-driven process",
+        "Concerns about misalignment, interpretability, and policy inertia"
+      ],
+      "writing_directions": [
+        "Frame the interview as an intimate, searching conversation, situating Kokotajlo within the broader landscape of AI forecasting.",
+        "Draw out personal motivations, doubts, and the emotional stakes of scenario planning.",
+        "Probe the limits of prediction and the lessons learned from past successes and failures.",
+        "Explore the tension between technical optimism and existential risk.",
+        "Include contextual sidebars on Kokotajlo's most influential forecasts and their real-world impact."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AI for Sale: Classifieds from the Near Future",
+      "format": "Advertisement",
+      "lede": "From bespoke AI assistants to surplus datacenter compute—what’s on offer in the world of 2027?",
+      "byline": "",
+      "report_anchor": [
+        "AI agents as autonomous employees and research assistants",
+        "Datacenter expansion and compute as a commodity",
+        "Job displacement and the rise of AI management roles",
+        "Security services for AI assets"
+      ],
+      "writing_directions": [
+        "Compose short, satirical classified ads or catalog listings for AI-related products, services, and job postings.",
+        "Blend plausible technical details with tongue-in-cheek exaggeration.",
+        "Highlight the social and economic shifts implied by the AI 2027 scenario.",
+        "Use a variety of ad formats: help wanted, for sale, services, etc.",
+        "Keep each item brief, witty, and grounded in scenario details."
+      ],
+      "prompt_example": "examples_ad"
+    }
+  ]
+}

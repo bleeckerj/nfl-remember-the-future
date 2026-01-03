@@ -33,6 +33,9 @@ def resolve_schema(schema_json: Path, project_root: Path) -> Path:
     fallback = Path.cwd() / schema_json
     if fallback.exists():
         return fallback
+    default = Path.cwd() / "issue.schema.json"
+    if default.exists():
+        return default
     return candidate
 
 
@@ -41,7 +44,7 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--project", required=True, help="Project name under projects/")
     p.add_argument("--input", required=True, type=Path, nargs="+", help="Source report file(s) (txt/md/html)")
     p.add_argument("--artifact", choices=["magazine", "newspaper", "catalog"], required=True)
-    p.add_argument("--schema-json", type=Path, default=Path("ai2027_issue.schema.json"), help="Schema JSON path")
+    p.add_argument("--schema-json", type=Path, default=Path("issue.schema.json"), help="Schema JSON path")
     p.add_argument("--issue", type=Path, default=Path("issue.json"), help="Issue JSON in project")
     p.add_argument("--grounded-issue", type=Path, default=Path("issue.grounded.json"), help="Grounded issue JSON in project")
     p.add_argument("--report", type=Path, default=Path("report.md"), help="Report markdown output")
@@ -69,6 +72,16 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--skip-draft", action="store_true", help="Skip drafting")
     p.add_argument("--skip-chunk", action="store_true", help="Skip chunking if chunks exist")
     p.add_argument("--skip-label", action="store_true", help="Skip labeling if labels exist")
+    p.add_argument(
+        "--relabel",
+        action="store_true",
+        help="Force rerunning the chunk labeling step even when labels already exist",
+    )
+    p.add_argument(
+        "--chunk-context",
+        action="store_true",
+        help="Force rerunning the chunk step even when chunk files already exist",
+    )
     p.add_argument("--quiet", action="store_true", help="Minimal logging")
     return p.parse_args()
 
@@ -139,8 +152,10 @@ def main() -> None:
             quiet=args.quiet,
             init_issue=False,
             skip_label=args.skip_label,
-            skip_chunk=args.skip_chunk,
-        )
+                skip_chunk=args.skip_chunk,
+                chunk_context=args.chunk_context,
+                relabel=args.relabel,
+            )
     else:
         if not grounded_path.exists():
             raise SystemExit(f"Missing grounded issue at {grounded_path}. Remove --skip-prepare or generate it.")

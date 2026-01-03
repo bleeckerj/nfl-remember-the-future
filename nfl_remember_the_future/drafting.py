@@ -20,6 +20,11 @@ from .llm import draft_one, generate_image_prompt, resolve_model
 from .models import ArticleSpec, DraftConfig, DraftRecord, now_iso
 from .prompts import build_system_prompt, build_user_prompt
 
+DEFAULT_IMAGE = {
+    "url": "https://imagedelivery.net/gaLGizR3kCgx5yRLtiRIOw/587986dc-c007-4f32-b6c3-2625b9e75100/w=900?format=webp",
+    "altText": "Near Future Laboratory Design Fiction Imagine Harder",
+}
+
 
 def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any], image_prompt: str | None = None) -> str:
     """Render metadata as YAML frontmatter for MD/MDX consumers."""
@@ -30,6 +35,62 @@ def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any], image_p
         block = [f"{name}:"]
         for it in items:
             block.append(f'  - "{esc(it)}"')
+        return block
+
+    def format_scalar(value: Any) -> str:
+        if isinstance(value, str):
+            return f'"{esc(value)}"'
+        if isinstance(value, bool):
+            return "true" if value else "false"
+        if isinstance(value, (int, float)):
+            return str(value)
+        return f'"{esc(str(value))}"'
+
+    def append_mapping(data: Dict[str, Any], indent: int) -> None:
+        indent_str = "  " * indent
+        for key, value in data.items():
+            if value is None:
+                continue
+            if isinstance(value, dict):
+                lines.append(f"{indent_str}{key}:")
+                append_mapping(value, indent + 1)
+            elif isinstance(value, list):
+                lines.append(f"{indent_str}{key}:")
+                for item in value:
+                    lines.append(f"{indent_str}  - {format_scalar(item)}")
+            else:
+                lines.append(f"{indent_str}{key}: {format_scalar(value)}")
+
+    def build_design_fiction_block() -> Dict[str, Any]:
+        data = dict(spec.design_fiction or {})
+        block: Dict[str, Any] = {}
+        block["title"] = data.get("title", spec.title)
+        if text := data.get("text"):
+            block["text"] = text
+        if artifact := data.get("artifactDataFile"):
+            block["artifactDataFile"] = artifact
+        if "artifactFragment" in data:
+            block["artifactFragment"] = data["artifactFragment"]
+        block["useTextArray"] = bool(data.get("useTextArray", False))
+        block["useContentBody"] = bool(data.get("useContentBody", False))
+        block["publish"] = bool(data.get("publish", False))
+        image_fields = [
+            "portraitImage",
+            "landscapeImage",
+            "squareImage",
+            "coverImage",
+            "unfurlImage",
+            "image",
+        ]
+        for field in image_fields:
+            value = data.get(field)
+            if value:
+                block[field] = {
+                    "url": value.get("url", DEFAULT_IMAGE["url"]),
+                    "altText": value.get("altText", DEFAULT_IMAGE["altText"]),
+                }
+            elif field == "unfurlImage" and field not in block:
+                block[field] = DEFAULT_IMAGE.copy()
         return block
 
     lines: List[str] = ["---"]
@@ -64,6 +125,10 @@ def render_metadata_block(spec: ArticleSpec, issue_meta: Dict[str, Any], image_p
         lines.append(f"draft_tokens: {spec.draft_tokens}")
     if spec.image_prompt_tokens is not None:
         lines.append(f"image_prompt_tokens: {spec.image_prompt_tokens}")
+    design_block = build_design_fiction_block()
+    if design_block:
+        lines.append("design_fiction:")
+        append_mapping(design_block, indent=1)
     lines.append("---\n")
     return "\n".join(lines)
 
@@ -129,6 +194,11 @@ def hydrate_article(raw: Dict[str, Any]) -> ArticleSpec:
         report_refs=list(raw.get("report_refs", []) or []),
         report_ref_details=list(raw.get("report_ref_details", []) or []),
         draft=raw.get("draft", "") or "",
+        design_fiction=dict(
+            raw.get("design_fiction")
+            or raw.get("designFictionDispatch")
+            or raw.get("designFiction", {})
+        ),
     )
 
 

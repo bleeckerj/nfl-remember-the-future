@@ -1,0 +1,131 @@
+Generate an issue with 5 items. Sections to cover: features / longform, reported essay, profile or interview, criticism / arts, op-ed or viewpoint, short front-of-book items, ads or classifieds (if fitting). Use voice like: The New Yorker / The Atlantic. For catalog items, set prompt_example to examples_ad and use format values like 'Advertisement' or 'Catalog listing'. For op-eds, set prompt_example to examples_oped. Set issue.status to 'draft'. Set issue.source to the provided source label. If date is unknown, use 'YYYY-MM-DD'. Use sequential integer ids starting at 1. 
+
+REPORT SUMMARY (if available):
+[chunk-1] ---- SOURCE: report.md ---- Preface Our perception is relational, as are our behaviors. | keywords: future, systems, know, world, source
+[chunk-2] or an enlightened adult? | keywords: systems, curious, limits, question, love
+[chunk-3] gs in Los Angeles to ask a single urgent question: What is creative purpose at the dawn of AI? | keywords: creativity, single, purpose, assemblies, participants
+[chunk-4] rce of acceleration, simulation, and homogenization. | keywords: simulation, form, human, output, creative
+[chunk-5] . | keywords: creative, felt, work, increasingly, participants
+[chunk-6] displacement emerged as a much stronger worry than intellectual property. | keywords: creation, systemic, call, systems, tools
+[chunk-7] Rules as a call to action for building technology that strengthens, rather than erodes, human creativity. | keywords: systems, rules, rather, human, process
+[chunk-8] parent and Conversational -​ Artists and creatives want to see how decisions are made, step in to guide them, and feedback results in real time. | keywords: creatives, time, design, work, creative
+[chunk-9] nes and union halls, the realities are sobering. | keywords: artists, creative, maybe, mira, creativity
+[chunk-10] ally means to human living amongst others. | keywords: creative, means, living, imaginative, intelligences
+[chunk-11] ant logic of asking creatives and artists to pre-specify and funnel their imagination for someone or something else. | keywords: hollywood, artifact, industry, time, creativity
+[chunk-12] ty, authorship, and labor are playing out in real time and at real scale. | keywords: intelligence, real, already, being, participatory
+[chunk-13] alone. | keywords: artists, tech, creatives, lead, cultural
+[chunk-14] technologies that are more attuned to human experience. | keywords: creative, experience, participants, independent, creators
+[chunk-15] evel of experience. | keywords: participants, each, creative, technologists, assemblies
+[chunk-16] amed the conversation as an invitation for personal reflection and collaborative inquiry. | keywords: assemblies, theme, conversation, hours, filmed
+[chunk-17] ents, explored in small rotating groups who then created a symbolic or physical model of their ideas using art and craft materials. | keywords: assembly, each, creative, creativity, became
+[chunk-18] mmon creative identity through dialogue, disagreement, and synthesis. | keywords: creativity, pain, creative, purpose, revealed
+[chunk-19] rkers, pain was personal and deeply bound to the act of creation itself. | keywords: creative, pain, need, group, purpose
+[chunk-20] hat creativity is both a calling and a risk. | keywords: pain, failure, going, creativity, being
+[chunk-21] terrain. | keywords: pain, something, fear, control, creative
+[chunk-22] f AI processes, and the downstream pressure of consumer desire. | keywords: going, downstream, consumer, demand, flow
+[chunk-23] s explored subtler acts of resistance: moments baked into the work itself like interruptions and provocations designed to break the spell of passive consumption | keywords: purpose, something, like, break, spell
+[chunk-24] ensitivity to the cultural and economic currents that try to corral that impulse into something efficient and/or consumable. | keywords: streaming, creative, people, something, noted
+[chunk-25] 're going to do what we want to do no matter how much time it takes or how much money it takes.” The conversation returned again to the question of authorship. | keywords: streaming, much, takes, does, something
+[chunk-26] ng and turning it into a very, very creative force could be interesting. | keywords: attention, fighting, creative, force, assembly
+[chunk-27] s fundamentally as I think every mass social media organization is fighting for attention.” But industrialized attention, scaled without care, tends to flatten | keywords: attention, participant, human, space, fundamentally
+[chunk-28] e make a living off of creativity.” Finally, attention returned to the body. | keywords: music, performance, make, body, participant
+[chunk-29] machines. | keywords: people, orchestra, desire, create, replaced
+[chunk-30] e the orchestra.” But they also voiced caution: access isn’t guaranteed:  “Maybe in the past, I mean, it was Mendelssohn [this] famous composer [whose] family h | keywords: orchestra, available, audience, music, culture
+[chunk-31] en [listening to] some Brazilian artists and it was interesting to be able to [appreciate] their folk sound, which is very, very raw…You're actually capturing t | keywords: sound, assembly, executives, music, tech
+[chunk-32] The conversation that led to transmission began with legacy. | keywords: creativity, human, participant, children, something
+[chunk-33] d when you're channeling it, what you're navigating is the tension between wanting to be an individual, making sense of this whole, and also being of the whole. | keywords: creativity, want, whole, inspire, participant
+[chunk-34] it wasn’t until the Renaissance and German Romanticism where suddenly we shifted that to say it's the human beings- me, the genius.” The theme ultimately crysta | keywords: interpretation, transmission, person, human, genius
+[chunk-35] ing a fixed artifact. | keywords: creativity, participants, human, making, transmission
+[chunk-36] ke away the hardest part of making something: the blank canvas, the first draft, the ‘where do I start’ moment. | keywords: become, master, struggle, mastery, creativity
+[chunk-37] ay, so the stubbing of a toe or the film camera running out of film in the middle of a shot… these models circumvent that, we don't get to learn… they're never | keywords: participants, film, missing, systems, life
+[chunk-38] w experiences of life at all. | keywords: performance, creativity, human, creative, risk
+[chunk-39] but they are detached from the lived experience that gives human stories depth and resonance. | keywords: human, like, think, experience, generative
+[chunk-40] doesn't experience gravity, it can't touch something. | keywords: story, creativity, your, never, going
+
+REPORT EXCERPT:
+---- SOURCE: blknws_transcript.md ----
+====
+
+Today's conversation is so, so special. Um, you know, we try to cram in as many filmmakers and films that we wanna champion into the talks program, so we rarely dedicate. An entire round table to one film, but with black news terms and conditions directed by Khalil Joseph and made with an incredible kind of galaxy of uh, artists, we knew we had to do it because this is not just a film, it's like a cinematic universe, and there's so much there to unpack.
+
+I wanna acknowledge that, you know, for, for black people and for communities whose histories and existence have been marginalized or erased or extracted, storytelling is much more than entertainment.
+
+You know, it's continuity, it's um, it's resistance, it's ritual. And so what all of these artists here. Our part of is a continuum. You know, it is not born in an abyss, you know, it, it, it is, it is something that predates the technology of a camera. Some people have said that, you know, miss unseen and stuff, and the rituals that we see predates the camera itself, you know, so.
+
+Uh, I think of Oscar Michel, I think of Julie Dash. I think of Kevin Jerome Everson, who insists that his work may not explain itself. You know, it, it, it is, um, something that reveals time itself. And so, um, black news is an, a single object, an ecosystem. It is a pulse that connects imagination. Rhythm community.
+
+It's a living cont continuum of black thought and image. And so, um, with that in mind, I I, I, I wanna ask Khalil, um, this question, um, you stated that black news is less of a film and more of a space to enter a collage of memory, resistance, and imagination. What world were you trying to build? With this project.
+
+Um, thank you. That's a great question. Thank you guys for all coming. It means a lot for us to be able to be up here and talk together. I'm a big fan of Savannah Leaf. She doesn't realize I'm more of a fan, probably of hers than she understands. Um, and honestly, Raven as well. I've, I've told her in person, but I haven't really all on wax.
+
+Told her. How much of a fan of hers I am. And Mevo and Kza are probably my two richest collaborations I've had in, in my creative career. So it's, it's an honor to be up here with these folks. Um, to answer your question, one of the things I noticed as I've always wanted to make films in my life, and I notice sometimes with the history of black cinema, there's this insistence of.
+
+A kind of commitment to reality. So, you know, I love Boys in the Hood. I love even Killers of Sheep, these kinds of movies. But there's like this idea that we need to render what we experience. Um, I kind of want to say exclusively, and I've always understood Hollywood to be make believe, right? I've also understood Hollywood to be a very powerful tool.
+
+And world making. So our understanding of AI is what Hollywood told us AI is, whether it's, you know, the movie AI or if you talk to real futurists and industrialists, they're really trying to figure out how to make Blade Runner a reality, right? So our ideas of the future, whether it's something as extreme as Blade Runner and AI or something more, you know, uh, pedestrian.
+
+Wes Anderson or something like that are things that filmmakers and novelists and artists have created for us to walk into. So as a black person, I'm like, I don't wanna walk into what I've understood the, our reality as to. So in many ways there's a perpetuation of our existence as we keep rendering it over and over and over again.
+
+So there was. Um, it was important to me to kind of create the future I wanna see and not the, the reality I've always understood. 
+
+Yeah. I mean, whether it's the black box or the white cube, I mean. For us. Uh, it's a cathedral and I mean, I ran into ery Macci outside who saw the film last night. And I mean, he said seeing it with the audience and hearing the call and the response and people just reacting to the encyclopedic references, he said it was cathartic, you know, and for anyone who's been to a movie theater with a black audience, that is our, our release, you know?
+
+Yeah. And if you think about the history of black life in America, it's. It's a, it's essentially, um, a series of imaginative like freedom for enslaved people was an insane thought that had a huge imaginative leap. There was no idea that that was even a possibility. It was, it was, IM an impossibility. If you really understood the circumstances and the realities they were faced with, but the Harriet Tubmans of the world and the hundreds and thousands of others.
+
+Who imagined a brighter future that required Hollywood level imaginative leaps, right? Or Dr. King or anybody we want to kind of valorize Now, historically, looking back, that shit was impossible. The white water fountains, that there was no other version of that, that was reality as they understood it. So it required a huge imaginative leap.
+
+So as filmmakers and storytellers for me. I'm just pulling from what my family and my father and my mother taught me was our history. It's like, oh, I have to create the future that I wanna walk into. And not necessarily what I understood to be 
+
+right. The, the freedom of form, I mean, we've done it with music, right?
+
+And once you break form or. Break anything. And you think of what Tony Morrison said, um, the responsibility of freedom. I'm paraphrasing. You know, you gotta free somebody else, you know, and, and, and Raven in, in your work, you know, you use stillness and quietness and, and, and in your narrative structure, can, can you talk about the, the intentionality behind that and, and how you want audiences to.
+
+Um, sit and reflect with the images and, and, and the, um, sort of the stillness in, in your work? 
+
+Uh, yes. Um, and it's an honor to be here talking on this panel. I'm, uh, I really love kil and his work and so I'm really grateful to be here and with you all. Um, but I, in my work. Or in alter roads, I was really interested in honorin
+
+[... truncated ...]
+
+n making it probably like you had to also do that as well.
+
+So like how just Yeah, just can you talk about that a little bit because it's very, you know, it's very amazing. 
+
+Thank you. Uh, that's a very good question. Thank you. Um,
+
+uh, do you remember the future Sadia Hartman wrote that line? Uh, I can only interpret it the way I interpret it, but it kind of goes back to what I was saying a little bit earlier. And if you think about the realities that we now live in, being at Lincoln Center, being at this panel making the movies that we make, going to the schools that we go to, et cetera, is a result of these, um, people in the past who held a vision of the future that didn't exist, that we now live in effortlessly.
+
+You know, our ancestors, um, like my grandmother can't even fathom what I do for a living. Like it. There's no context. My parents don't, there is no model for what I do. There is no model for what my brother made. There's no, and that's a bit of. Uh, this is my interpretation of what City of Hartman wrote. I'm not, you're gonna have to ask her the next time you corner her at a cafe or a lecture or something.
+
+Um, but there is something about having a vision of the future so strong that doesn't yet exist. That obviously becomes so realized and so real that people like you and me are just take it for granted, you know? Like I, I take getting on the train for granted, staying in the hotel. I'm staying right now for granted using my American Express for granted.
+
+Like these kind of things that just my grandmother couldn't have fathom, but I'm, I'm imagining was the hope and the dream for her grandchildren. You know? Um, so I talked to these guys sometimes about this. We're living in a really intense moment, you know, as we always have. Uh, and I have ideas about what the future looks like that I'm just so, I feel so strong about, but it's also, it sounds insane, but I can't imagine It sounds as insane of like our reality for people who are in bondage in this country.
+
+Like I, they can't even, it's a psychedelic experience, but if they were to walk into this room and experience. Just talk, for example, you know, and so that, that for me is some kind of, you know, remember the future, something like, right, my vision of the future is nowhere as insane. No matter how crazy it is.
+
+It's not gonna be as, as insane as things that have actually already transpired for us or something that make sense. It doesn't address all the other incredible questions about African time and the film and making the film and all that, but. 
+
+If, if I may, um, I think there's, uh, it took a lot to make anybody comfortable with this version of the world, and it takes a lot to foreclose, any other conceivable way of being.
+
+And, um, we don't, we are taught to invisibilize all of that work, right, that the state does, or, you know. The country or you know, whatever you are inside of your organization does to make itself seem inevitable. But there is a constant culling of other imaginaries, of other futures, of other bodies, of other ways that things could be.
+
+And so to me, when I hear, remember the future, one of the first things I think of is recovering. Right. Some of those, uh, some of those foreclosed possibilities, right? Um, there was never, I don't think there was ever a human who couldn't imagine what it was like
+
+to walk freely, you know? Um, there were, uh, I think a lot of, there's a lot of. Energy that it requires to make that less than possible for someone. Right? Um, and so I think just first going back in into the histories and seeing what people tried, right? My parents, for instance, um, one, one of the, um, one of my favorite books called World, world Making After Empire, my parents, um, were the first generation, um.
+
+My dad was born a colonial subject, right within his childhood. They received national sovereignty and in a lot of different ways, they watched that, you know, have uh, effects that they, you know, didn't hope for, didn't wish for, right? And then their, their dream of sovereignty became let's get to the States.
+
+Right? Um, this is a failed project and, uh. It, it wasn't 'cause they didn't try, right? It wasn't 'cause everybody was always corrupt. Right? It wasn't because nobody had a dream of a functioning society. Right? Or like holding onto your own minerals, right? It's never because of that. But, uh, it's, it's made inconceivable in some ways.
+
+To imagine or act otherwise. Right. Um, and we, you know, we've all learned a lot about the mechanisms that make that possible, but we don't get to spend as much time thinking about the mechanisms of gaining any degree of freedom. Right. In your own personal life. Right. And what you do tomorrow. And there's a concept called, um, anarchist calisthenics.
+
+And it starts with the premise that one day you are gonna be. Required for your own freedom, for your own protection, for the sake of your community to break a really big law, right? If you're living right, something you're doing is being made illegal by people who do not want for you to feel as free as you should as a person walking under the sun, right?
+
+And so if you don't start taking any. Degree of freedom to imagine yourself outside of the strictures that are made for you now. Then when that day comes, you're gonna fail because you're human. Right? And this is a lesson that our ancestors have known, that our ancestors have learned, and that, you know, we've built a society to remove this lesson from ourselves because it requires something of you.
+
+Um. And so when I hear, remember the future, one of those things is like reclaim that responsibility, right? To try, you know, to just gain that extra degree of freedom and take on, you know, that stress of I gotta do something with this. Mm-hmm. 
+
+Yeah. Sadia Hartman reminds us that we live in the afterlife of property, right?
+
+And, um. Black news, um, offers us the afterlife of possibility. You know, it's a living archive.
+
+Output JSON only.

@@ -1,0 +1,100 @@
+{
+  "issue": {
+    "title": "Possibility Machines: Creativity, Memory, and the Futures We Make",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "report.md"
+  },
+  "drafts": [
+    {
+      "article_id": 1,
+      "title": "Assemblies of Imagination: Inside the Creative Future Labs",
+      "format": "Feature / Longform",
+      "md_path": "projects/8_rules/blknws_drafts/01_blknws_assemblies-of-imagination-inside-the-creative-future-labs.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:32:41Z"
+    },
+    {
+      "article_id": 2,
+      "title": "Remember the Future: A Reported Essay on Imagination and Black Worldmaking",
+      "format": "Reported Essay",
+      "md_path": "projects/8_rules/blknws_drafts/02_blknws_remember-the-future-a-reported-essay-on-imagination-and-black-worldmaking.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:28Z"
+    },
+    {
+      "article_id": 3,
+      "title": "A Conversation with Khalil Joseph: Cinema as Cathedral, Memory as Universe",
+      "format": "Profile / Interview",
+      "md_path": "projects/8_rules/blknws_drafts/03_blknws_a-conversation-with-khalil-joseph-cinema-as-cathedral-memory-as-universe.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:32Z"
+    },
+    {
+      "article_id": 4,
+      "title": "Against the Flattening: Criticism in the Age of Generative Art",
+      "format": "Criticism / Arts",
+      "md_path": "projects/8_rules/blknws_drafts/04_blknws_against-the-flattening-criticism-in-the-age-of-generative-art.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:35Z"
+    },
+    {
+      "article_id": 5,
+      "title": "Classifieds: Creative Collaborators, Tools, and Opportunities",
+      "format": "Advertisement",
+      "md_path": "projects/8_rules/blknws_drafts/05_blknws_classifieds-creative-collaborators-tools-and-opportunities.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:38Z"
+    },
+    {
+      "article_id": 6,
+      "title": "Making the Future: Assemblies of Creative Purpose at the Dawn of AI",
+      "format": "Feature / Longform",
+      "md_path": "projects/8_rules/blknws_drafts/06_blknws_making-the-future-assemblies-of-creative-purpose-at-the-dawn-of-ai.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:40Z"
+    },
+    {
+      "article_id": 7,
+      "title": "A Living Archive: Khalil Joseph and the Collage of Black Imagination",
+      "format": "Profile / Interview",
+      "md_path": "projects/8_rules/blknws_drafts/07_blknws_a-living-archive-khalil-joseph-and-the-collage-of-black-imagination.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:43Z"
+    },
+    {
+      "article_id": 8,
+      "title": "Remembering the Future: Systems, Sovereignty, and the Limits of Imagination",
+      "format": "Reported Essay",
+      "md_path": "projects/8_rules/blknws_drafts/08_blknws_remembering-the-future-systems-sovereignty-and-the-limits-of-imagination.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:46Z"
+    },
+    {
+      "article_id": 9,
+      "title": "Against the Spell: Criticism of the Passive Audience in the Age of Streaming",
+      "format": "Criticism / Arts",
+      "md_path": "projects/8_rules/blknws_drafts/09_blknws_against-the-spell-criticism-of-the-passive-audience-in-the-age-of-streaming.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:49Z"
+    },
+    {
+      "article_id": 10,
+      "title": "The Blank Canvas is Not the Enemy",
+      "format": "Op-Ed / Viewpoint",
+      "md_path": "projects/8_rules/blknws_drafts/10_blknws_the-blank-canvas-is-not-the-enemy.md",
+      "model": "gpt-4.1",
+      "temperature": 0.6,
+      "timestamp": "2025-12-18T22:33:51Z"
+    }
+  ]
+}

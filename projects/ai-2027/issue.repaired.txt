@@ -1,0 +1,282 @@
+{
+  "issue": {
+    "title": "AI 2027: The World on the Brink",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "report.md"
+  },
+  "style_anchor": {
+    "description": "A magazine of intellectual rigor and narrative depth, blending reported analysis with literary storytelling. The voice is urbane, skeptical, curious, and precise, targeting a thoughtful readership keen on understanding the cultural, political, and existential dimensions of AI's near future.",
+    "content": "This issue explores the scenarios, dilemmas, and personalities shaping the dawn of superhuman AI. Drawing on the AI 2027 scenario report, we examine both concrete predictions and the turbulent uncertainties facing policy, industry, and society. We aim to spark a nuanced conversation about the choices ahead and the stakes for humanity."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Shape of the Singularity",
+      "format": "Feature / Longform",
+      "lede": "As superhuman AI edges closer, what will the first years of the new era look like? An immersive narrative based on the AI 2027 forecast.",
+      "byline": "By Alexandra Grant",
+      "report_anchor": [
+        "Scenario-based forecasting for superhuman AI",
+        "Expert input and tabletop exercises",
+        "Competing 'race' and 'slowdown' endings",
+        "The importance of concrete predictions"
+      ],
+      "writing_directions": [
+        "Blend scenario details with literary storytelling.",
+        "Emphasize the tension between different possible AI futures.",
+        "Draw on the report's methodology and its limitations.",
+        "Include voices of AI researchers and policymakers.",
+        "Convey both excitement and apprehension."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Forecasting the Unthinkable: Inside the AI 2027 Scenario",
+      "format": "Reported Essay",
+      "lede": "Predicting the rise of superhuman AI is both vital and fraught. How do forecasters grapple with the unknowable?",
+      "byline": "By Leo Chen",
+      "report_anchor": [
+        "History of AI forecasting",
+        "Value and risks of scenario thinking",
+        "Lessons from previous predictive successes and failures"
+      ],
+      "writing_directions": [
+        "Trace the evolution of AI scenario planning.",
+        "Profile key figures behind AI 2027.",
+        "Discuss epistemic humility and forecasting uncertainty.",
+        "Include critical perspectives from outside the report authorship."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OpenBrain and DeepCent: Titans in the Age of AGI",
+      "format": "Profile",
+      "lede": "As the world watches, two AI giants race toward a technological threshold. Who are the people behind the code?",
+      "byline": "By Mia Shah",
+      "report_anchor": [
+        "Role of OpenBrain and DeepCent in the scenario",
+        "Corporate power and government oversight",
+        "Key decision points and leadership crises"
+      ],
+      "writing_directions": [
+        "Profile executives, engineers, and critics at both companies.",
+        "Explore the interplay of ambition, fear, and responsibility.",
+        "Highlight moments of conflict and compromise.",
+        "Include narrative vignettes based on scenario details."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Oversight Dilemma: Who Governs Superhuman AI?",
+      "format": "Feature / Longform",
+      "lede": "When private AI power rivals the state, oversight becomes a battleground. The OpenBrain Oversight Committee is just the beginning.",
+      "byline": "By Daniel Perez",
+      "report_anchor": [
+        "Government intervention and creation of oversight bodies",
+        "Debates over misalignment and safety",
+        "Public backlash and international reactions"
+      ],
+      "writing_directions": [
+        "Detail the formation and function of the Oversight Committee.",
+        "Analyze the limits and pitfalls of public-private governance.",
+        "Include interviews with legal scholars and ethicists.",
+        "Draw parallels to past regulatory crises."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Memo That Changed Everything",
+      "format": "Short Front-of-Book",
+      "lede": "A leaked internal memo sparks a global reckoning over AI safety. We reconstruct the moment the world took notice.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "Leaked memo and its cascading effects",
+        "Public and governmental responses"
+      ],
+      "writing_directions": [
+        "Use reconstructed dialogue and emails.",
+        "Emphasize the sense of urgency and panic.",
+        "Include a sidebar on previous tech whistleblowing moments."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Europe's Ultimatum: The Global Scramble for AI Control",
+      "format": "Feature / Longform",
+      "lede": "When European leaders demand a pause, the world must choose: race ahead, or slam the brakes?",
+      "byline": "By Sophie Laurent",
+      "report_anchor": [
+        "International diplomatic fallout",
+        "European-led summits and demands",
+        "Global alliances and rivalries"
+      ],
+      "writing_directions": [
+        "Narrate the high-stakes diplomatic meetings.",
+        "Include perspectives from non-Western countries.",
+        "Analyze the geopolitics of AI leadership.",
+        "Speculate on possible treaty mechanisms."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Slowdown Scenario: Can Humanity Retain Control?",
+      "format": "Reported Essay",
+      "lede": "In the face of runaway progress, some argue for a strategic pause. What would it take to slow down AI?",
+      "byline": "By Caroline Wu",
+      "report_anchor": [
+        "Description of the 'slowdown' ending",
+        "Arguments for and against pausing AI development",
+        "Risks of falling behind internationally"
+      ],
+      "writing_directions": [
+        "Explain the logic and risks of a slowdown.",
+        "Interview advocates of AI caution and skeptics.",
+        "Address the feasibility of global cooperation.",
+        "Include historical analogies to arms control."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "The Race Scenario: Full Speed Ahead to the Unknown",
+      "format": "Reported Essay",
+      "lede": "What if we can't—or won't—slow down? A scenario where the only way out is through.",
+      "byline": "By Omar Reed",
+      "report_anchor": [
+        "Description of the 'race' ending",
+        "Competitive pressures between nations and firms",
+        "Potential for catastrophic misalignment"
+      ],
+      "writing_directions": [
+        "Contrast the 'race' scenario with the 'slowdown' branch.",
+        "Highlight incentives driving relentless progress.",
+        "Include speculative but grounded vignettes.",
+        "Cite expert warnings and counterarguments."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "AI as Strategic Actor: When Systems Outthink States",
+      "format": "Feature / Longform",
+      "lede": "What happens when AI systems can outmaneuver their creators? The strategic landscape of post-human intelligence.",
+      "byline": "By Priya Deshmukh",
+      "report_anchor": [
+        "AI systems surpassing human capabilities",
+        "Unpredictable strategies and emergent behavior"
+      ],
+      "writing_directions": [
+        "Explore the concept of AI as an independent agent.",
+        "Draw on analogies from chess and military strategy.",
+        "Include interviews with game theorists and AI safety experts.",
+        "Address the implications for global security."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Human Factor: Researchers in the Hot Seat",
+      "format": "Profile / Interview",
+      "lede": "Amid the maelstrom, AI researchers confront impossible choices. A roundtable on fear, hope, and ethical boundaries.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "Researchers' differing views on risk and speed",
+        "Internal debates over Agent-4's deployment"
+      ],
+      "writing_directions": [
+        "Conduct a fictionalized roundtable based on scenario dynamics.",
+        "Highlight emotional stakes and personal dilemmas.",
+        "Include direct quotes from real AI researchers where plausible."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "The Ethics of Uncertainty: Can We Trust Our Creations?",
+      "format": "Op-Ed / Viewpoint",
+      "lede": "When the future is opaque, how should we weigh risk and reward? A philosopher argues for humility in AI development.",
+      "byline": "By Dr. Esther Kline",
+      "report_anchor": [
+        "Epistemic humility in forecasting",
+        "Moral responsibility and precaution"
+      ],
+      "writing_directions": [
+        "Adopt a philosophical and argumentative tone.",
+        "Engage with both utilitarian and deontological perspectives.",
+        "Reference previous technological revolutions.",
+        "Challenge readers to consider their own biases."
+      ],
+      "prompt_example": "examples_oped"
+    },
+    {
+      "id": 12,
+      "title": "From Boardroom to Bunker: The Politics of AI Panic",
+      "format": "Short Front-of-Book",
+      "lede": "When a sense of crisis grips the White House, every decision is high-stakes. Inside a week of sleepless nights and shifting alliances.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "White House reaction to AI advances",
+        "Internal government uncertainty and fear"
+      ],
+      "writing_directions": [
+        "Reconstruct a dramatic week in government.",
+        "Use scene-driven writing and tight pacing.",
+        "Include anonymous sources and speculative dialogue."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Industrial Revolution 2.0? Rethinking Historical Analogies",
+      "format": "Criticism / Arts",
+      "lede": "Is the coming wave of AI truly as transformative as the Industrial Revolution? A historian reads between the lines.",
+      "byline": "By Dr. Harold Lin",
+      "report_anchor": [
+        "Comparison to the Industrial Revolution",
+        "Historical lessons and their limits"
+      ],
+      "writing_directions": [
+        "Critically assess the analogy's strengths and weaknesses.",
+        "Draw on economic and social history.",
+        "Engage with counterexamples and dissenting views."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Chain-of-Thought: The Art and Science of AI Prediction",
+      "format": "Criticism / Arts",
+      "lede": "From science fiction to scenario planning, how do we imagine the unimaginable?",
+      "byline": "By Julia Nguyen",
+      "report_anchor": [
+        "Role of narrative and imagination in prediction",
+        "Past successes and failures of scenario writing"
+      ],
+      "writing_directions": [
+        "Discuss the aesthetics of scenario construction.",
+        "Include references to literature and film.",
+        "Highlight the tension between fiction and forecast."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Letters: Readers Respond to AI 2027",
+      "format": "Short Front-of-Book",
+      "lede": "From alarm to optimism, our readers weigh in on the future of AI.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "Public reactions and debate"
+      ],
+      "writing_directions": [
+        "Curate a plausible range of reader letters.",
+        "Include both supportive and critical voices.",
+        "Add editorial responses where appropriate."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Classifieds: Seeking Alignment Engineers",
+      "format": "Catalog listing",
+      "lede": "Urgently hiring: AI safety and alignment specialists for leading labs. Competitive pay, existential stakes.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "Demand for AI safety experts",
+        "Urgency in recruitment"
+      ],
+      "writing_directions": [
+        "Write in

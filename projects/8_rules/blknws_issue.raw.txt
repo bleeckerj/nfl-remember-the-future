@@ -1,0 +1,117 @@
+{
+  "issue": {
+    "title": "Imagination, Systems, and the Afterlife of Possibility",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "report.md + blknws_transcript.md"
+  },
+  "style_anchor": {
+    "description": "This publication employs a reflective, essayistic voice, blending rigorous reporting with speculative thought and personal narrative. The tone is probing, nuanced, and attentive to the complexities of creative life at the intersection of technology, culture, and identity.",
+    "content": "This issue explores the relational nature of perception and creativity, the challenges and possibilities posed by technological systems, and the imaginative futures being built by artists and thinkers today. Drawing on roundtable discussions, interviews, and essays, the reporting foregrounds the lived experience and agency of creators in shaping the worlds they want to inhabit."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "Making the Future: Assemblies of Creative Purpose at the Dawn of AI",
+      "format": "Feature / Longform",
+      "lede": "In a series of rotating assemblies, artists and technologists confront the urgent question: What is creative purpose in an era shaped by acceleration and simulation?",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Assemblies in Los Angeles exploring the future of creativity and AI",
+        "Participants' anxieties about displacement and creative authorship",
+        "Calls for technology that strengthens human creativity",
+        "Resistance to the industrialization and flattening of attention",
+        "The lived, embodied experience as central to creative work"
+      ],
+      "writing_directions": [
+        "Narrate the atmosphere and structure of the assemblies, emphasizing the diversity of voices.",
+        "Describe the tensions between technological acceleration and the desire for meaningful, embodied creative work.",
+        "Include participant reflections on pain, risk, and the calling of creativity.",
+        "Discuss how artists are resisting passive consumption and industrial attention economies.",
+        "Weave in historical context about shifts in creative identity and authorship."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "A Living Archive: Khalil Joseph and the Collage of Black Imagination",
+      "format": "Profile / Interview",
+      "lede": "Director Khalil Joseph speaks on the making of 'Black News,' a cinematic universe that is less a film than a living, breathing space of memory, resistance, and vision.",
+      "byline": "Interview by Contributing Editor",
+      "report_anchor": [
+        "Black News as an ecosystem and continuum of Black thought",
+        "The intentional move beyond realism in Black cinema",
+        "Imaginative leaps as fundamental to Black freedom and futurity",
+        "The role of ritual, resistance, and community in storytelling",
+        "Reclaiming the responsibility to envision and enact new futures"
+      ],
+      "writing_directions": [
+        "Frame the interview with Khalil Joseph as a dialogue about the politics and poetics of cinematic form.",
+        "Highlight Joseph's reflections on Hollywood, world-building, and the limits of rendering reality.",
+        "Draw connections between personal/familial memory and collective imagination.",
+        "Incorporate references to other artists and thinkers mentioned in the conversation.",
+        "Let Joseph’s language and vision shape the structure and rhythm of the piece."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Remembering the Future: Systems, Sovereignty, and the Limits of Imagination",
+      "format": "Reported Essay",
+      "lede": "What does it mean to recover foreclosed possibilities and imagine otherwise in a world of entrenched systems? A meditation on freedom, sovereignty, and the labor of world-making.",
+      "byline": "By Senior Essayist",
+      "report_anchor": [
+        "The concept of 'remembering the future' as articulated by Sadia Hartman",
+        "Historical erasure and the culling of alternative imaginaries",
+        "Personal and generational experiences of sovereignty and migration",
+        "Mechanisms that enable or foreclose freedom and creative agency",
+        "Anarchist calisthenics and the practice of imaginative resistance"
+      ],
+      "writing_directions": [
+        "Blend reportage with personal narrative and theoretical reflection.",
+        "Introduce Sadia Hartman’s framing and connect it to contemporary creative struggles.",
+        "Draw on examples from migration, colonial history, and family memory.",
+        "Examine how systems shape what is imaginable or possible.",
+        "Propose practices for reclaiming agency and imagining new futures."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Against the Spell: Criticism of the Passive Audience in the Age of Streaming",
+      "format": "Criticism / Arts",
+      "lede": "As platforms flatten difference and industrialize attention, artists are baking resistance into their work—interrupting the spell of passive consumption.",
+      "byline": "By Arts Critic",
+      "report_anchor": [
+        "The downstream pressure of consumer desire on creative work",
+        "Artists using interruptions and provocations to disrupt passivity",
+        "The flattening of experience by mass media and streaming platforms",
+        "Music and performance as sites of embodied, resistant creativity"
+      ],
+      "writing_directions": [
+        "Analyze specific works or moments where artists intentionally disrupt audience expectations.",
+        "Discuss the consequences of industrialized attention for cultural production.",
+        "Include perspectives from musicians and performers about embodiment and risk.",
+        "Situate the argument within broader debates about streaming, audience engagement, and creative autonomy."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "The Blank Canvas is Not the Enemy",
+      "format": "Op-Ed / Viewpoint",
+      "lede": "In our rush to outsource the struggle of creation to machines, we risk losing the moments that give art its meaning.",
+      "byline": "By Guest Contributor",
+      "report_anchor": [
+        "AI tools removing the difficulty of starting creative work",
+        "The value of struggle, failure, and lived experience in art",
+        "Limits of generative systems in capturing human depth",
+        "Calls for technology that supports, rather than supplants, creativity"
+      ],
+      "writing_directions": [
+        "Argue for the irreplaceable value of human struggle and risk in creativity.",
+        "Critique the promise of frictionless creation offered by AI.",
+        "Draw on anecdotes or examples of artists confronting the 'blank canvas.'",
+        "Address the broader implications for culture and meaning-making.",
+        "Conclude with a call to build tools that honor, not erase, the creative process."
+      ],
+      "prompt_example": "examples_oped"
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+{
+  "issue": {
+    "title": "Imaginative Intelligences: Creativity at the Dawn of AI",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "Mozilla Foundation & Berggruen Institute: Imaginative Intelligences Assemblies Report"
+  },
+  "style_anchor": {
+    "description": "A reflective, probing, and intellectually playful voice—curious about ambiguity but precise about stakes, blending cultural reporting with essayistic introspection. The tone is thoughtful, empathetic, and occasionally wry, always foregrounding the human in the age of systems.",
+    "content": "This issue explores the evolving relationship between creativity and artificial intelligence through reportage, essays, interviews, criticism, and inventive front-of-book features. Drawing on the insights of artists, technologists, and thinkers convened in the Imaginative Intelligences Assemblies, it investigates how systems can nurture, distort, or deepen the creative impulse."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "Hollywood’s 8 Rules for AI: Redesigning the Creative Future",
+      "format": "Feature / Longform",
+      "lede": "As generative AI reshapes the creative industries, a new set of principles emerges from the heart of Hollywood—offering a radical vision for technology that supports, rather than supplants, the human drive to make meaning.",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Design systems for creative process, not just output",
+        "Encourage randomness and glitchiness",
+        "Keep friction in the creative flow",
+        "Protect lineage and give credit",
+        "Value deliberate slowness and depth",
+        "Design for the creative ecosystem"
+      ],
+      "writing_directions": [
+        "Synthesize the eight rules into a cohesive narrative with case studies and expert quotes",
+        "Highlight tensions between efficiency and meaning",
+        "Include voices of both artists and technologists",
+        "Situate the rules in the broader context of Hollywood’s culture",
+        "Conclude with actionable insights for other creative sectors"
+      ],
+      "report_refs": [
+        "chunk-7",
+        "chunk-8"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-7",
+          "summary": "Rules as a call to action for building technology that\nstrengthens, rather than erodes, human creativity.",
+          "keywords": [
+            "systems",
+            "rules",
+            "rather",
+            "human",
+            "process"
+          ]
+        },
+        {
+          "id": "chunk-8",
+          "summary": "parent and Conversational\n-​ Artists and creatives want to see how decisions are made, step in to\nguide them, and feedback results in real time.",
+          "keywords": [
+            "creatives",
+            "time",
+            "design",
+            "work",
+            "creative"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pain, Flow, and the Blank Canvas: The Human Conditions of Making",
+      "format": "Reported Essay",
+      "lede": "What do pain and friction mean in an era when AI promises frictionless creativity? A meditation on struggle, mastery, and the irreplaceable vulnerability of the blank page.",
+      "byline": "By Contributing Editor",
+      "report_anchor": [
+        "Creativity as relational and embodied",
+        "Struggle and failure shape mastery",
+        "AI bypasses the messiness of process"
+      ],
+      "writing_directions": [
+        "Weave personal anecdotes with assembly participant reflections",
+        "Explore psychological theories of creativity and mastery",
+        "Contrast AI-generated output with lived creative process",
+        "Use vivid, sensory-rich language",
+        "End with a call for embracing discomfort in creative work"
+      ],
+      "report_refs": [
+        "chunk-35",
+        "chunk-3"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-35",
+          "summary": "ing a fixed artifact.",
+          "keywords": [
+            "creativity",
+            "participants",
+            "human",
+            "making",
+            "transmission"
+          ]
+        },
+        {
+          "id": "chunk-3",
+          "summary": "gs in Los Angeles to ask a single urgent question: What is creative\npurpose at the dawn of AI?",
+          "keywords": [
+            "creativity",
+            "single",
+            "purpose",
+            "assemblies",
+            "participants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "From Maker to Curator: The Artist’s Shifting Role in the Age of AI",
+      "format": "Feature / Longform",
+      "lede": "As AI takes over the canvas, artists are becoming editors, curators, and systems designers—navigating a new frontier where authorship is collective, collaborative, and sometimes contested.",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Artist as editor or systems designer",
+        "Hybrid creative roles",
+        "Authorship and attribution in AI art"
+      ],
+      "writing_directions": [
+        "Profile several artists working at the intersection of AI and traditional media",
+        "Discuss the implications for identity and recognition",
+        "Include perspectives from both established and emerging creatives",
+        "Analyze the impact on creative labor markets",
+        "Explore future scenarios for creative education"
+      ],
+      "report_refs": [
+        "chunk-5",
+        "chunk-46"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-5",
+          "summary": ".",
+          "keywords": [
+            "creative",
+            "felt",
+            "work",
+            "increasingly",
+            "participants"
+          ]
+        },
+        {
+          "id": "chunk-46",
+          "summary": "shifting from maker to editor, curator, or\nsystems designer.",
+          "keywords": [
+            "felt",
+            "participants",
+            "creative",
+            "technical",
+            "music"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Impossible Archive: AI, Legacy, and the Transmission of Meaning",
+      "format": "Reported Essay",
+      "lede": "Can AI preserve the depth of cultural legacy, or does it flatten meaning into endless remix? A journey through memory, transmission, and the risks of creative amnesia.",
+      "byline": "By Senior Correspondent",
+      "report_anchor": [
+        "Human uniqueness in legacy and interpretation",
+        "AI-generated remixes risk erasing context",
+        "Protecting provenance and credit"
+      ],
+      "writing_directions": [
+        "Interweave historical examples with modern AI remix culture",
+        "Discuss the role of provenance and metadata",
+        "Interview archivists and digital rights experts",
+        "Highlight participant anxieties about loss of meaning",
+        "Offer possible solutions for safeguarding lineage"
+      ],
+      "report_refs": [
+        "chunk-4",
+        "chunk-5"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-4",
+          "summary": "rce of acceleration, simulation, and homogenization.",
+          "keywords": [
+            "simulation",
+            "form",
+            "human",
+            "output",
+            "creative"
+          ]
+        },
+        {
+          "id": "chunk-5",
+          "summary": ".",
+          "keywords": [
+            "creative",
+            "felt",
+            "work",
+            "increasingly",
+            "participants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Interview: Gabriel Kahan on Awe, Assembly, and the Limits of Systems",
+      "format": "Profile / Interview",
+      "lede": "The co-lead of the Imaginative Intelligences Assemblies discusses why systems should be as curious—and as vulnerable—as the people who use them.",
+      "byline": "Interview by Culture Editor",
+      "report_anchor": [
+        "Systems that know their limits",
+        "Curiosity and vulnerability in design",
+        "Physical proximity and human collision"
+      ],
+      "writing_directions": [
+        "Structure as a conversational Q&A",
+        "Probe both philosophical and practical design questions",
+        "Highlight moments of personal reflection",
+        "Include discussion of assembly methodology",
+        "Close with thoughts on what AI can never replace"
+      ],
+      "report_refs": [
+        "chunk-2",
+        "chunk-1"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-2",
+          "summary": "or an enlightened adult?",
+          "keywords": [
+            "systems",
+            "curious",
+            "limits",
+            "question",
+            "love"
+          ]
+        },
+        {
+          "id": "chunk-1",
+          "summary": "---- SOURCE: report.md ----\nPreface\nOur perception is relational, as are our behaviors.",
+          "keywords": [
+            "future",
+            "systems",
+            "know",
+            "world",
+            "source"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Simulation vs. Experience: The Limits of Synthetic Creativity",
+      "format": "Criticism / Arts",
+      "lede": "AI can mimic style, but can it ever touch the lived experience that gives art its resonance? A critical look at the difference between simulation and creation.",
+      "byline": "By Arts Critic",
+      "report_anchor": [
+        "Simulation is not experience",
+        "Embodiment, pain, and memory in art",
+        "AI’s inability to create from lived perspective"
+      ],
+      "writing_directions": [
+        "Analyze examples of AI-generated art/music/film",
+        "Contrast with human stories of creation",
+        "Reference participant debates from the Assemblies",
+        "Discuss potential for hybrid works",
+        "Use evocative, interpretive language"
+      ],
+      "report_refs": [
+        "chunk-38",
+        "chunk-42"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-38",
+          "summary": "w experiences of life at all.",
+          "keywords": [
+            "performance",
+            "creativity",
+            "human",
+            "creative",
+            "risk"
+          ]
+        },
+        {
+          "id": "chunk-42",
+          "summary": "t abstractly, ever.”\nThe Assemblies revealed a shared intuition: AI can simulate form, but not the tactile,\nembodied experience that gives creativity its purpos",
+          "keywords": [
+            "creativity",
+            "human",
+            "ever",
+            "assemblies",
+            "shared"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Op-Ed: Why Purpose Can’t Be Automated",
+      "format": "Op-Ed / Viewpoint",
+      "lede": "As AI accelerates content creation, we must ask: what makes something worth making? Purpose, not pattern, is the soul of art.",
+      "byline": "By Guest Contributor",
+      "report_anchor": [
+        "Purpose at the center of creation",
+        "AI cannot replicate intent",
+        "Moral and economic logic of creation"
+      ],
+      "writing_directions": [
+        "Argue for the indispensability of human intent in art",
+        "Reference participant concerns from the report",
+        "Offer a critique of ‘content for content’s sake’",
+        "Suggest ways AI tools could better elicit purpose"
+      ],
+      "prompt_example": "examples_oped",
+      "report_refs": [
+        "chunk-6",
+        "chunk-5"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-6",
+          "summary": "displacement emerged as a much stronger worry than\nintellectual property.",
+          "keywords": [
+            "creation",
+            "systemic",
+            "call",
+            "systems",
+            "tools"
+          ]
+        },
+        {
+          "id": "chunk-5",
+          "summary": ".",
+          "keywords": [
+            "creative",
+            "felt",
+            "work",
+            "increasingly",
+            "participants"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Front-of-Book: Assembly Snapshots",
+      "format": "Short Front-of-Book Item",
+      "lede": "Scenes from the Imaginative Intelligences Assemblies: blindfolded listening, collaborative modeling, and the art of collective meaning-making.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "Participatory creative exercises",
+        "Dialogic, multisensory methods",
+        "Collective inquiry and synthesis"
+      ],
+      "writing_directions": [
+        "Provide vignette-style descriptions of assembly moments",
+        "Highlight tactile, sensory, and collaborative practices",
+        "Include quotes from participants",
+        "Capture the atmosphere and mood in brief prose"
+      ],
+      "report_refs": [
+        "chunk-3",
+        "chunk-16"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-3",
+          "summary": "gs in Los Angeles to ask a single urgent question: What is creative\npurpose at the dawn of AI?",
+          "keywords": [
+            "creativity",
+            "single",
+            "purpose",
+            "assemblies",
+            "participants"
+          ]
+        },
+        {
+          "id": "chunk-16",
+          "summary": "amed the conversation as an\ninvitation for personal reflection and collaborative inquiry.",
+          "keywords": [
+            "assemblies",
+            "theme",
+            "conversation",
+            "hours",
+            "filmed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Classifieds: Creative Systems for Hire",
+      "format": "Advertisement",
+      "lede": "Looking for a friction-friendly AI? Seeking a glitchy collaborator? Browse our curated listings for tools, platforms, and creative partners.",
+      "byline": "Sponsored Content",
+      "report_anchor": [
+        "Creative AI systems with provenance tracking",
+        "Platforms supporting iterative exploration",
+        "Tools prioritizing depth and slowness"
+      ],
+      "writing_directions": [
+        "Invent plausible products/services inspired by report themes",
+        "Write copy in a tongue-in-cheek, literary style",
+        "Highlight features like transparency, friction, and lineage",
+        "Encourage reader engagement with a call to action"
+      ],
+      "prompt_example": "examples_ad",
+      "report_refs": [
+        "chunk-60",
+        "chunk-62"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-60",
+          "summary": ", and storytellers, it became\nclear people felt strongly that AI needs to work for creativity, not against it.",
+          "keywords": [
+            "creativity",
+            "process",
+            "support",
+            "work",
+            "insights"
+          ]
+        },
+        {
+          "id": "chunk-62",
+          "summary": "litchiness,” or\nless probable outputs which screenwriters can use as they explore different ideas and\npathways for their work.",
+          "keywords": [
+            "moments",
+            "outputs",
+            "screenwriters",
+            "example",
+            "time"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Attention Wars: How AI Shapes What We Notice—and What We Miss",
+      "format": "Feature / Longform",
+      "lede": "In a world of industrialized attention, AI both fragments and focuses our gaze. But what is lost when systems optimize for engagement over meaning?",
+      "byline": "By Technology Correspondent",
+      "report_anchor": [
+        "Attention as a creative battleground",
+        "Friction vs. frictionlessness",
+        "Platforms shaping perception"
+      ],
+      "writing_directions": [
+        "Examine assembly discussions on attention and distraction",
+        "Compare the design of attention in tech and the arts",
+        "Analyze the impact of frictionless systems on culture",
+        "Offer recommendations for designing meaningful engagement"
+      ],
+      "report_refs": [
+        "chunk-21",
+        "chunk-26"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-21",
+          "summary": "terrain.",
+          "keywords": [
+            "pain",
+            "something",
+            "fear",
+            "control",
+            "creative"
+          ]
+        },
+        {
+          "id": "chunk-26",
+          "summary": "ng and turning it into\na very, very creative force could be interesting.",
+          "keywords": [
+            "attention",
+            "fighting",
+            "creative",
+            "force",
+            "assembly"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Performance, Embodiment, and the Limits of AI",
+      "format": "Criticism / Arts",
+      "lede": "What does it mean to perform—on stage, on camera, or in code? A meditation on the body, risk, and the irreducible human element.",
+      "byline": "By Arts Contributor",
+      "report_anchor": [
+        "Performance as embodied creativity",
+        "Limits of AI in live expression",
+        "Importance of risk and presence"
+      ],
+      "writing_directions": [
+        "Discuss participant reflections on performance",
+        "Analyze AI-generated performance art and its boundaries",
+        "Include examples from music, theater, and digital art",
+        "Reflect on the role of the body in meaning-making"
+      ],
+      "report_refs": [
+        "chunk-38",
+        "chunk-28"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-38",
+          "summary": "w experiences of life at all.",
+          "keywords": [
+            "performance",
+            "creativity",
+            "human",
+            "creative",
+            "risk"
+          ]
+        },
+        {
+          "id": "chunk-28",
+          "summary": "e make a living off of creativity.”\nFinally, attention returned to the body.",
+          "keywords": [
+            "music",
+            "performance",
+            "make",
+            "body",
+            "participant"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "The Glitch as Muse: Embracing Error in Creative AI",
+      "format": "Feature / Longform",
+      "lede": "Surprise and messiness are the engines of creativity. Can AI systems be designed to glitch, stumble, and astonish?",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Randomness and glitchiness in creativity",
+        "Surprise as a creative catalyst",
+        "Systems that resist overdetermination"
+      ],
+      "writing_directions": [
+        "Profile artists who embrace error and randomness",
+        "Explore technical methods for introducing unpredictability",
+        "Reference the Assembly’s call for ‘not overdetermining the world’",
+        "Offer speculative design concepts for glitch-friendly AI"
+      ],
+      "report_refs": [
+        "chunk-61",
+        "chunk-7"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-61",
+          "summary": "lls and facilities instead of one-click generation.",
+          "keywords": [
+            "process",
+            "outputs",
+            "generation",
+            "encourage",
+            "glitchiness"
+          ]
+        },
+        {
+          "id": "chunk-7",
+          "summary": "Rules as a call to action for building technology that\nstrengthens, rather than erodes, human creativity.",
+          "keywords": [
+            "systems",
+            "rules",
+            "rather",
+            "human",
+            "process"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Front-of-Book: Quotable—Voices from the Assemblies",
+      "format": "Short Front-of-Book Item",
+      "lede": "Selected remarks and provocations from participants: on pain, play, and the future of creative labor.",
+      "byline": "By Staff",
+      "report_anchor": [
+        "Participant insights on creativity",
+        "Concerns about labor and representation",
+        "Hopes for collaborative AI"
+      ],
+      "writing_directions": [
+        "Curate a series of punchy, memorable quotes",
+        "Attribute to first names or roles where possible",
+        "Arrange thematically",
+        "Include brief editorial context if needed"
+      ],
+      "report_refs": [
+        "chunk-10",
+        "chunk-18"
+      ],
+      "report_ref_details": [
+        {
+          "id": "chunk-10",
+          "summary": "ally means to human living amongst others.",
+          "keywords": [
+            "creative",
+            "means",
+            "living",
+            "imaginative",
+            "intelligences"
+          ]
+        },
+        {
+          "id": "chunk-18",
+          "summary": "mmon\ncreative identity through dialogue, disagreement, and synthesis.",
+          "keywords": [
+            "creativity",
+            "pain",
+            "creative",
+            "purpose",
+            "revealed"
+          ]
+        }
+      ]
+    }
+  ]
+}

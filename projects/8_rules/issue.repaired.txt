@@ -1,0 +1,273 @@
+{
+  "issue": {
+    "title": "Imaginative Intelligences: Creativity, AI, and the Human Future",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "report.md"
+  },
+  "style_anchor": {
+    "description": "A reflective, essayistic voice blending reportage, criticism, and personal observation, with a focus on nuance, context, and the lived experience of creativity in a time of technological upheaval.",
+    "content": "This issue investigates the shifting terrain of creativity at the dawn of AI, drawing on in-depth conversations with artists, technologists, and thinkers. It explores the embodied, relational, and precarious nature of creative work, the risks and promises of generative systems, and the cultural and ethical questions shaping our collective future."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Blank Canvas and the Algorithm: Creativity’s New Frontier",
+      "format": "Feature / Longform",
+      "lede": "As AI accelerates creation and erases friction, artists confront the paradox of effortless output and the loss of struggle that once defined mastery.",
+      "byline": "By Gabriel Kahan",
+      "report_anchor": [
+        "AI speeds up output but displaces process",
+        "Struggle and failure are core to creative mastery",
+        "Artists feel AI is not dialogic enough for individual rhythms",
+        "40% of participants do not believe AI has scaled their creative output"
+      ],
+      "writing_directions": [
+        "Weave together participant anecdotes with broader industry trends.",
+        "Contrast the lived experience of creative struggle with AI-enabled frictionlessness.",
+        "Include data and quotes from the Assemblies.",
+        "Explore the psychological impact of bypassing creative difficulty.",
+        "Situate the story within Hollywood’s evolving creative landscape."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Simulation Is Not Experience: The Limits of Machine Art",
+      "format": "Reported Essay",
+      "lede": "AI can mimic style and form, but can it ever touch the depths of memory, mortality, and pain that animate human art?",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "AI can mimic but lacks embodiment, pain, memory, or mortality",
+        "Simulation versus lived experience",
+        "Participants describe creativity as embodied and relational"
+      ],
+      "writing_directions": [
+        "Open with a vivid example of an AI-generated artwork.",
+        "Interview artists about the difference between simulation and experience.",
+        "Discuss philosophical perspectives on embodiment in art.",
+        "Reflect on the implications for cultural meaning."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Legacy, Remix, and the Risk of Homogenization",
+      "format": "Criticism / Arts",
+      "lede": "As AI remixes the past at scale, the meaning of legacy and authorship is up for grabs.",
+      "byline": "By Arts Critic",
+      "report_anchor": [
+        "Human uniqueness lies in legacy and interpretation",
+        "AI-generated remixes risk detaching meaning from source",
+        "Transmission and interpretation as creative acts"
+      ],
+      "writing_directions": [
+        "Analyze recent AI-driven remixes in music and film.",
+        "Compare with historical examples of reinterpretation.",
+        "Examine artists’ concerns about erasure of context.",
+        "Include perspectives from both creators and technologists."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Artist as Systems Designer: Navigating Hybrid Roles",
+      "format": "Feature / Longform",
+      "lede": "No longer just makers, artists find themselves curating, editing, and designing the very systems that shape their work.",
+      "byline": "By Feature Contributor",
+      "report_anchor": [
+        "Artists’ roles shifting from maker to editor, curator, or systems designer",
+        "Hybrid creative roles in the age of AI",
+        "Only 21.7% felt AI was not impacting their process"
+      ],
+      "writing_directions": [
+        "Profile several artists working at the intersection of art and technology.",
+        "Describe the skills and mindsets required for these new roles.",
+        "Discuss the implications for creative identity.",
+        "Explore tensions between control and collaboration with AI."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Precarity and Purpose: The Economics of Creative Labor",
+      "format": "Feature / Longform",
+      "lede": "As automation threatens sustainability, artists grapple with the moral and economic logic of making anything at all.",
+      "byline": "By Investigative Reporter",
+      "report_anchor": [
+        "Creative labor is increasingly precarious and devalued",
+        "AI compounds gig instability",
+        "Job displacement is a stronger worry than IP"
+      ],
+      "writing_directions": [
+        "Investigate the lived realities of gig-economy creatives.",
+        "Include statistics and personal stories from the Assemblies.",
+        "Analyze the changing value of creative work.",
+        "Discuss possible paths forward for sustainable artistry."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Op-Ed: Why Friction Matters in a Frictionless World",
+      "format": "Op-Ed / Viewpoint",
+      "lede": "Removing difficulty from creation and consumption may weaken attention and meaning—here’s why we should resist the lure of seamlessness.",
+      "byline": "By Guest Contributor",
+      "report_anchor": [
+        "Generative AI trends toward frictionless creation",
+        "Friction is vital for attention and reflection",
+        "Resistance is not rejection, but redesign"
+      ],
+      "writing_directions": [
+        "Argue for the value of creative struggle and pause.",
+        "Cite examples from art, music, and technology.",
+        "Offer concrete suggestions for embedding friction into creative systems."
+      ],
+      "prompt_example": "examples_oped"
+    },
+    {
+      "id": 7,
+      "title": "Interview: Transmission and the Afterlife of Possibility",
+      "format": "Profile / Interview",
+      "lede": "A conversation with a leading thinker on legacy, interpretation, and reclaiming foreclosed futures.",
+      "byline": "Interview by Senior Editor",
+      "report_anchor": [
+        "Legacy and interpretation as human uniqueness",
+        "Recovering foreclosed possibilities",
+        "The concept of 'remember the future'"
+      ],
+      "writing_directions": [
+        "Frame the interview with context from the Assemblies.",
+        "Probe for personal stories about legacy and creative inheritance.",
+        "Discuss the role of imagination in shaping futures.",
+        "Highlight quotes that connect history, identity, and creativity."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Attention Wars: The Battle for Creative Focus",
+      "format": "Criticism / Arts",
+      "lede": "In a world of industrialized attention, how can artists reclaim space for depth and unpredictability?",
+      "byline": "By Media Critic",
+      "report_anchor": [
+        "Industrialized attention flattens creative space",
+        "Participants describe fighting for attention as a creative act",
+        "AI risks homogenizing culture"
+      ],
+      "writing_directions": [
+        "Analyze the economics of attention in streaming and social media.",
+        "Profile artists experimenting with interruption and provocation.",
+        "Discuss the downstream effects on culture and audience."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Short: The Five Themes of Creativity",
+      "format": "Short Front-of-Book",
+      "lede": "Pain, Stream/Flow, Attention, Performance, and Transmission—five themes that shaped the Assemblies’ understanding of creative purpose.",
+      "byline": "By Editorial Staff",
+      "report_anchor": [
+        "Assemblies identified five key themes",
+        "Creativity described as embodied, limited, relational",
+        "Purpose, struggle, and meaning-making as core"
+      ],
+      "writing_directions": [
+        "Summarize each theme in 1-2 sentences.",
+        "Use direct quotes from participants where possible.",
+        "Include a sidebar or graphic for visual interest."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Short: The 8 Rules for AI in Hollywood",
+      "format": "Short Front-of-Book",
+      "lede": "Hollywood’s creative community distills its hopes and fears for AI into eight guiding principles.",
+      "byline": "By Editorial Staff",
+      "report_anchor": [
+        "Rules for building technology that strengthens human creativity",
+        "Ethics, friction, curiosity, and care as design priorities"
+      ],
+      "writing_directions": [
+        "List and briefly explain each rule.",
+        "Provide context for their creation.",
+        "Highlight the collaborative process behind the rules."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Short: Assemblies in Action—A Photo Essay",
+      "format": "Short Front-of-Book",
+      "lede": "Scenes from the Bradbury Building and Hearst Estate, where artists and technologists gathered to imagine the future of creativity.",
+      "byline": "Photography by Staff",
+      "report_anchor": [
+        "Assemblies held in iconic Los Angeles locations",
+        "Participatory, collective experiments in creativity"
+      ],
+      "writing_directions": [
+        "Curate 5-8 striking images from the Assemblies.",
+        "Write concise captions explaining each scene.",
+        "Capture the mood and diversity of participants."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Short: The Sound of the Assemblies",
+      "format": "Short Front-of-Book",
+      "lede": "Blindfolded listening, folk music, and the rawness of sound—how the Assemblies used music to unlock new forms of attention.",
+      "byline": "By Music Correspondent",
+      "report_anchor": [
+        "Music and performance as tools for creative inquiry",
+        "Participants describe the impact of sound on imagination"
+      ],
+      "writing_directions": [
+        "Describe key musical moments from the Assemblies.",
+        "Interview participants about their experiences.",
+        "Connect to broader trends in experimental music."
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Short: Resistance by Design—Interrupting the Spell",
+      "format": "Short Front-of-Book",
+      "lede": "From deliberate interruptions to baked-in provocations, artists are designing resistance into their work.",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Subtler acts of resistance in creative work",
+        "Breaking the spell of passive consumption"
+      ],
+      "writing_directions": [
+        "Profile examples of resistance in recent art projects.",
+        "Explain the rationale behind these design choices.",
+        "Include brief quotes from creators."
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Short: The Body in Creative Practice",
+      "format": "Short Front-of-Book",
+      "lede": "Attention returns to the body—how physical presence and sensation ground creative work in a digital age.",
+      "byline": "By Culture Reporter",
+      "report_anchor": [
+        "Embodiment as a core aspect of creativity",
+        "Participants reflect on the role of the body in art"
+      ],
+      "writing_directions": [
+        "Describe exercises or moments from the Assemblies involving the body.",
+        "Discuss the tension between virtual and physical creativity.",
+        "Include participant reflections."
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Short: Authorship in the Age of Streaming",
+      "format": "Short Front-of-Book",
+      "lede": "Who owns creative work when access is global and instantaneous?",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Streaming and access reshape authorship",
+        "Conversations return to the question of creative ownership"
+      ],
+      "writing_directions": [
+        "Summarize debates over authorship from the Assemblies.",
+        "Include perspectives from both established and emerging artists.",
+        "Highlight unresolved questions."
+      ]
+    },
+    {
+      "id": 16,
+      "title": "

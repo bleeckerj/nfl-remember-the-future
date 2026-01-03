@@ -1,0 +1,126 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AI2027Issue",
+  "type": "object",
+  "required": [
+    "issue",
+    "articles"
+  ],
+  "properties": {
+    "issue": {
+      "type": "object",
+      "required": [
+        "title",
+        "date",
+        "status",
+        "source"
+      ],
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        }
+      }
+    },
+    "style_anchor": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        }
+      }
+    },
+    "articles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "format",
+          "lede",
+          "byline",
+          "writing_directions"
+        ],
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "title": {
+            "type": "string"
+          },
+          "format": {
+            "type": "string"
+          },
+          "lede": {
+            "type": "string"
+          },
+          "byline": {
+            "type": "string"
+          },
+          "report_anchor": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "ai2027_anchor": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Deprecated: use report_anchor"
+          },
+          "writing_directions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "prompt_example": {
+            "type": "string",
+            "description": "Override prompt example stem (e.g., examples_oped)"
+          },
+          "report_refs": {
+            "type": "array",
+            "description": "Optional references to sections/elements of the report grounding this article",
+            "items": {
+              "type": "string"
+            }
+          },
+          "report_ref_details": {
+            "type": "array",
+            "description": "Optional enriched references with id/summary/keywords (used in grounded copies)",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {"type": "string"},
+                "summary": {"type": "string"},
+                "keywords": {
+                  "type": "array",
+                  "items": {"type": "string"}
+                }
+              }
+            }
+          }
+        }
+        ,
+        "anyOf": [
+          { "required": ["report_anchor"] },
+          { "required": ["ai2027_anchor"] }
+        ]
+      }
+    }
+  }
+}

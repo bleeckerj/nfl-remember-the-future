@@ -18,9 +18,9 @@ from nfl_remember_the_future.llm import draft_one, get_client_from_env, resolve_
 from tools.html_to_md import html_to_md
 
 ARTIFACT_DEFAULTS = {
-    "magazine": {"count": 20, "voice": "The New Yorker / The Atlantic"},
-    "newspaper": {"count": 20, "voice": "The New York Times"},
-    "catalog": {"count": 30, "voice": "IKEA / Uline / Amazon"},
+    "magazine": {"count": 10, "voice": "The New Yorker / The Atlantic"},
+    "newspaper": {"count": 10, "voice": "The New York Times"},
+    "catalog": {"count": 10, "voice": "IKEA / Uline / Amazon"},
 }
 
 
@@ -32,6 +32,17 @@ def resolve_path(path: Path, project_root: Path) -> Path:
     if path.is_absolute():
         return path
     return project_root / path
+
+
+def load_prompt_fragment(project_root: Path, filename: str) -> str:
+    project_prompts = project_root / "prompts"
+    candidate = project_prompts / filename
+    if candidate.exists():
+        return candidate.read_text(encoding="utf-8")
+    fallback = Path("prompts") / filename
+    if fallback.exists():
+        return fallback.read_text(encoding="utf-8")
+    return ""
 
 
 def load_texts(input_paths: list[Path], project_root: Path, quiet: bool) -> str:
@@ -75,6 +86,29 @@ def summarize_labels(labels: List[Dict[str, Any]], limit: int = 40) -> str:
     return "\n".join(lines).strip()
 
 
+def summarize_existing_issue(issue_path: Path, limit: int = 6) -> str:
+    if not issue_path.exists():
+        return ""
+    try:
+        issue = json.loads(issue_path.read_text(encoding="utf-8"))
+    except Exception:
+        return ""
+    articles = issue.get("articles", [])
+    if not articles:
+        return ""
+    lines = []
+    for art in articles[:limit]:
+        anchors = art.get("report_anchor") or art.get("ai2027_anchor") or []
+        anchor_preview = ", ".join(anchors[:4]) if anchors else "no anchors"
+        lines.append(
+            f"- [{art.get('id')}] {art.get('title', 'untitled')} | {art.get('format', '')} | anchors: {anchor_preview}"
+        )
+    if len(articles) > limit:
+        lines.append(f"- ...and {len(articles) - limit} more articles already proposed")
+    lines.append("Avoid repeating the anchors/topics listed above; cover a different dimension of the report.")
+    return "Existing proposals:\n" + "\n".join(lines)
+
+
 def compress_text(text: str, max_chars: int) -> str:
     if len(text) <= max_chars:
         return text
@@ -114,8 +148,8 @@ def repair_json_with_llm(client, model: str, content: str, temperature: float) -
     return repaired
 
 
-def build_system_prompt(artifact: str, voice: str) -> str:
-    return (
+def build_system_prompt(artifact: str, voice: str, project_base: str | None = None) -> str:
+    default = (
         "You are an editorial planner generating a complete issue spec as JSON. "
         "Return ONLY valid JSON that matches this schema:\n"
         "{issue:{title,date,status,source}, style_anchor:{description,content}, articles:["
@@ -129,6 +163,9 @@ def build_system_prompt(artifact: str, voice: str) -> str:
         f"Artifact type: {artifact}. Voice reference: {voice}. "
         "Allow extrapolation beyond the report while staying plausible."
     )
+    if project_base and project_base.strip():
+        return project_base.strip() + "\n\n" + default
+    return default
 
 
 def build_user_prompt(
@@ -138,6 +175,7 @@ def build_user_prompt(
     report_summary: str,
     report_excerpt: str,
     source_label: str,
+    existing_summary: str,
 ) -> str:
     sections = []
     if artifact == "magazine":
@@ -171,6 +209,11 @@ def build_user_prompt(
         ]
 
     section_text = ", ".join(sections) if sections else "mixed sections"
+    existing_summary_block = ""
+    if existing_summary:
+        existing_summary_block = (
+            "\n\nEXISTING ISSUE PROPOSALS:\n" + existing_summary.strip() + "\n"
+        )
 
     return (
         f"Generate an issue with {count} items. "
@@ -184,7 +227,8 @@ def build_user_prompt(
         "\n\nREPORT SUMMARY (if available):\n"
         f"{report_summary}\n\n"
         "REPORT EXCERPT:\n"
-        f"{report_excerpt}\n\n"
+        f"{report_excerpt}"
+        f"{existing_summary_block}"
         "Output JSON only."
     )
 
@@ -252,9 +296,19 @@ def generate_issue_file(
     report_text = load_texts(input_paths, project_root, quiet=quiet)
     report_excerpt = compress_text(report_text, max_chars=12000)
 
-    system = build_system_prompt(artifact, voice)
+    system_base = load_prompt_fragment(project_root, "system_base.md")
+    system = build_system_prompt(artifact, voice, system_base)
     source_label = ", ".join(p.name for p in input_paths)
-    user = build_user_prompt(artifact, count, voice, report_summary, report_excerpt, source_label)
+    existing_summary = summarize_existing_issue(issue_out_path)
+    user = build_user_prompt(
+        artifact,
+        count,
+        voice,
+        report_summary,
+        report_excerpt,
+        source_label,
+        existing_summary,
+    )
 
     client = get_client_from_env()
     model = resolve_model(model_override)
@@ -268,12 +322,6 @@ def generate_issue_file(
             user_path.write_text(user, encoding="utf-8")
             print(f"[generate_issue] wrote_system_prompt={system_path}")
             print(f"[generate_issue] wrote_user_prompt={user_path}")
-            print("[generate_issue] system_prompt_begin")
-            print(system)
-            print("[generate_issue] system_prompt_end")
-            print("[generate_issue] user_prompt_begin")
-            print(user)
-            print("[generate_issue] user_prompt_end")
         print("[generate_issue] calling model...", flush=True)
 
     result: dict[str, Any] = {"content": "", "error": None}

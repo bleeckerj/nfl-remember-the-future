@@ -38,7 +38,7 @@ def main() -> None:
 def draft(
     project: Optional[str] = typer.Option(None, help="Project name under projects/ (shortcut)"),
     project_root: Optional[Path] = typer.Option(None, help="Project workspace root for inputs/outputs"),
-    issue_json: Path = typer.Option(..., help="Path to issue JSON"),
+    issue_json: Optional[Path] = typer.Option(None, help="Path to issue JSON (fallbacks when --project is supplied)"),
     schema_json: Optional[Path] = typer.Option(None, help="Path to JSON Schema (defaults to project/issue.schema.json)"),
     prompt_dir: Path = typer.Option(Path("prompts"), help="Directory with prompt files"),
     out_md_dir: Path = typer.Option(Path("drafts"), help="Directory to write per-article Markdown backups"),
@@ -67,7 +67,23 @@ def draft(
     if project:
         project_root = Path("projects") / project
     client = get_client_from_env()
-    resolved_issue_json = resolve_path(issue_json, project_root)
+    if not issue_json:
+        if project_root:
+            grounded = project_root / "issue.grounded.json"
+            fallback_issue = project_root / "issue.json"
+            if grounded.exists():
+                resolved_issue_json = grounded
+            elif fallback_issue.exists():
+                resolved_issue_json = fallback_issue
+            else:
+                raise typer.BadParameter(
+                    "No issue JSON found in the project directory. "
+                    "Create one or pass --issue-json explicitly."
+                )
+        else:
+            raise typer.BadParameter("Provide --issue-json or use --project/--project-root.")
+    else:
+        resolved_issue_json = resolve_path(issue_json, project_root)
     if schema_json:
         resolved_schema_json = resolve_path(schema_json, project_root)
         if project_root and not resolved_schema_json.exists() and not schema_json.is_absolute():
@@ -76,12 +92,26 @@ def draft(
                 resolved_schema_json = fallback
     else:
         default_schema = project_root / "issue.schema.json" if project_root else Path("issue.schema.json")
-        if not default_schema.exists():
-            raise typer.BadParameter(
-                f"No schema found at {default_schema}. Place an issue.schema.json in the project root "
-                "or pass --schema-json explicitly."
-            )
-        resolved_schema_json = default_schema
+        if default_schema.exists():
+            resolved_schema_json = default_schema
+        else:
+            fallback_schema = Path.cwd() / "issue.schema.json"
+            if fallback_schema.exists():
+                resolved_schema_json = fallback_schema
+                typer.echo(
+                    "Project schema not found; falling back to repo-level issue.schema.json.",
+                    err=False,
+                )
+            else:
+                typer.secho(
+                    f"No schema found at {default_schema} or at repo root {fallback_schema}. "
+                    "Place an issue.schema.json in the project root or pass --schema-json explicitly.",
+                    fg=typer.colors.YELLOW,
+                    err=False,
+                )
+                raise typer.BadParameter(
+                    "Schema lookup failed; required schema missing."
+                )
     resolved_prompt_dir = resolve_prompt_dir(prompt_dir, project_root)
     default_drafts_dir = Path(f"{draft_prefix}_drafts") if draft_prefix else out_md_dir
     if draft_prefix and out_md_dir == Path("drafts"):

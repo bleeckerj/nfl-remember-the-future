@@ -145,7 +145,7 @@ If you want the simplest path, prefer the one-command `tools.publish_issue` flow
 
 The reason I did this is I wanted the articles to be based on real data from the report rather than hallucinated or made-up data. This is an important step in making AI-assisted writing more factually grounded, or so I am hypothesizing. 
 
-Each article could index directly back to an element in the report, and the relevant chunks of the report were pulled into the prompt to provide context. Then in the output of the draft, those indices (chunk number, and some other context free text) were included in the frontmatter so that the provenance of the article could be traced back to the report, evaluated for its faithfulness to the report, etc.
+Each article could index directly back to an element in the report, and the relevant chunks of the report were pulled into the prompt to provide context. Then in the output of the draft, those indices (chunk number, and some other context free text) were included in the frontmatter so that the provenance of the article could be traced back to the report, evaluated for its faithfulness to the report, etc. The frontmatter now also emits a `design_fiction` block with the fields from your design-fiction schema (titles, artifact data, publish flags, and image metadata) so the drafts can be dropped directly into the blog/novelty archive.
 
 If you are using project workspaces, add `--project-root projects/<name>` (or `--project <name>` where supported) and keep paths relative to that folder. If `projects/<name>/prompts/` exists, it overrides the global `prompts/`.
 
@@ -221,7 +221,7 @@ python -m tools.label_chunks --chunks report_chunks.json --out report_chunk_labe
    `python -m tools.auto_ground --issue intelligence_transition_full_issue.json --chunks report_chunk_labels.json --out-issue intelligence_transition_full_issue.grounded.json --report-context-out prompts/report_context.md --refs-per-article 2 --context-chunks 2 --include-ref-details`
 5) **Draft** (reads grounded issue, writes MD with frontmatter):  
    `python -m nfl_remember_the_future.cli --issue-json intelligence_transition_full_issue.grounded.json --prompt-dir prompts --article-id all --overwrite-existing`  
-   The drafter now assumes `issue.schema.json` lives in the project root; pass `--schema-json` only if you need a different schema location.
+The drafter now assumes `issue.schema.json` lives in the project root; pass `--schema-json` only if you need a different schema location. When you operate via `--project` (or `--project-root`), you no longer need to pass `--issue-json`; the command will look for `issue.grounded.json` first and fall back to `issue.json` inside that project tree. If the project doesn’t ship a schema, the CLI automatically looks for the canonical `issue.schema.json` in the repo root and warns if neither location exists.
 
 ### One-command corpus prep (project workflow)
 This wrapper runs steps 2–4, and will also run step 1 if the input file is HTML. Outputs are always written to `projects/<project>/`.
@@ -241,6 +241,20 @@ This writes:
 - `projects/my-project/report_chunk_labels.json`
 - `projects/my-project/issue.grounded.json`
 - `projects/my-project/prompts/report_context.md`
+By default `tools.prepare_corpus` checks for `projects/my-project/report_chunks.json` and `projects/my-project/report_chunk_labels.json` before running the chunking and labeling steps, respectively. If the files already exist, their steps are skipped automatically; add `--chunk-context` or `--relabel` to force fresh passes, or keep using `--skip-chunk/--skip-label` if you never want to regenerate those assets even when the files are missing.
+
+#### Adding new reports later
+If you add a report after an issue already exists, rerun `tools.prepare_corpus` with **all** reports that should be in the grounding corpus and force chunk/label refresh:
+```bash
+python -m tools.prepare_corpus \
+  --project my-project \
+  --input /path/to/reportA.md /path/to/reportB.md \
+  --issue issue.json \
+  --out-issue issue.grounded.json \
+  --chunk-context \
+  --relabel
+```
+Grounding depends on the combined chunk/label files; there is no incremental “append chunks” step yet.
 
 ### LLM-assisted issue.json generator
 Generates a starter `issue.json` from a report. Defaults: magazine=20 items, newspaper=20 items, catalog=30 items.
@@ -251,6 +265,7 @@ python -m tools.generate_issue \
   --artifact magazine
 ```
 You can override the count with `--num-items` and the model with `--model`. Use `--append` to add new articles (auto-increment ids) to an existing issue.json.
+> `generate_issue` now also summarizes the articles already in `issue.json` and includes that list in the prompt so the model is nudged toward new coverage when you append items.
 
 ### One-command end-to-end publish
 Generates `issue.json` if missing, prepares the corpus, grounds the issue, and drafts articles. This is the recommended default path.
@@ -267,6 +282,8 @@ Optional flags:
 - `--include-ref-details` (enriched grounding)
 - `--generate-image-prompt` (image prompts in frontmatter)
 - `--skip-chunk` / `--skip-label` (reuse existing chunks/labels)
+- `--chunk-context` (force chunking even when `report_chunks.json` already exists)
+- `--relabel` (force chunk labeling even when `report_chunk_labels.json` already exists)
 - `--skip-generate` / `--skip-prepare` / `--skip-draft` (skip stages)
 - `--overwrite-issue` / `--append-issue` (for issue generation) / `--overwrite-drafts` (force draft regeneration)
 
@@ -278,7 +295,7 @@ python -m tools.html_to_md --project-root "$project_root" --html "report.html" -
 python -m tools.chunk_report --project-root "$project_root" --md report.md --out report_chunks.json --out-md report_chunks.md --max-chars 1200 --overlap 200
 python -m tools.label_chunks --project-root "$project_root" --chunks report_chunks.json --out report_chunk_labels.json
 python -m tools.auto_ground --project-root "$project_root" --issue issue.json --chunks report_chunk_labels.json --out-issue issue.grounded.json --report-context-out prompts/report_context.md --refs-per-article 2 --context-chunks 2 --include-ref-details
-python -m nfl_remember_the_future.cli --project-root "$project_root" --issue-json issue.grounded.json --schema-json ../issue.schema.json --article-id all --overwrite-existing
+python -m nfl_remember_the_future.cli --project my-project --article-id all --overwrite-existing
 ```
 Notes:
 - If `projects/my-project/prompts/` exists, it overrides the global `prompts/`.

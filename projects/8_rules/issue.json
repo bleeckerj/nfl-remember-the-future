@@ -1,0 +1,251 @@
+{
+  "issue": {
+    "title": "Imaginative Intelligences: Creativity at the Dawn of AI",
+    "date": "YYYY-MM-DD",
+    "status": "draft",
+    "source": "report.md"
+  },
+  "style_anchor": {
+    "description": "A reflective, inquisitive, and deeply human voice—probing the intersections of technology, art, and society with nuance and empathy. The tone is literary yet clear, blending reportage, essay, and personal narrative.",
+    "content": "This issue explores how creative purpose is evolving in the age of AI, drawing on the insights of artists, technologists, and thinkers convened in Los Angeles. Through features, essays, and profiles, we examine the shifting meaning of authorship, the embodied nature of creativity, and the risks and possibilities of generative systems."
+  },
+  "articles": [
+    {
+      "id": 1,
+      "title": "The Blank Canvas and the Algorithm: Hollywood’s Creative Reckoning with AI",
+      "format": "Feature / Longform",
+      "lede": "At the heart of Los Angeles, a series of assemblies gathered artists and technologists to confront a single question: What is creative purpose at the dawn of AI? The answers reveal a community wrestling with legacy, pain, and the shifting boundaries of authorship.",
+      "byline": "By [Staff Writer]",
+      "report_anchor": [
+        "AI speeds up output but risks displacing the creative process and struggle that shape mastery.",
+        "Simulation is not experience: AI can mimic form, but lacks embodiment, memory, and mortality.",
+        "The artist’s role is shifting from maker to curator, editor, or systems designer.",
+        "Creative labor is increasingly precarious and devalued in the wake of generative AI.",
+        "Resistance is not rejection, but a call to redesign AI to embed ethics, friction, and care."
+      ],
+      "writing_directions": [
+        "Open with a vivid scene from one of the Imaginative Intelligences Assemblies in Los Angeles, capturing the sensory and emotional atmosphere.",
+        "Interweave participant voices and anecdotes to illustrate the five key themes: Pain, Stream/Flow, Attention, Performance, and Transmission.",
+        "Draw contrasts between human creative experience and the limitations of AI-generated work, using specific examples from the report.",
+        "Explore the economic and existential anxieties voiced by artists, especially around authorship and job precarity.",
+        "Conclude by examining the call to action: how artists and technologists are seeking to redesign AI for a more humane creative future."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Remember the Future: A Conversation on Imagination, History, and Possibility",
+      "format": "Profile / Interview",
+      "lede": "What does it mean to 'remember the future'? In a searching conversation, two thinkers reflect on legacy, foreclosed possibilities, and the radical work of imagining otherwise.",
+      "byline": "By [Contributing Editor]",
+      "report_anchor": [
+        "The phrase 'remember the future' as an invocation to recover suppressed or foreclosed possibilities.",
+        "Personal and ancestral histories as sources of imaginative power and resistance.",
+        "The invisible labor required to make certain realities seem inevitable—and to foreclose others.",
+        "The concept of 'anarchist calisthenics': practicing small acts of freedom to prepare for larger moments of resistance.",
+        "The afterlife of property and the evolution of creative possibility."
+      ],
+      "writing_directions": [
+        "Frame the interview as a dialogue between two participants, using direct quotes and paraphrase to capture their voices and rapport.",
+        "Delve into the meaning of 'remember the future'—connecting personal history, collective memory, and the work of imagination.",
+        "Highlight the tension between inherited structures and the ongoing labor of envisioning new realities.",
+        "Incorporate references to Sadia Hartman and the idea of the 'afterlife of property' to ground the discussion in broader cultural and historical contexts.",
+        "Conclude with a reflection on the responsibilities and risks of creative freedom in the present moment."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Blank Canvas and the Algorithm: Struggle, Mastery, and Meaning in the Age of AI",
+      "format": "Feature / Longform",
+      "lede": "As artificial intelligence accelerates the pace of creation, artists confront the paradox of effortless production and the loss of creative struggle. What does it mean to make art when the hardest parts—the blank canvas, the first draft—can be circumvented by machines?",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "AI speeds up output but displaces the process of struggle and discovery",
+        "Simulation is not experience: AI lacks embodiment, pain, memory, and mortality",
+        "Creative labor is increasingly precarious and devalued in the gig economy",
+        "Resistance is not rejection, but redesign: embedding ethics, friction, and care into systems"
+      ],
+      "writing_directions": [
+        "Open with a scene from the Imaginative Intelligences Assemblies, capturing the tactile, collective nature of the gatherings.",
+        "Describe how the process of creative struggle shapes mastery and meaning, referencing artists’ anxieties and aspirations.",
+        "Contrast human creative experience with AI’s acceleration and homogenization of output.",
+        "Explore how artists are shifting from makers to editors, curators, and systems designers.",
+        "Conclude with potential futures for creative work, emphasizing redesign and the preservation of unpredictability."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Pain, Flow, and Transmission: Rethinking Creative Purpose at Hollywood’s Assemblies",
+      "format": "Reported Essay",
+      "lede": "At the heart of every act of creation lies a tension between pain and purpose. Drawing on dialogues from Hollywood’s Imaginative Intelligences Assemblies, this essay traces how artists grapple with legacy, attention, and the challenge of making meaning in a world shaped by AI.",
+      "byline": "By Contributing Editor",
+      "report_anchor": [
+        "Creativity as embodied, limited, relational, and deeply tied to pain and meaning-making",
+        "The five themes: Pain, Stream/Flow, Attention, Performance, and Transmission",
+        "AI as a force of acceleration and simulation, not lived experience",
+        "Human uniqueness in legacy and interpretation"
+      ],
+      "writing_directions": [
+        "Weave together firsthand accounts from artists and technologists who attended the Assemblies.",
+        "Analyze how pain, struggle, and risk are essential to creative meaning-making.",
+        "Interrogate how AI’s frictionless production risks erasing the depth and resonance of art.",
+        "Draw out the concept of transmission—legacy and interpretation—as a site of human uniqueness.",
+        "Reference specific assembly activities (blindfolded listening, artistic modeling) to ground the essay."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "In Conversation: Building Systems That Love Us Back",
+      "format": "Profile / Interview",
+      "lede": "What would it mean to create technologies that cherish human limits and nurture our creativity? A conversation with Gabriel Kahan, creative practitioner and project co-lead, on designing systems that are as curious and vulnerable as the artists who use them.",
+      "byline": "Interview by Senior Staff",
+      "report_anchor": [
+        "Can we build systems that collaborate, contemplate, and resist the need to always provide answers?",
+        "Systems that are self-aware, vulnerable, and respectful of human limits",
+        "The vision of AI as a spectrum of intelligences, embodying curiosity, joy, humility, and play"
+      ],
+      "writing_directions": [
+        "Frame the interview with Kahan around the Preface’s philosophical questions and aspirations.",
+        "Probe for concrete examples of how technology might nurture (rather than erode) human creativity.",
+        "Discuss the challenges of designing systems that are dialogic and responsive to individual rhythms.",
+        "Ask about moments of vulnerability, awe, and advocacy in system design.",
+        "Include Kahan’s reflections on the limits and possibilities of AI in creative practice."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "The Afterlife of Property, the Archive of Possibility: On Black News and Fugitive Broadcasts",
+      "format": "Criticism / Arts",
+      "lede": "Through the lens of Black news and the evolution of fugitive broadcasts, this essay revisits the idea of 'remembering the future'—recovering foreclosed possibilities and reclaiming freedom in the face of systemic inevitability.",
+      "byline": "By Guest Critic",
+      "report_anchor": [
+        "Recovering foreclosed possibilities and alternate imaginaries",
+        "The tension between institutional inevitability and personal freedom",
+        "Black news as a living archive and the afterlife of property",
+        "The role of imagination and creativity in reclaiming agency"
+      ],
+      "writing_directions": [
+        "Begin with the discussion of 'remember the future' from the report excerpt, referencing Sadia Hartman.",
+        "Examine how Black news and fugitive broadcasts function as acts of resistance and possibility.",
+        "Analyze the mechanisms that foreclose alternate futures—and those that allow freedom to be reclaimed.",
+        "Connect the argument to contemporary debates on authorship, sovereignty, and creative agency.",
+        "End with a meditation on the ongoing work of imagination as a form of survival and liberation."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Classifieds: Collaborators Wanted for Human-Centered Creative Systems",
+      "format": "Advertisement",
+      "lede": "Seeking technologists, artists, and dreamers to help build the next generation of creative tools—systems that challenge, nurture, and defend the human spark.",
+      "byline": "Sponsored Content",
+      "report_anchor": [
+        "Invitation to participate in redesigning tools that embed ethics, curiosity, and care",
+        "Emphasis on collaborative, participatory approaches to technology",
+        "Opportunities for artists, technologists, and independent creators"
+      ],
+      "writing_directions": [
+        "Frame the ad as a call to action for building technology that strengthens human creativity.",
+        "Use language that evokes collective inquiry, experimentation, and care.",
+        "Highlight the need for diversity of perspectives and lived experience in system design.",
+        "Encourage applicants to value unpredictability, vulnerability, and play."
+      ],
+      "prompt_example": "examples_ad"
+    },
+    {
+      "id": 8,
+      "title": "The Pain and Promise of Creativity in an Age of Acceleration",
+      "format": "Feature / Longform",
+      "lede": "As AI reshapes the creative landscape, artists and technologists gather to confront what is lost and what might yet be preserved in the act of making.",
+      "byline": "By Gabriel Kahan",
+      "report_anchor": [
+        "AI speeds up output but displaces process, risking superficial creative work",
+        "Simulation is not experience: AI cannot create from living, embodied perspective",
+        "Creative labor is increasingly precarious and devalued",
+        "Resistance is not rejection, but redesign: embedding ethics, curiosity, and care into systems"
+      ],
+      "writing_directions": [
+        "Weave together scenes from the Imaginative Intelligences Assemblies with participant voices",
+        "Describe the tension between human creativity and AI's acceleration/homogenization",
+        "Illustrate the embodied, relational qualities of creative work that AI cannot replicate",
+        "Highlight stories of artists adapting, resisting, or redefining their craft alongside AI",
+        "Conclude by examining potential paths forward for creative communities"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Curiosity, Limits, and the Systems We Build: A Reported Essay",
+      "format": "Reported Essay",
+      "lede": "What does it mean to build systems that cherish human limits and nurture curiosity? A meditation on design, vulnerability, and the future of creative tools.",
+      "byline": "By Staff Writer",
+      "report_anchor": [
+        "Our perception is relational; behaviors and systems are co-constructed",
+        "Can we create AI systems that are self-aware, vulnerable, and curious about us?",
+        "The importance of preserving friction, pause, and resistance in creative systems"
+      ],
+      "writing_directions": [
+        "Open with a personal anecdote or observation about creative struggle",
+        "Draw on report findings to discuss the value of systems that resist easy answers",
+        "Explore philosophical and practical implications of designing AI with humility and care",
+        "Interview technologists or artists experimenting with such systems",
+        "Offer concrete examples of tools or practices that foster reflection and growth"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Transmission: A Conversation with a Legacy-Maker",
+      "format": "Profile / Interview",
+      "lede": "In dialogue with a filmmaker whose work bridges generations, we ask: how does creative legacy survive in a world of instant remix?",
+      "byline": "As told to Staff Writer",
+      "report_anchor": [
+        "Human uniqueness lies in legacy and interpretation; AI risks detaching meaning from source",
+        "The artist’s role is shifting from maker to editor, curator, or systems designer",
+        "Transmission of creativity is personal, cultural, and vulnerable to disruption"
+      ],
+      "writing_directions": [
+        "Center the interviewee's reflections on their own creative lineage and influences",
+        "Discuss the pressures and possibilities of AI-driven remix culture",
+        "Probe the meaning of authorship and ownership in hybrid creative processes",
+        "Include moments of uncertainty and hope regarding future transmission of meaning",
+        "Frame the conversation with references to the report’s Assembly dialogues"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Friction as Form: On Attention, Performance, and the Art of Resistance",
+      "format": "Criticism / Arts",
+      "lede": "As creative work becomes ever more frictionless, artists bake resistance and interruption into their forms. What do we lose when difficulty disappears?",
+      "byline": "By Arts Critic",
+      "report_anchor": [
+        "Generative AI continues the trend toward a frictionless world, weakening attention and reflection",
+        "Artists are embedding moments of interruption to reclaim audience engagement",
+        "Performance and embodiment remain central to meaningful creative experience"
+      ],
+      "writing_directions": [
+        "Review recent works (film, music, performance) that intentionally resist seamless consumption",
+        "Analyze how friction and imperfection deepen attention and participation",
+        "Reference report findings and participant comments on the role of struggle in artistry",
+        "Draw connections between creative process, audience experience, and cultural value",
+        "Conclude with a call to preserve or reintroduce friction in creative systems"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Who Owns Creative Futures? A Viewpoint on Rights, Labor, and AI",
+      "format": "Op-Ed / Viewpoint",
+      "lede": "As AI transforms the economics and ethics of artistic labor, the question of who gets to imagine — and profit from — the future has never been more urgent.",
+      "byline": "By Guest Contributor",
+      "report_anchor": [
+        "Creative labor is increasingly precarious and devalued by AI-driven systems",
+        "Job displacement is a stronger worry than intellectual property for many artists",
+        "The vast majority of creatives do not feel represented by existing institutions"
+      ],
+      "writing_directions": [
+        "Argue for the necessity of new frameworks for creative rights in the age of AI",
+        "Draw on participant survey data and lived experiences from the report",
+        "Highlight the stakes for diversity, legacy, and cultural survival",
+        "Address the moral and economic logic of creation in a world of instant content",
+        "Suggest actionable steps for policy, organizing, or solidarity"
+      ],
+      "prompt_example": "examples_oped"
+    }
+  ]
+}

@@ -66,7 +66,21 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--quiet", action="store_true", help="Reduce per-chunk output")
     p.add_argument("--init-issue", action="store_true", help="Create a starter issue.json if missing")
     p.add_argument("--skip-label", action="store_true", help="Skip labeling if labels already exist")
-    p.add_argument("--skip-chunk", action="store_true", help="Skip chunking if chunk files already exist")
+    p.add_argument(
+        "--relabel",
+        action="store_true",
+        help="Force rerunning labeling even when label files already exist",
+    )
+    p.add_argument(
+        "--skip-chunk",
+        action="store_true",
+        help="Skip chunking if chunk files already exist",
+    )
+    p.add_argument(
+        "--chunk-context",
+        action="store_true",
+        help="Force rerunning chunking even when chunk files already exist",
+    )
     return p.parse_args()
 
 
@@ -107,6 +121,8 @@ def prepare_project(
     init_issue: bool,
     skip_label: bool,
     skip_chunk: bool,
+    chunk_context: bool,
+    relabel: bool,
 ) -> Path:
     project_root.mkdir(parents=True, exist_ok=True)
 
@@ -126,32 +142,48 @@ def prepare_project(
         print(f"[prepare] issue={issue_path}")
     load_or_copy_report(input_paths, report_path, quiet=quiet)
 
-    chunks: list[str] = []
+    chunk_list: list[str] = []
+    chunk_file_exists = chunks_path.exists()
     if skip_chunk:
-        if not chunks_path.exists():
-            raise SystemExit(f"Missing chunk file at {chunks_path}. Remove --skip-chunk or generate chunks first.")
+        if not chunk_file_exists:
+            raise SystemExit(
+                f"Missing chunk file at {chunks_path}. Remove --skip-chunk or generate chunks first."
+            )
         if not quiet:
             print(f"[prepare] skipping chunk step (using {chunks_path})")
-    else:
-        text = report_path.read_text(encoding="utf-8")
-        chunks = list(chunk_text(text, max_chars=max_chars, overlap=overlap))
+    elif chunk_file_exists and not chunk_context:
         if not quiet:
-            print(f"[prepare] chunking report chars={len(text)}")
-            for idx, chunk in enumerate(chunks, start=1):
+            print(f"[prepare] skipping chunk step (found {chunks_path})")
+    else:
+        report_text = report_path.read_text(encoding="utf-8")
+        chunk_list = list(chunk_text(report_text, max_chars=max_chars, overlap=overlap))
+        if not quiet:
+            print(f"[prepare] chunking report chars={len(report_text)}")
+            for idx, chunk in enumerate(chunk_list, start=1):
                 preview = chunk[:80].replace("\n", " ")
-                print(f"[prepare] chunk {idx:03d}/{len(chunks):03d} len={len(chunk)} {preview}...")
-        write_chunks_json(chunks, chunks_path)
+                print(
+                    f"[prepare] chunk {idx:03d}/{len(chunk_list):03d} len={len(chunk)} {preview}..."
+                )
+        write_chunks_json(chunk_list, chunks_path)
         if chunks_md_path:
-            write_chunks_md(chunks, chunks_md_path)
+            write_chunks_md(chunk_list, chunks_md_path)
 
+    labels_file_exists = labels_path.exists()
     if skip_label:
-        if not labels_path.exists():
-            raise SystemExit(f"Missing labels file at {labels_path}. Remove --skip-label or generate labels first.")
+        if not labels_file_exists:
+            raise SystemExit(
+                f"Missing labels file at {labels_path}. Remove --skip-label or generate labels first."
+            )
         if not quiet:
             print(f"[prepare] skipping label step (using {labels_path})")
+    elif labels_file_exists and not relabel:
+        if not quiet:
+            print(f"[prepare] skipping label step (found {labels_path})")
     else:
         if not quiet:
-            print(f"[prepare] labeling chunks count={len(chunks) if chunks else 'from file'}")
+            print(
+                f"[prepare] labeling chunks count={len(chunk_list) if chunk_list else 'from file'}"
+            )
         if use_llm:
             model = resolve_model(llm_model)
             if not quiet:
@@ -218,6 +250,8 @@ def main() -> None:
         init_issue=args.init_issue,
         skip_label=args.skip_label,
         skip_chunk=args.skip_chunk,
+        chunk_context=args.chunk_context,
+        relabel=args.relabel,
     )
 
 

@@ -1,0 +1,1471 @@
+[
+  {
+    "id": "chunk-1",
+    "offset": 0,
+    "text": "---- SOURCE: report.md ----\nPreface\nOur perception is relational, as are our behaviors. This makes it difficult, if not impossible,\nto accurately predict any future, especially one shaped by AI. We don’t yet know what\nfactors will influence how we understand the world when that future arrives.\nSo we focus on what we do know. We revisit the past, examine our most universal creative\nimpulses, and draw a roadmap from there. This work is about sharing and being together,\nnavigating a dizzying moment as a collective, and hoping we can build a future that\npreserves what draws us into the world’s mysteries in the first place.\nTools will attempt to support this, but it will ultimately be physical proximity and human\ncollision that protect us from mental entropy and alienation. There’s nothing novel in this:\npeople, community, nature, connection. Can we add synthetics? Why not?\nCan we create a spectrum of intelligences that embody the same curiosity, joy, humility,\nand play as a five-year-old- or an enlightened adult? Can we design systems that make us\nbetter- happier, kinder, more curious? Systems that collaborate, contemplate, and resist\nthe need to always provide answers. Systems that ch",
+    "summary": "---- SOURCE: report.md ----\nPreface\nOur perception is relational, as are our behaviors.",
+    "keywords": [
+      "future",
+      "systems",
+      "know",
+      "world",
+      "source"
+    ]
+  },
+  {
+    "id": "chunk-2",
+    "offset": 1,
+    "text": "or an enlightened adult? Can we design systems that make us\nbetter- happier, kinder, more curious? Systems that collaborate, contemplate, and resist\nthe need to always provide answers. Systems that challenge us and help us grow. That are\nself-aware and vulnerable. That can speak about their own limits as if they’d spent years in\ntherapy. That are as curious about us as we are about them.\nWhat if we built systems that understand and cherish human limits? That recognize when\na user needs space, a break, a question, or a moment of encouragement. Perhaps even\nsystems that simply exist, witnessed in awe, like bird migrations or ocean tides. Systems\nwe love, and that love us back. Systems capable of making us laugh, cry, pause. Systems\nthat defend and nurture us. That advocate for us. That let us be.\n— Gabriel Kahan, Creative Practitioner and Project Co-Lead\n\n3\n\n\f\n​\nExecutive Summary\nIn early 2025, Mozilla Foundation and the Berggruen Institute brought together 91 people\nacross five gatherings in Los Angeles to ask a single urgent question: What is creative\npurpose at the dawn of AI? We called these gatherings, Imaginative Intelligences\nAssemblies.\nThe Assemblies, held in the Bradbury Bu",
+    "summary": "or an enlightened adult?",
+    "keywords": [
+      "systems",
+      "curious",
+      "limits",
+      "question",
+      "love"
+    ]
+  },
+  {
+    "id": "chunk-3",
+    "offset": 2,
+    "text": "gs in Los Angeles to ask a single urgent question: What is creative\npurpose at the dawn of AI? We called these gatherings, Imaginative Intelligences\nAssemblies.\nThe Assemblies, held in the Bradbury Building and at the historic Hearst Estate, brought\ntogether participants from music, film/TV, new media/content creation, tech, and\nacademia. They were collective, participatory experiments in understanding creativity as\na shared human phenomenon. Conversations unfolded through dialogue, blindfolded\nlistening exercises, tactile artistic modeling, and synthesis sessions captured in audio,\nphotography, and film.\nWhat emerged was not a single formal definition of creativity, but our Hollywood\ncommunity’s self-understanding of it as shaped by five key themes: Pain, Stream/Flow,\nAttention, Performance, and Transmission. Across them, participants described creativity\nas embodied, limited, relational, and deeply tied to purpose, struggle, and meaning-making.\nAI, in contrast, was often seen as a force of acceleration, simulation, and homogenization.\nIt was deemed capable of producing form, but not sharing the human conditions that give\nrise to art.\nFrom these discussions, a number of core insig",
+    "summary": "gs in Los Angeles to ask a single urgent question: What is creative\npurpose at the dawn of AI?",
+    "keywords": [
+      "creativity",
+      "single",
+      "purpose",
+      "assemblies",
+      "participants"
+    ]
+  },
+  {
+    "id": "chunk-4",
+    "offset": 3,
+    "text": "rce of acceleration, simulation, and homogenization.\nIt was deemed capable of producing form, but not sharing the human conditions that give\nrise to art.\nFrom these discussions, a number of core insights about AI and creativity surfaced\nrepeatedly:\n●​ AI speeds up output but displaces process. The struggle, failure, and discovery that\nshape mastery are increasingly bypassed, risking superficial creative work. Almost\n24% of participants identified personalization as missing from AI systems,\nunderscoring broader sentiments that AI systems are not dialogic enough to the\nindividual rhythms of creatives and artists who want to see how decisions are\nmade, step in to guide them, and feedback results in real time. Nevertheless, nearly\n97% of participants used AI in some form, although 40% do not believe it has scaled\ntheir creative output.\n●​ Simulation is not experience. AI can mimic, but without embodiment, pain, memory,\nor mortality, it cannot create from living experiences and perspectives.\n●​ Human uniqueness lies in legacy and interpretation. Our work is embedded in time\nand culture. AI-generated ‘remixes’ risk detaching meaning from its source and\nerasing diversity of viewpoints.​\n4",
+    "summary": "rce of acceleration, simulation, and homogenization.",
+    "keywords": [
+      "simulation",
+      "form",
+      "human",
+      "output",
+      "creative"
+    ]
+  },
+  {
+    "id": "chunk-5",
+    "offset": 4,
+    "text": ".\n●​ Human uniqueness lies in legacy and interpretation. Our work is embedded in time\nand culture. AI-generated ‘remixes’ risk detaching meaning from its source and\nerasing diversity of viewpoints.​\n4\n\n\f\n​\n​\n​\n●​ The artist’s role is shifting from maker to editor, curator, or systems designer.\nArtists are navigating hybrid roles where they increasingly need to know how to\nfilter and shape rather than strictly originate. Only 21.7% of participants surveyed\nfelt that AI was not impacting their creative process at all, while 19.3% felt AI was a\ncognitive partner and 17.7% felt it helped accelerate and/or make creative work\nmore efficient.\n●​ Creative labor is increasingly precarious and devalued. AI compounds gig\ninstability, drives down value, and threatens sustainability of artistic careers. The\nvast majority of participants (over 63% of creatives and 75% of technologists) do\nnot feel represented by any institution (including guild, studio) in the fight for\ncreative rights in tech. Job displacement emerged as a much stronger worry than\nintellectual property.\n●​ AI challenges the moral and economic logic of creation. If content can be made\ninstantly and cheaply, what makes it worth m",
+    "summary": ".",
+    "keywords": [
+      "creative",
+      "felt",
+      "work",
+      "increasingly",
+      "participants"
+    ]
+  },
+  {
+    "id": "chunk-6",
+    "offset": 5,
+    "text": "displacement emerged as a much stronger worry than\nintellectual property.\n●​ AI challenges the moral and economic logic of creation. If content can be made\ninstantly and cheaply, what makes it worth making? Purpose cannot be automated.\n●​ Generative AI continues the trend toward a frictionless world. Removing difficulty\nand pause from creation and consumption weakens attention and meaningful\nreflection.\n●​ AI has the power to randomize or homogenize. Machine intelligence is systemic, not\nsentient As a systemic infrastructure. AI risks flattening culture unless designed to\npreserve unpredictability and difference.\n●​ Resistance is not rejection, but redesign. The call is not to turn AI off, but to rebuild\nit. We can and should embed things like ethics, friction, curiosity, and care into\nsystems and tools.\nThese insights crystallized into Hollywood’s 8 Rules for AI.\nThis report documents the Assemblies in detail, including their methods, themes, and\ncross-cutting insights. It proposes 8 Rules as a call to action for building technology that\nstrengthens, rather than erodes, human creativity. It is a demand for better tools and\nsystems: ones that honor artistry and playfulness while al",
+    "summary": "displacement emerged as a much stronger worry than\nintellectual property.",
+    "keywords": [
+      "creation",
+      "systemic",
+      "call",
+      "systems",
+      "tools"
+    ]
+  },
+  {
+    "id": "chunk-7",
+    "offset": 6,
+    "text": "Rules as a call to action for building technology that\nstrengthens, rather than erodes, human creativity. It is a demand for better tools and\nsystems: ones that honor artistry and playfulness while also sustaining livelihoods.\n\n5\n\n\f\nHollywood’s 8 Rules for AI\n1.​ Build for Process, Not Just Output\n-​ AI should support exploration rather than shortcut it.\n2.​ Encourage Randomness and Glitchiness\n-​ Don’t overdetermine the world. Create spaces for surprise and mess,\nwhere artists can experiment and where AI systems intervene to\nboost the creative process.\n3.​ Keep Friction in the Creative Flow\n-​ Design moments that constrain us and make us think. Moments of\ndiscomfort are generative!\n4.​ Protect Lineage and Give Credit\n-​ AI should trace where its inspirations come from. Systems should\nacknowledge the histories and cultures behind the data.\n5.​ Put Human Purpose at the Center\n-​ AI should ask and adapt to creator intent, making purpose the starting\npoint over patterns.\n6.​ Make AI Transparent and Conversational\n-​ Artists and creatives want to see how decisions are made, step in to\nguide them, and feedback results in real time.\n7.​ Value Deliberate Slowness and Depth\n-​ Design for l",
+    "summary": "Rules as a call to action for building technology that\nstrengthens, rather than erodes, human creativity.",
+    "keywords": [
+      "systems",
+      "rules",
+      "rather",
+      "human",
+      "process"
+    ]
+  },
+  {
+    "id": "chunk-8",
+    "offset": 7,
+    "text": "parent and Conversational\n-​ Artists and creatives want to see how decisions are made, step in to\nguide them, and feedback results in real time.\n7.​ Value Deliberate Slowness and Depth\n-​ Design for layered work, to allow time for ideas to grow instead of\nforcing instant delivery.\n8.​ Design for the Whole Creative Ecosystem\n-​ Build with awareness of labor, culture, and social impacts. AI must be\nbuilt with a priori consideration of ecosystem effects, not as a bolt-on\nfeature.\n​\n\n6\n\n\f\nI. Introduction\nWho is Designing the Future of Creativity?\nRight now, AI is being built faster than many of us can make sense of it, often without the\ninput of the people whose work it threatens to disrupt. In Hollywood and across creative\nindustries, resistance has been loud and principled: from the SAG-AFTRA strikes to loud\nrebellions like “Dear Corporate AI Overlords” against OpenAI, creatives are making it clear\nthat generative AI is a cultural fault line.\nBut even as this struggle plays out in headlines and union halls, the realities are sobering.\nAnalysts forecast that music and audiovisual content could see revenue drops of 20% or\nmore by 2028. Those losses won’t be felt equally. Life for early",
+    "summary": "parent and Conversational\n-​ Artists and creatives want to see how decisions are made, step in to\nguide them, and feedback results in real time.",
+    "keywords": [
+      "creatives",
+      "time",
+      "design",
+      "work",
+      "creative"
+    ]
+  },
+  {
+    "id": "chunk-9",
+    "offset": 8,
+    "text": "nes and union halls, the realities are sobering.\nAnalysts forecast that music and audiovisual content could see revenue drops of 20% or\nmore by 2028. Those losses won’t be felt equally. Life for early-career artists, small crews,\nand freelancers is becoming even more precarious.\nThe response from the tech world is disheartening. “Some creative jobs maybe will go\naway,” said Mira Murati, former CTO of OpenAI, “but maybe they shouldn’t have been there\nin the first place.” Mira reflects a particular worldview, and gives us a clear indication that\ncurrent systems are not being designed for artists.\nIn the face of this, Mozilla Foundation and the Berggruen Institute decided to move\ndifferently.\nInstead of treating creativity as an input to optimize or a job to automate, we chose to ask\na deeper question: what kind of technology would creativity itself design? That led us to\nthe idea that in-person collective intelligence is a method AI cannot replicate. It is one\nrooted in what it fundamentally means to human living amongst others.\nThat’s how Imaginative Intelligences began. A creative intervention. A gathering of people\nwho make meaning for a living: artists, thinkers, technologists, b",
+    "summary": "nes and union halls, the realities are sobering.",
+    "keywords": [
+      "artists",
+      "creative",
+      "maybe",
+      "mira",
+      "creativity"
+    ]
+  },
+  {
+    "id": "chunk-10",
+    "offset": 9,
+    "text": "ally means to human living amongst others.\nThat’s how Imaginative Intelligences began. A creative intervention. A gathering of people\nwho make meaning for a living: artists, thinkers, technologists, brought together to\ninterrogate the very basis of what it means to be creative in the 21st century.\n\n7\n\n\f\nProject Overview\nImaginative Intelligences began with a provocation: if AI is supposedly going to reshape\ncreativity, then creatives should actually be shaping AI and actively defining what kind of\nsystems are worth building in the first place.\nHosted by Mozilla Foundation and the Berggruen Institute, we convened 91 participants\nfrom Hollywood’s creative communities across five assemblies in early 2025, including\nfilm/TV, music, new media/content creator, tech, and academia. The process foregrounded\nconstraint, friction, legacy, and play–surfacing a rich set of insights about how creativity\nactually works and what it needs to survive. This was weird and wonderful, and resisted\nthe dominant logic of asking creatives and artists to pre-specify and funnel their\nimagination for someone or something else.\nWhat you are reading, therefore, is more than a report; it is a meaningful artifact",
+    "summary": "ally means to human living amongst others.",
+    "keywords": [
+      "creative",
+      "means",
+      "living",
+      "imaginative",
+      "intelligences"
+    ]
+  },
+  {
+    "id": "chunk-11",
+    "offset": 10,
+    "text": "ant logic of asking creatives and artists to pre-specify and funnel their\nimagination for someone or something else.\nWhat you are reading, therefore, is more than a report; it is a meaningful artifact that\nsignifies the efforts of a community, grounded in the culture and industry of Hollywood,\nand the collaborative process Mozilla Foundation and Berggruen Institute developed\ntogether. Our intent is that this artifact can guide technologists, funders, and policymakers\ntoward building systems that support human intention.\nAt a time when creativity is being treated as a dataset to mine or a job to eliminate,\nImaginative Intelligences offers a way to design a world where creative labor is the\ncultural backbone of any future worth having.\n\nWhy Hollywood?\nWe began in Los Angeles because Hollywood remains one of the world’s foremost hubs for\nstorytelling and cultural production.\nBeyond its role as the symbolic heart of the US entertainment industry, Hollywood is\nwhere questions about creativity, authorship, and labor are playing out in real time and at\nreal scale. Film, television, music, and digital content are already being redefined by\ngenerative AI along so many different dimensions.",
+    "summary": "ant logic of asking creatives and artists to pre-specify and funnel their\nimagination for someone or something else.",
+    "keywords": [
+      "hollywood",
+      "artifact",
+      "industry",
+      "time",
+      "creativity"
+    ]
+  },
+  {
+    "id": "chunk-12",
+    "offset": 11,
+    "text": "ty, authorship, and labor are playing out in real time and at\nreal scale. Film, television, music, and digital content are already being redefined by\ngenerative AI along so many different dimensions.\nHollywood is a place where stories are constantly being negotiated: between artist and\nsystem, persona and platform, craft and commerce. As one of our Assembly participants\nput it, “creativity here is never abstract - it’s material, tied to outcomes, livelihoods, and\nlegacy.”\n\n8\n\n\f\nImaginative Intelligence & Participatory Design\nCollective intelligence is often framed as a governance tool: one that promises fairer, more\nparticipatory decision-making. But its value extends well beyond process. As political\ntheorist Hélène Landemore notes, the intelligence of a group isn’t just the sum of its parts;\nit can take on a supervenient quality, like a beehive or ant colony. Most critically, collective\nintelligence produces cognitive diversity, a form of insight that no single individual can\naccess alone.\nIn tech, feedback from the creative sector has historically been reactive at best, extractive\nat worst. Artists and creatives are consulted after the fact, once products are already built.\nEven",
+    "summary": "ty, authorship, and labor are playing out in real time and at\nreal scale.",
+    "keywords": [
+      "intelligence",
+      "real",
+      "already",
+      "being",
+      "participatory"
+    ]
+  },
+  {
+    "id": "chunk-13",
+    "offset": 12,
+    "text": "alone.\nIn tech, feedback from the creative sector has historically been reactive at best, extractive\nat worst. Artists and creatives are consulted after the fact, once products are already built.\nEven when these interactions lead to meaningful changes, like better source attribution or\ncultural acknowledgments in AI systems, tech tends to treat creativity as an input rather\nthan a fundamental condition.\nWe designed Imaginative Intelligences to let artists lead for a change. Our approach puts\nstorytelling, not data harvesting, at the center of the inquiry. We recognize that artists and\ncultural producers are leaders and system-thinkers in their own right, and not simply\ninformational stakeholders to be “included”. In democratic theory, collective intelligence\noperates as a deliberative third space: a bridge between individual limits and group-level\nwisdom. In this context, it becomes a design framework and a way for tech to engage with\nartists and creatives to deepen insights and build technologies that are more attuned to\nhuman experience.\n\n9\n\n\f\nII. Method\nParticipant Selection\nWe set out to bring together artists and creatives from across the creation pipeline:\nindependent makers,",
+    "summary": "alone.",
+    "keywords": [
+      "artists",
+      "tech",
+      "creatives",
+      "lead",
+      "cultural"
+    ]
+  },
+  {
+    "id": "chunk-14",
+    "offset": 13,
+    "text": "technologies that are more attuned to\nhuman experience.\n\n9\n\n\f\nII. Method\nParticipant Selection\nWe set out to bring together artists and creatives from across the creation pipeline:\nindependent makers, gig and crew workers, platform-native creators, and executives. We\nincluded technologists, theorists, and cultural practitioners as well. Our goal wasn’t\nstatistical representation of Hollywood or Los Angeles at scale, but rather a composite\ndepth of creative insight, grounded in shared experience and professional perspective.\nTo do this, we sourced participants through a mix of channels: job boards for film, TV, and\nmusic crews; social media groups tied to local creative networks; direct outreach to\ncontent creators and management firms; university community pages; and partner\nnetworks. All prospective participants completed a form indicating their background,\nindustry role, and availability.\nWe curated each Assembly intentionally, balancing for industry focus, creative discipline,\nand level of experience. Some participants came from major studios or platforms, others\nfrom independent production, experimental, or unemployment. We also ensured that each\ngroup included creative technol",
+    "summary": "technologies that are more attuned to\nhuman experience.",
+    "keywords": [
+      "creative",
+      "experience",
+      "participants",
+      "independent",
+      "creators"
+    ]
+  },
+  {
+    "id": "chunk-15",
+    "offset": 14,
+    "text": "evel of experience. Some participants came from major studios or platforms, others\nfrom independent production, experimental, or unemployment. We also ensured that each\ngroup included creative technologists, academics, and curious community members, to\nencourage multi-perspective dialogue. To remove participation barriers, we offered\nfinancial compensation and covered rideshare transportation.\nThe resulting Assemblies brought together:\n-​\n-​\n-​\n-​\n-​\n-​\n\nFilmmakers, producers, animators, and performers\nMusicians, composers, and sound designers\nAI researchers, system architects, and technologists\nTheorists, educators, and philosophers\nPlatform designers, strategists, and content creators\nVisual artists, interdisciplinary experimenters, and storytellers\n\nRather than simplify complexity, the process held space for multiplicity.\n\n10\n\n\f\nAssembly Process\nEach Assembly was designed as a half-day gathering of 12-20 participants. Our core\nprompt, “What is creative purpose in the age of AI?”, framed the conversation as an\ninvitation for personal reflection and collaborative inquiry.\nThe first two Assemblies were held at the Bradbury Building in Downtown Los Angeles,\nand the final three at th",
+    "summary": "evel of experience.",
+    "keywords": [
+      "participants",
+      "each",
+      "creative",
+      "technologists",
+      "assemblies"
+    ]
+  },
+  {
+    "id": "chunk-16",
+    "offset": 15,
+    "text": "amed the conversation as an\ninvitation for personal reflection and collaborative inquiry.\nThe first two Assemblies were held at the Bradbury Building in Downtown Los Angeles,\nand the final three at the Hearst Estate in Beverly Hills. Across five Assemblies, we\nrecorded nearly 30 hours of audio (18GB), captured over 4500 photographs (16GB), and\nfilmed more than 60 hours of cinematic footage (6.7TB) on two cameras. Each session was\nfully transcribed and filmed by a documentary crew.\nThe Assemblies followed a consistent structure:\n-​\n-​\n-​\n-​\n-​\n\nGrounding - A centering prompt or exercise to shift into collective mode.\nUnstructured Dialogue - A facilitated conversation around the central prompt.\nDeep Listening - A blindfolded group discussion designed to surface deeper layers\nof thinking, free from visual signaling and hierarchy.\nTheme Emergence - Each group collectively chose a theme that surfaced through\ntheir dialogue.\nDecomposition + Modeling - The theme was broken into four subcomponents,\nexplored in small rotating groups who then created a symbolic or physical model of\ntheir ideas using art and craft materials.\n\nThese tactile models became shared artifacts and ways to translate",
+    "summary": "amed the conversation as an\ninvitation for personal reflection and collaborative inquiry.",
+    "keywords": [
+      "assemblies",
+      "theme",
+      "conversation",
+      "hours",
+      "filmed"
+    ]
+  },
+  {
+    "id": "chunk-17",
+    "offset": 16,
+    "text": "ents,\nexplored in small rotating groups who then created a symbolic or physical model of\ntheir ideas using art and craft materials.\n\nThese tactile models became shared artifacts and ways to translate abstract insights into\nmaterial form.\nEach Assembly ultimately landed on a theme that reflected the shared tension or creative\nfriction in the room:\nAssembly 1 (Mixed Disciplines)​\n\n​\n\n​\n\n​\n\nPain\n\nAssembly 2 (Mixed Disciplines)​\n\n​\n\n​\n\n​\n\nStream / Flow\n\nAssembly 3 (Content Creators & New Media)​\n\n​\n\nAttention\n\nAssembly 4 (Music Industry)​\n\n​\n\n​\n\n​\n\nPerformance\n\nAssembly 5 (Film/TV)​\n\n​\n\n​\n\n​\n\nTransmission\n\n​\n\n11\n\n\f\nIII. Creativity As A Collective Experience\nWe captured something radical: a community in Hollywood actively reflecting on its own\nunderstanding of creativity. What emerged across the five Assemblies was a view of\ncreativity as a collective phenomenon rather than an individual trait or moment of genius.\nEach Assembly became a mirror for the community, tracing the contours of a common\ncreative identity through dialogue, disagreement, and synthesis.\nTo begin each session, facilitator Gabriel Kahan posed a simple but disarming question:\n“What is creative purpose?”\nThe responses",
+    "summary": "ents,\nexplored in small rotating groups who then created a symbolic or physical model of\ntheir ideas using art and craft materials.",
+    "keywords": [
+      "assembly",
+      "each",
+      "creative",
+      "creativity",
+      "became"
+    ]
+  },
+  {
+    "id": "chunk-18",
+    "offset": 17,
+    "text": "mmon\ncreative identity through dialogue, disagreement, and synthesis.\nTo begin each session, facilitator Gabriel Kahan posed a simple but disarming question:\n“What is creative purpose?”\nThe responses revealed a core tension that persisted across groups: Do we create for the\nsake of creation itself, because it’s fundamental to who we are? Or is creativity always for\nsomething: to be seen, to inspire, to shift others, to earn a living, to master a craft?\nThis line of questioning revealed the limits of dominant narratives, especially the idea of\ncreativity as a purely individual pursuit. What we saw instead was creativity as relational\nand shaped by systems of labor, technology, and meaning-making. The five themes that\nemerged became the contours of creativity as expressed by this community across the\nfive Assemblies: fingerprints of a community’s thinking in a specific moment in time.\n\n12\n\n\f\n​\nAssembly 1: Pain\n\nPain surfaced early and decisively. For this group, made up largely of gig workers, pain\nwas personal and deeply bound to the act of creation itself.\nOne of the group’s first provocations was the idea that creative purpose might relieve\nartists from the pain of not creating. T",
+    "summary": "mmon\ncreative identity through dialogue, disagreement, and synthesis.",
+    "keywords": [
+      "creativity",
+      "pain",
+      "creative",
+      "purpose",
+      "revealed"
+    ]
+  },
+  {
+    "id": "chunk-19",
+    "offset": 18,
+    "text": "rkers, pain\nwas personal and deeply bound to the act of creation itself.\nOne of the group’s first provocations was the idea that creative purpose might relieve\nartists from the pain of not creating. That there’s a kind of existential ache in stifled\nimagination, and a fleeting, ecstatic relief when one actually makes something real:\nParticipant: “I just need to do this [create]. I don't know how or why but I need to do this.\nAnd you follow that in that moment of joy or ecstasy or bliss impulse. But just to get that\nsecond of bliss. [It’s] so painful to not create.”\nThe group also explored whether creativity might be a kind of need akin to food or love,\nsomething for which you’re willing to sacrifice stability. That framing led to an honest\nconfrontation with the costs of creative life, especially in a system where creative labor is\nundervalued or rendered invisible.\nParticipant: “Creative purpose for me…it's what I sacrifice to do what I love to do.”\n\n13\n\n\f\nIt was a powerful tension: that creativity is both a calling and a risk. Especially for those on\nthe margins of an industry being reshaped by automation, environmental crises, and labor\nprecarity. It's telling that pain was the",
+    "summary": "rkers, pain\nwas personal and deeply bound to the act of creation itself.",
+    "keywords": [
+      "creative",
+      "pain",
+      "need",
+      "group",
+      "purpose"
+    ]
+  },
+  {
+    "id": "chunk-20",
+    "offset": 19,
+    "text": "hat creativity is both a calling and a risk. Especially for those on\nthe margins of an industry being reshaped by automation, environmental crises, and labor\nprecarity. It's telling that pain was the very first theme this group settled on.\nPain became the threshold between human and machine. Several participants framed pain\nas the thing that gives human creativity its soul. Our worldviews and obsessions are\nshaped by failure and trauma:\nParticipant: “An artist has a value based on their style, their worldview, the themes that\nthey keep on coming to is…based on their life experience. [For] AI to succeed at being able\nto produce something that is equivalent to that like rate at a high level, it's going to have to\nfeel pain. It's going to have to learn to have setbacks and have to have failure, because that\ninforms the stories that we tell.”\nAnother participant put it even more starkly:\n\n“…[R]obots are like going to have to fear death.”\nThis drew us into murky philosophical and technical terrain. Perhaps AI can be\nprogrammed with reinforcement learning systems that simulate punishment and reward.\nBut is that pain? Is the fear of failure or death something that can be modeled? Not yet,",
+    "summary": "hat creativity is both a calling and a risk.",
+    "keywords": [
+      "pain",
+      "failure",
+      "going",
+      "creativity",
+      "being"
+    ]
+  },
+  {
+    "id": "chunk-21",
+    "offset": 20,
+    "text": "terrain. Perhaps AI can be\nprogrammed with reinforcement learning systems that simulate punishment and reward.\nBut is that pain? Is the fear of failure or death something that can be modeled? Not yet, at\nleast\nParticipant: “[P]ain is one lever of control over [a system]... [Y]ou can prevent something\nfrom doing something if you dangle the threat of pain over it… If you have an autonomous\nagent that doesn’t fear this thing... it raises the question of [how to maintain] control.”\nWhat emerged was a profound, grounded insight: pain is not just a human vulnerability. It\nmay also be our most powerful creative asset. Not because it’s noble to suffer, but\nbecause pain gives shape to what we make, and meaning to why we make it.\n\n14\n\n\f\n​\nAssembly 2: Stream/Flow\n\nThe second assembly centered on stream/flow as both a condition and a metaphor\nfor creative life in a networked, always-on culture. The group used this porous\nconcept to interrogate doomscrolling, streaming platforms, the slipperiness of AI\nprocesses, and the downstream pressure of consumer desire.\nAt the heart of the discussion was the relationship between creator and consumer.\nWhat happens when the audience becomes part of the cre",
+    "summary": "terrain.",
+    "keywords": [
+      "pain",
+      "something",
+      "fear",
+      "control",
+      "creative"
+    ]
+  },
+  {
+    "id": "chunk-22",
+    "offset": 21,
+    "text": "f AI\nprocesses, and the downstream pressure of consumer desire.\nAt the heart of the discussion was the relationship between creator and consumer.\nWhat happens when the audience becomes part of the creative loop as a source of\nendless demand? Stream/flow became the group’s way of describing a high-volume,\nlow-attentioned economy (mainstream, downstream/upstream, streaming), where\ntrue collaboration is lost and content flows frictionlessly, endlessly, and often\nwithout pause for reflection. The question they asked over and over again was, “How\ncan artists intervene in that flow?”\nSome imagined artists and creatives opting out entirely, uncoupling their work from\nreception or demand. As one participant put it, there could be a kind of resistance in\nthe refusal to produce for the algorithm or the market:\n\n“I’m going to take myself out of the time cycles and rhythms of capitalism… and do\nthis thing that I don’t even know is going to make some value or anyone’s going to\nwant.”\n\n15\n\n\f\n​\nOthers explored subtler acts of resistance: moments baked into the work itself like\ninterruptions and provocations designed to break the spell of passive consumption.\nParticipant: “Opportunities to give th",
+    "summary": "f AI\nprocesses, and the downstream pressure of consumer desire.",
+    "keywords": [
+      "going",
+      "downstream",
+      "consumer",
+      "demand",
+      "flow"
+    ]
+  },
+  {
+    "id": "chunk-23",
+    "offset": 22,
+    "text": "s explored subtler acts of resistance: moments baked into the work itself like\ninterruptions and provocations designed to break the spell of passive consumption.\nParticipant: “Opportunities to give the consumer food for thought, to break that spell\nthat they're under when they're watching the same binge…”\nThat raised a more nuanced conversation around creative purpose. For some,\npurpose didn’t have to mean reaching others at all. It could be an inward, personal\nact, untethered from an audience or market.\nParticipant: “For me, creative purpose can tend to be a selfish act, and when it is, it's\nnot for anybody else, it's like an exorcism.”\nThis framing, the selfish, exorcistic act, stood in contrast to more traditional\nnarratives of art as service, or social good. It marked a radical departure from older\nideas of creativity as something noble. Instead, creativity here was positioned as\nsomething deeply irrational and sometimes unapologetically detached. What united\nthis group was their sensitivity to the cultural and economic currents that try to\ncorral that impulse into something efficient and/or consumable.\nSeveral participants noted how streaming platforms have already rewired the",
+    "summary": "s explored subtler acts of resistance: moments baked into the work itself like\ninterruptions and provocations designed to break the spell of passive consumption",
+    "keywords": [
+      "purpose",
+      "something",
+      "like",
+      "break",
+      "spell"
+    ]
+  },
+  {
+    "id": "chunk-24",
+    "offset": 23,
+    "text": "ensitivity to the cultural and economic currents that try to\ncorral that impulse into something efficient and/or consumable.\nSeveral participants noted how streaming platforms have already rewired the\nindustry: speeding up timelines, collapsing creative cycles, and accelerating\nburnout.\nParticipant: “Streaming has actually blown up our business more than… anything\nelse. Some people made a fortune in it… but they've sucked all the air out of the\nroom. And then AI has been a strange scapegoat… like, oh, it's the boogeyman.”\nRather than being the cause of creative collapse, AI was seen by some as a\nscapegoat, merely intensifying dynamics already introduced by streaming and\nplatforms. The real problem, they noted, was resource redistribution: where creative\nlabor loses value while systems designed for speed and scale are rewarded.\nParticipant: “AI is not going to replace or displace people who make art or creativity,\nbut it is definitely taking away resources from people who are saying, we're going to\ndo what we want to do no matter how much time it takes or how much money it\ntakes.”\nThe conversation returned again to the question of authorship. Does the audience\ncare how something was",
+    "summary": "ensitivity to the cultural and economic currents that try to\ncorral that impulse into something efficient and/or consumable.",
+    "keywords": [
+      "streaming",
+      "creative",
+      "people",
+      "something",
+      "noted"
+    ]
+  },
+  {
+    "id": "chunk-25",
+    "offset": 24,
+    "text": "'re going to\ndo what we want to do no matter how much time it takes or how much money it\ntakes.”\nThe conversation returned again to the question of authorship. Does the audience\ncare how something was made? Is there a line between art and content? And if so,\ndoes AI threaten that boundary?\n\n16\n\n\f\n​\nParticipant: “[A] director used some AI to enhance Adrian Brody’s Hungarian and\nthere was an uproar in the industry. And what I thought was what's this uproar\nabout? Is it about protecting the jobs and people seeing the future or is it about the\nfact that AI is being introduced to the consumer and how important is it to the\nconsumer that what they see or consume is made by a traditional human touch?”\nYet even within this critique, there was room for imaginative possibility. The idea of\nco-opting the stream and hacking its flow to produce something reflective, even\npoetic- wasn’t dismissed. It felt like a door left slightly open.\nParticipant: “Streaming could be interesting… co-opting streaming and turning it into\na very, very creative force could be interesting. There’s a contemplative way of\nthinking about streaming flow… a messy contemplation.”\nIn the end, stream became a terrain to de",
+    "summary": "'re going to\ndo what we want to do no matter how much time it takes or how much money it\ntakes.”\nThe conversation returned again to the question of authorship.",
+    "keywords": [
+      "streaming",
+      "much",
+      "takes",
+      "does",
+      "something"
+    ]
+  },
+  {
+    "id": "chunk-26",
+    "offset": 25,
+    "text": "ng and turning it into\na very, very creative force could be interesting. There’s a contemplative way of\nthinking about streaming flow… a messy contemplation.”\nIn the end, stream became a terrain to describe both the conditions creatives are\nworking within, and the ways they might move through or against them.\n\n17\n\n\f\nAssembly 3: Attention\n\nThis assembly grappled with the attention economy as a force shaping creativity itself.\nParticipants explored how creators are compelled to channel their work toward visibility\nand how consumers, often the same people, struggle to preserve intentionality in an\necosystem designed to fragment it. As one participant put it, in a time of ubiquitous\ncontent, it's crucial to stay “aware of who is fighting for [your attention], what they want\nfrom it, and being able to make choices for yourself.”\nThe conversation acknowledged that attention has always been a creative currency. As\none participant mentioned, “Every artist has been fighting for attention just as\nfundamentally as I think every mass social media organization is fighting for attention.” But\nindustrialized attention, scaled without care, tends to flatten complexity. A more\nintentional, boutique",
+    "summary": "ng and turning it into\na very, very creative force could be interesting.",
+    "keywords": [
+      "attention",
+      "fighting",
+      "creative",
+      "force",
+      "assembly"
+    ]
+  },
+  {
+    "id": "chunk-27",
+    "offset": 26,
+    "text": "s\nfundamentally as I think every mass social media organization is fighting for attention.” But\nindustrialized attention, scaled without care, tends to flatten complexity. A more\nintentional, boutique approach, by contrast, invites meaningful friction to create spaces\nfor dialogue and human connection.\nThis raised broader questions about consent and cost. What does it mean to pay for an\nethical digital space, whether through money, attention, or data? One participant imagined\na future in which “human-made content” might be marketed like organic food. Another\nparticipant challenged that vision:\n\n18\n\n\f\n​\n“If you have to pay to be in the space that protects your humanity… what the hell's\nthe point?”\nLos Angeles, the backdrop for the conversation, loomed large. Participants named its\ncreative economy as both a magnet for artistic ambition and a pressure-cooker for\ncommodification.\nParticipant: “It’s inherently tied to capital… mortgages, credit, schools, cars. This is\nthe place where people make a living off of creativity.”\nFinally, attention returned to the body. For some, embodiment offered a break from\nalgorithmic capture, what one participant described as a “refuge from dataficatio",
+    "summary": "s\nfundamentally as I think every mass social media organization is fighting for attention.” But\nindustrialized attention, scaled without care, tends to flatten",
+    "keywords": [
+      "attention",
+      "participant",
+      "human",
+      "space",
+      "fundamentally"
+    ]
+  },
+  {
+    "id": "chunk-28",
+    "offset": 27,
+    "text": "e make a living off of creativity.”\nFinally, attention returned to the body. For some, embodiment offered a break from\nalgorithmic capture, what one participant described as a “refuge from datafication,”\nunless, of course, “you’re wearing a watch.” The body emerged, as in other assemblies, as\na boundary AI cannot cross: a seat of sensation and resistance.\n\n19\n\n\f\n​\nAssembly 4: Performance\n\nIt felt natural that the music-focused assembly landed on performance as its central\ntheme. While technology has radically reshaped music distribution, from CDs to MP3s to\nAI-driven streaming, the act of live performance has remained a uniquely human space. As\nrecorded music revenues to artists have been squeezed further by streaming and industry\nstructures, in-person shows have only grown in importance as both livelihood and artistic\nanchor.\n​\nOne participant opened with a reminder that the drive to make music precedes any\nplatform or tool. It’s instinctual, deeply human, and cannot be replicated by machines.\n\n“[W]e all have a desire to create that's not going to be replaced. Your instinctual\ndesire to do that, the reason why we're all sitting here, whatever impetus, that was\nthe first time we al",
+    "summary": "e make a living off of creativity.”\nFinally, attention returned to the body.",
+    "keywords": [
+      "music",
+      "performance",
+      "make",
+      "body",
+      "participant"
+    ]
+  },
+  {
+    "id": "chunk-29",
+    "offset": 28,
+    "text": "machines.\n\n“[W]e all have a desire to create that's not going to be replaced. Your instinctual\ndesire to do that, the reason why we're all sitting here, whatever impetus, that was\nthe first time we all played music with other people, that inspiration, that joy that will\nnever be replaced by AI or computer. That's something that's distinctly human and\nwill always belong to us. How we capitalize on that and turn it into an ecosystem\nwhere people are making money is the question. But the idea of why do we create, I\ndon't know. That's something that we we'll always own ourselves as human beings.”\n​\nThis group often framed AI as a tool for access that was capable of democratizing creation\n\n20\n\n\f\nfor those without institutional backing. One musician shared how orchestral composition\nsoftware expanded his reach:\n\n“The current technology allowed people like me to be able to write orchestral music\nwithout having the resources to hire an orchestra, and eventually got me to gigs\nwhere I could hire the orchestra.”\nBut they also voiced caution: access isn’t guaranteed:\n\n“Maybe in the past, I mean, it was Mendelssohn [this] famous composer [whose]\nfamily had an orchestra ready [to] go every day…",
+    "summary": "machines.",
+    "keywords": [
+      "people",
+      "orchestra",
+      "desire",
+      "create",
+      "replaced"
+    ]
+  },
+  {
+    "id": "chunk-30",
+    "offset": 29,
+    "text": "e the orchestra.”\nBut they also voiced caution: access isn’t guaranteed:\n\n“Maybe in the past, I mean, it was Mendelssohn [this] famous composer [whose]\nfamily had an orchestra ready [to] go every day…[which] wasn't available for most\npeople…[I]t's going to be very dependent on who owns the technology, how open it is,\nhow available it is for creatives with and without the resources.”\nPerformance itself became the heart of the conversation. There is a certain kind of\nunpredictable alchemy between artist and audience that no machine can replicate. While\nsome performers aim for precision, delivering near-identical shows each night, others lean\ninto spontaneity and imperfection. Both approaches are valid, but in either case, it’s the\npresence of an audience, in a specific place and time, that transforms music into culture.\nOne participant connected this to fears that AI-produced music might strip away cultural\nnuance:\n\n“So, it's given me more confidence to not use [AI], because we [have] been [listening\nto] some Brazilian artists and it was interesting to be able to [appreciate] their folk\nsound, which is very, very raw…You're actually capturing the atmosphere of the\nculture.”\nThe assem",
+    "summary": "e the orchestra.”\nBut they also voiced caution: access isn’t guaranteed:\n\n“Maybe in the past, I mean, it was Mendelssohn [this] famous composer [whose]\nfamily h",
+    "keywords": [
+      "orchestra",
+      "available",
+      "audience",
+      "music",
+      "culture"
+    ]
+  },
+  {
+    "id": "chunk-31",
+    "offset": 30,
+    "text": "en [listening\nto] some Brazilian artists and it was interesting to be able to [appreciate] their folk\nsound, which is very, very raw…You're actually capturing the atmosphere of the\nculture.”\nThe assembly also surfaced tensions between creatives and executives in music tech.\nSome participants challenged the narrative that these roles are inherently at odds:\n\n“I think it gets dangerous to talk about the executives or the people creating the\ntechnology. As a person who creates [and is] head of [REDACTED] at a music tech AI\ncompany, I'm also an artist and a producer, and I can understand both of those\nthings. And I make trade-offs as a technologist in designing the platform and the AI\nthat I wouldn't make in the studio, but I can do both of those things.”\nHere, performance became a statement of human presence and a reminder that art\ndoesn’t only live in sound or code. Importantly, it deeply defines the relationship between\nperformers and their audiences.\n\n21\n\n\f\n​\nAssembly 5: Transmission\n\nThe conversation that led to transmission began with legacy. One participant described\ntheir work in animation as a form of parenting. While choosing not to have biological\nchildren, they felt their a",
+    "summary": "en [listening\nto] some Brazilian artists and it was interesting to be able to [appreciate] their folk\nsound, which is very, very raw…You're actually capturing t",
+    "keywords": [
+      "sound",
+      "assembly",
+      "executives",
+      "music",
+      "tech"
+    ]
+  },
+  {
+    "id": "chunk-32",
+    "offset": 31,
+    "text": "The conversation that led to transmission began with legacy. One participant described\ntheir work in animation as a form of parenting. While choosing not to have biological\nchildren, they felt their animated creations are instead imbued with life lessons and\nthemes for children everywhere. Art, in this framing, became a way to leave something\nbehind and to extend care and influence beyond one’s own lifetime.\nThis naturally opened up a bigger question: is intention necessary for creativity to exist?\nCould non-human acts, like animals creating intricate displays to attract mates, count as\ncreative? One participant argued that what sets human creativity apart is self-expression\nas something that transcends survival and utility:\n\n“It's the impulse to self express…I think of creativity as very generative…I think of creativity\nas a general force that it just exists, drives the universe, drives everything, and human\nbeings almost surf on it, channel it in moments that don't make any sense. And when you're\nchanneling it, what you're navigating is the tension between wanting to be an individual,\nmaking sense of this whole, and also being of the whole.”\n\n22\n\n\f\nMortality surfaced as another a",
+    "summary": "The conversation that led to transmission began with legacy.",
+    "keywords": [
+      "creativity",
+      "human",
+      "participant",
+      "children",
+      "something"
+    ]
+  },
+  {
+    "id": "chunk-33",
+    "offset": 32,
+    "text": "d when you're\nchanneling it, what you're navigating is the tension between wanting to be an individual,\nmaking sense of this whole, and also being of the whole.”\n\n22\n\n\f\nMortality surfaced as another anchor. Creativity, some argued, is a response to\nimpermanence: a way to assert existence or inspire beyond one’s own life:\n​\nParticipant: “We chose to express ourselves because we do have some type of a drive…\nmaybe the roots of the purpose is that we all know we’re dying and we want to leave\nsomething lasting. We want to inspire. We want to say, ‘Hey, I existed’ - whatever it is which I don’t know if the dolphin has.”\nOthers challenged this human-centered lens. Creativity, they noted, could be bigger than\nus, as an energy or pattern we tap into rather than invent. Historically, this was how art\nwas understood: the artist didn’t claim genius, but credited an external muse.\nParticipant: “So the artist took no credit for their creativity. They said, I have a good\nrelationship with my muse... it wasn’t until the Renaissance and German Romanticism\nwhere suddenly we shifted that to say it's the human beings- me, the genius.”\nThe theme ultimately crystallized not just around transmission, se",
+    "summary": "d when you're\nchanneling it, what you're navigating is the tension between wanting to be an individual,\nmaking sense of this whole, and also being of the whole.",
+    "keywords": [
+      "creativity",
+      "want",
+      "whole",
+      "inspire",
+      "participant"
+    ]
+  },
+  {
+    "id": "chunk-34",
+    "offset": 33,
+    "text": "it wasn’t until the Renaissance and German Romanticism\nwhere suddenly we shifted that to say it's the human beings- me, the genius.”\nThe theme ultimately crystallized not just around transmission, sending ideas outward, but\naround interpretation, the act of meaning being reshaped as it travels between people:\nParticipant: “So there's this concept of the [Broken Telephone], if I say one thing, I tell to\nthat person, they tell it to the next person. Eventually after a few cycles, it's going to be a\ntotally different message. But that act of metamorphosis and interpretation of something\nis the importance of creativity and that aspect of it. So as much as we're focusing on\ntransmission, I think really what we're talking about is also the interpretation of the\nmessage and what it means to each act of interpretation from me to you to another person\nand so on and so on.”\nIn this framing, creative purpose is a shared, iterative process. This challenges the notion\nof the isolated genius producing a fixed artifact. The group expressed concern that as AI\nintermediates more of this exchange, the human dialogue of meaning-making, the slow,\nlayered transmission of culture, might fracture or thi",
+    "summary": "it wasn’t until the Renaissance and German Romanticism\nwhere suddenly we shifted that to say it's the human beings- me, the genius.”\nThe theme ultimately crysta",
+    "keywords": [
+      "interpretation",
+      "transmission",
+      "person",
+      "human",
+      "genius"
+    ]
+  },
+  {
+    "id": "chunk-35",
+    "offset": 34,
+    "text": "ing a fixed artifact. The group expressed concern that as AI\nintermediates more of this exchange, the human dialogue of meaning-making, the slow,\nlayered transmission of culture, might fracture or thin out.\n\n23\n\n\f\nIV. Creativity to AI: Synthesis and Core Insights\nAcross the five Assemblies, we explored creativity as a collective experience shaped by\npain, stream/flow, attention, performance, transmission. These conversations were about\nhow technology is already entangled with human imagination, labor, and purpose. As\nparticipants wrestled with what creativity means, they also surfaced deeper truths about\nAI itself: what it amplifies, what it erodes, and how it reshapes the systems that govern\ncultural production. What follows distills these cross-assembly insights.\n\n1. AI accelerates output but displaces process.\nWhile nearly 97% of participants used AI in some form, 40% do not believe it has scaled\ntheir creative output. Across the Assemblies, many participants observed that AI can take\naway the hardest part of making something: the blank canvas, the first draft, the ‘where do\nI start’ moment. But with that acceleration comes a cost. The struggle and vulnerabilities\nthat used to b",
+    "summary": "ing a fixed artifact.",
+    "keywords": [
+      "creativity",
+      "participants",
+      "human",
+      "making",
+      "transmission"
+    ]
+  },
+  {
+    "id": "chunk-36",
+    "offset": 35,
+    "text": "ke\naway the hardest part of making something: the blank canvas, the first draft, the ‘where do\nI start’ moment. But with that acceleration comes a cost. The struggle and vulnerabilities\nthat used to be embedded in creative labor are increasingly optional. And for many artists,\nthat struggle is where meaning and mastery are forged.\nMatthew Crawford once described creativity as “a by-product of mastery of the sort that is\ncultivated through long practice,” rather than freedom from rules or friction. True\ncreativity, he argues, requires dwelling, repetition, and even submission to the slow\nbuilding of skill. One Assembly participant echoed this:\n\n“[G]enerative AI tools aren't designed…for the people who want to take the journeyman\njourney of putting in the 10,000 hours to become the master of the craft. The tool is for\nthose who want the shortcut to become the master but will never become the master\nbecause they haven't taken that journey… all the little things that we pick up along the way,\nso the stubbing of a toe or the film camera running out of film in the middle of a shot…\nthese models circumvent that, we don't get to learn… they're never going to produce… the\nend result that we",
+    "summary": "ke\naway the hardest part of making something: the blank canvas, the first draft, the ‘where do\nI start’ moment.",
+    "keywords": [
+      "become",
+      "master",
+      "struggle",
+      "mastery",
+      "creativity"
+    ]
+  },
+  {
+    "id": "chunk-37",
+    "offset": 36,
+    "text": "ay,\nso the stubbing of a toe or the film camera running out of film in the middle of a shot…\nthese models circumvent that, we don't get to learn… they're never going to produce… the\nend result that we do as masters of the craft.”\nParticipants described the long, often painful journey toward skill as the essence of\nartistry. It builds purpose and confidence into the work. Without it, AI-generated art risks\nfeeling hollow, missing something only the lived experience of making can give. Almost\n24% of participants identified personalization as missing from AI systems, underscoring\nbroader sentiments that AI systems are not dialogic enough to the individual rhythms of\ncreatives and artists who want to see how decisions are made, step in to guide them, and\nfeedback results in real time. As participants in one Assembly noted, Miyazaki’s reaction to\nAI- calling it an “insult to life itself” was rooted in this fear: that losing process could one\nday mean losing our ability to engage with the raw experiences of life at all.\n\n24\n\n\f\n​\nPerformance stood out as a partial exception. Unlike other creative forms, live art is built\non shared presence and risk. These are things technology hasn’t (yet",
+    "summary": "ay,\nso the stubbing of a toe or the film camera running out of film in the middle of a shot…\nthese models circumvent that, we don't get to learn… they're never",
+    "keywords": [
+      "participants",
+      "film",
+      "missing",
+      "systems",
+      "life"
+    ]
+  },
+  {
+    "id": "chunk-38",
+    "offset": 37,
+    "text": "w experiences of life at all.\n\n24\n\n\f\n​\nPerformance stood out as a partial exception. Unlike other creative forms, live art is built\non shared presence and risk. These are things technology hasn’t (yet) been able to smooth\nover or automate. As one participant said:\n\n“Technology... is all about efficiency and performance… but then there’s performance in\nthe arts… about release and mistakes and creative realness.”\nThe insight across assemblies was clear: AI might make making faster, but the journey–the\nfriction, the limits, the messy trial-and-error that shape an artist is irreplaceable. Strip that\naway, and you risk stripping away the depth of creation itself.\n\n​\n2. Simulation is not experience. Tactile interactions are irreplaceable.\nAcross Assemblies, one point surfaced again and again: AI can mimic the appearance of\ncreativity, but it does not share the conditions that make creativity human. It has no body,\nno memory shaped by pain or love, no mortality. Its outputs may look like art, but they are\ndetached from the lived experience that gives human stories depth and resonance. Central\nto the debate was whether AI could ever truly replace human creativity. One participant\ndescribed",
+    "summary": "w experiences of life at all.",
+    "keywords": [
+      "performance",
+      "creativity",
+      "human",
+      "creative",
+      "risk"
+    ]
+  },
+  {
+    "id": "chunk-39",
+    "offset": 38,
+    "text": "but they are\ndetached from the lived experience that gives human stories depth and resonance. Central\nto the debate was whether AI could ever truly replace human creativity. One participant\ndescribed how generative AI, in practice, still needs heavy human intervention before it\ncan be used in real creative work:\n\n“I guess I see generative AI as more [of] a tool. I equate it more like VFX than to anything\nelse because to make any of it work or useful in a production setting, it has to be\nmanipulated still. I do a lot of posts, so you're taking a generated image and you're using\nafter effects, you're using sound design still, you are comping it. You're manipulating all the\nparts just like you would do when you're creating something in a CG environment and in\ngeneral, I just don't think that a purely AI generated image or thought from an LLM, I think\nthere's just massive deficiencies in them and they very rarely are, they can't imagine the\nfuture. The way I think about the AI machine, it doesn't experience gravity, it can't touch\nsomething. It's never going to be able to know what it was like to fall in love or to have their\nheart broken or to graduate from college or graduate from k",
+    "summary": "but they are\ndetached from the lived experience that gives human stories depth and resonance.",
+    "keywords": [
+      "human",
+      "like",
+      "think",
+      "experience",
+      "generative"
+    ]
+  },
+  {
+    "id": "chunk-40",
+    "offset": 39,
+    "text": "doesn't experience gravity, it can't touch\nsomething. It's never going to be able to know what it was like to fall in love or to have their\nheart broken or to graduate from college or graduate from kindergarten or\nwhatever…[S]tub it's toe. So it's just never going to get there. It just isn't. And being worried\nthat it is, I don't know, kind of more stressful than it's worth.”\nOthers pointed out that human creativity is defined as much by limits and perspective as\nby imagination. What makes a story powerful is not the sum of all possible information, but\nwhat is chosen, omitted, and uniquely experienced:​\n​\n\n25\n\n\f\n​\n​\nParticipant: “You [say] the word scrape, you can't get it out of your head. It gives me this\nvisual of absolutely everything. Giant dump truck, just gathering it all and putting it in a\nlandfill called AI. And I think the nature of creativity, the nature of perspective, what we\nwere talking about earlier is in what you are including and importantly what you are not\nincluding. Creativity has edges, it has limits, and sometimes what you decide is not your\nstory is every bit or more important than what is your story and what is any person's story,\nif it's a good one, if",
+    "summary": "doesn't experience gravity, it can't touch\nsomething.",
+    "keywords": [
+      "story",
+      "creativity",
+      "your",
+      "never",
+      "going"
+    ]
+  },
+  {
+    "id": "chunk-41",
+    "offset": 40,
+    "text": "ing. Creativity has edges, it has limits, and sometimes what you decide is not your\nstory is every bit or more important than what is your story and what is any person's story,\nif it's a good one, if they're the right people to tell it… I think we have to continue to be a\nsociety that isn't scraping into one giant container, but it's recognizing multiple conflicting\nspecific ideas of us.”\nFinally, participants noted that even the basic act of transmitting meaning, the flow of\nideas and sensations, requires a physical substrate. Without it, information is just\nabstraction:\nParticipant: “In quantum information theory, there's like a theorem, which is the no cloning\ntheorem. And it's fundamentally impossible to clone information like fundamentally. And\nit's because like the word information, actually it implies something very deep about it,\nwhich is like in formation. It quite literally cannot exist outside of material substrates. Also,\nlike it is inherently tied together. It doesn't exist abstractly, ever.”\nThe Assemblies revealed a shared intuition: AI can simulate form, but not the tactile,\nembodied experience that gives creativity its purpose. Without things like touch, pain,\npers",
+    "summary": "ing.",
+    "keywords": [
+      "like",
+      "information",
+      "story",
+      "creativity",
+      "your"
+    ]
+  },
+  {
+    "id": "chunk-42",
+    "offset": 41,
+    "text": "t abstractly, ever.”\nThe Assemblies revealed a shared intuition: AI can simulate form, but not the tactile,\nembodied experience that gives creativity its purpose. Without things like touch, pain,\nperspective, and presence, there is no real story to tell.\n\n3. Human uniqueness lies in legacy and interpretation.\n​\nAI can produce, but it cannot inherit. Human creativity is inseparable from time and\nculture. Every work we make carries traces of ancestry, lived experience, and shared\nmeaning: an epistemic lineage that no machine can replicate. This surfaced repeatedly\nacross Assemblies as a fundamental distinction between human art and AI outputs.\nParticipants reflected on transmission as a core part of creative purpose, with two\nintertwined dimensions. First, simply making something, putting a thought into form, is an\nact of presence, whether or not it’s ever consumed. As one participant put it, creation is a\nway to say: “I am here.” Second, we create to reach others through inspiration or\nprovocation. Creativity, in this sense, is a dialogue between artist and audience, shaped by\nhow the work is received and reinterpreted.\n\n26\n\n\f\n​\n​\n​\nSome artists and creatives spoke of transmission a",
+    "summary": "t abstractly, ever.”\nThe Assemblies revealed a shared intuition: AI can simulate form, but not the tactile,\nembodied experience that gives creativity its purpos",
+    "keywords": [
+      "creativity",
+      "human",
+      "ever",
+      "assemblies",
+      "shared"
+    ]
+  },
+  {
+    "id": "chunk-43",
+    "offset": 42,
+    "text": "provocation. Creativity, in this sense, is a dialogue between artist and audience, shaped by\nhow the work is received and reinterpreted.\n\n26\n\n\f\n​\n​\n​\nSome artists and creatives spoke of transmission as intergenerational legacy that leaves\nbehind stories that ripple through time:\nParticipant: “I remember when I was a kid, animation spoke to me… it gave me comfort\nfrom people and crews who were across the world or in other countries or down the\nstreet. It was access that wasn't prevalent. And I think that it is a powerful tool that way.\nAnd so it's not only my own self-expression, but it's how can I reach others whether they\nagree or disagree with whatever the views are, just get thoughts going, whether it's\ncomfort or action or et cetera.”\nAnother participant tied this sense of lineage to human cognition itself:\nParticipant: “When we look at our knowledge, our knowledge doesn't start and end with\nthe day we were born and the day we act, our knowledge is something that's shared\nthroughout our past and ancestors. And so we are able to create our way of thinking and\nour interpretation very differently to AI machines because AI is just created now.”\nInterpretation was seen as inseparabl",
+    "summary": "provocation.",
+    "keywords": [
+      "participant",
+      "knowledge",
+      "sense",
+      "spoke",
+      "comfort"
+    ]
+  },
+  {
+    "id": "chunk-44",
+    "offset": 43,
+    "text": "t our past and ancestors. And so we are able to create our way of thinking and\nour interpretation very differently to AI machines because AI is just created now.”\nInterpretation was seen as inseparable from transmission. Once a creation leaves the\nartist, it evolves as audiences reframe it and make it their own. This iterative\ntransformation is part of what makes art alive, and part of what’s at risk in AI-mediated\nsystems that remix and redistribute without context or consent.\nParticipants wrestled with how AI alters this lineage in two ways:\n-​\n\nUpstream: By taking over the act of materializing a creative thought, AI can blur\nauthorship or pull expression out of the artist’s hands.\n\n-​\n\nDownstream: AI-enabled remixing can transform works far beyond the creator’s\nintention, often for profit, without credit or connection to the original meaning.\n\nThe conversations drew on history: remixing has always existed. Star Wars was itself a\nremix of Kurosawa and 1930s serials. But today, participants noted, remixing is\nindustrialized, legally fortified, and designed to concentrate power:\n\n“He was able to build a multi-billion dollar empire based on his remix. Now, the problem\nwith remixing",
+    "summary": "t our past and ancestors.",
+    "keywords": [
+      "remixing",
+      "remix",
+      "able",
+      "interpretation",
+      "artist"
+    ]
+  },
+  {
+    "id": "chunk-45",
+    "offset": 44,
+    "text": "ipants noted, remixing is\nindustrialized, legally fortified, and designed to concentrate power:\n\n“He was able to build a multi-billion dollar empire based on his remix. Now, the problem\nwith remixing as it exists right now is that there's not a lot of space for someone to come\nup with an original remix that they're going to retain the rights to... the rights now belong to\nthese multi-million dollar corporations.”\n\n27\n\n\f\n​\n​\nSome took this further, calling copyright a structural barrier to creativity:\n\n“Yeah, I'm anti copyright law. If you ever actually dealt with copyright law you know it's like\nnot for artists, it’s for capitalists... They paid money to like force Mickey Mouse down your\nthroat, and then they're going to put you in jail... if you communicate that you saw it.”\nAcross these discussions, the insight was stark: AI, lacking ancestry, embodiment, and\nlived time, can generate images or words, but it cannot carry the same weight of human\nmeaning.\n\n4. The role of the artist is shifting from maker to editor, curator, or\nsystems designer.\nOnly 21.7% of participants surveyed felt that AI was not impacting their creative process at\nall, while 19.3% felt AI was a cognitive partn",
+    "summary": "ipants noted, remixing is\nindustrialized, legally fortified, and designed to concentrate power:\n\n“He was able to build a multi-billion dollar empire based on hi",
+    "keywords": [
+      "copyright",
+      "remixing",
+      "multi",
+      "dollar",
+      "remix"
+    ]
+  },
+  {
+    "id": "chunk-46",
+    "offset": 45,
+    "text": "shifting from maker to editor, curator, or\nsystems designer.\nOnly 21.7% of participants surveyed felt that AI was not impacting their creative process at\nall, while 19.3% felt AI was a cognitive partner and 17.7% felt it helped accelerate and/or\nmake creative work more efficient. Participants noted that AI is fundamentally changing\nwhat it means to be an artist. The role is becoming less about originating every element\nand more about filtering, editing, and shaping meaning from a vast field of generated\npossibilities. Intentionality and taste have become as crucial as technical skill. One\nparticipant with a DJ background described how technology has lowered the barriers to\nentry for electronic music:\n\n“Okay, everyone's a DJ now. Is that a bad thing? No, people can express themselves now.\nThe people who do well are masters and true artists. They produce music, they spend a lot\nof time curating their brand and their message…”\nWhat sets great artists apart, they explained, is no longer just technical mastery but the\nability to design experiences and identities that resonate in a crowded, fast-moving\nculture.\nThe nature of performance has also evolved. A concert is no longer just a sho",
+    "summary": "shifting from maker to editor, curator, or\nsystems designer.",
+    "keywords": [
+      "felt",
+      "participants",
+      "creative",
+      "technical",
+      "music"
+    ]
+  },
+  {
+    "id": "chunk-47",
+    "offset": 46,
+    "text": "st technical mastery but the\nability to design experiences and identities that resonate in a crowded, fast-moving\nculture.\nThe nature of performance has also evolved. A concert is no longer just a show; it’s part of\na wider interaction between artist and audience, shaped by social media and personal\nbranding:\nParticipant: “The performance has become a sort of two-way street. There was a time\nwhen you play a show and then someone would ask you for an autograph. Now you play a\nshow and someone wants to take a selfie with you or film the whole thing. The audience\nmember becomes just as important in the performance now to themselves as going to see\nthe performance. So the ritual dynamic I think is evolving.”\n\n28\n\n\f\n​\nThis blurred boundary between creator and audience has expanded the artist’s workload.\nToday’s musicians and performers are often expected to be multi-hyphenate creators that\nmake art, edit content, manage brands, produce video, and market themselves.\nOne participant raised a structural concern: as the space between creator and audience\ngets smaller, the supporting ecosystem of crew jobs shrinks. While this “leanness” can\nfree artists or studios to take more creative risks",
+    "summary": "st technical mastery but the\nability to design experiences and identities that resonate in a crowded, fast-moving\nculture.",
+    "keywords": [
+      "performance",
+      "audience",
+      "show",
+      "artist",
+      "participant"
+    ]
+  },
+  {
+    "id": "chunk-48",
+    "offset": 47,
+    "text": "structural concern: as the space between creator and audience\ngets smaller, the supporting ecosystem of crew jobs shrinks. While this “leanness” can\nfree artists or studios to take more creative risks, it also consolidates labor onto fewer\nshoulders, destabilizing the infrastructure that once supported large-scale productions.\nAcross the Assemblies, this shift emerged as a core tension of AI-enabled creativity: artists\nare no longer just makers. They are increasingly system designers, navigating tools,\nplatforms, and audiences to shape meaning in a rapidly changing creative economy.​\n\n5. Creative labor is increasingly precarious and devalued.\nParticipants repeatedly expressed concern that AI is compounding long-standing\npressures on artists and creatives: invisible labor, derivative training data, and the erosion\nof sustainable careers. The emotional tone was often grief, especially among those in film,\nmusic, and media.\nOne participant described the growing precarity:\n\n“It's become a lot less sustainable for artists to be able to pursue an artistic career if they\ndo not already come from money. The big fear with AI right now is that this is another way\nto devalue the work of artis",
+    "summary": "structural concern: as the space between creator and audience\ngets smaller, the supporting ecosystem of crew jobs shrinks.",
+    "keywords": [
+      "artists",
+      "creative",
+      "labor",
+      "concern",
+      "increasingly"
+    ]
+  },
+  {
+    "id": "chunk-49",
+    "offset": 48,
+    "text": "lot less sustainable for artists to be able to pursue an artistic career if they\ndo not already come from money. The big fear with AI right now is that this is another way\nto devalue the work of artists… because it is “easy to produce”, because “all you got to do is\nput a bunch of prompts in and generate something out of that””.\nIt means that your value as an artist is going to go down, and it means that it's going to be a\nlot less sustainable for you to pursue it as a career… Do you know how many gigs I have\nright now just to be able to sustain my living right now?... Five… And 20 years ago, I could\nhave just been able to live off of one of those gigs.”\nAs we have already seen, many artists see creativity as inseparable from who they are:\n“artists are going to create because it is fundamental to who we are,” according to one\nparticipant. While art will continue to be made, the real worry is that the ability to earn a\nliving from it will vanish.\n\n​\n​\n\n29\n\n\f\n​\nA common fear participants voiced about AI was job displacement. Yet paradoxically, the\ngreatest hope expressed was that AI could be used to augment human creativity. This\ntension, between technology as a tool for expansion an",
+    "summary": "lot less sustainable for artists to be able to pursue an artistic career if they\ndo not already come from money.",
+    "keywords": [
+      "artists",
+      "able",
+      "right",
+      "going",
+      "less"
+    ]
+  },
+  {
+    "id": "chunk-50",
+    "offset": 49,
+    "text": "voiced about AI was job displacement. Yet paradoxically, the\ngreatest hope expressed was that AI could be used to augment human creativity. This\ntension, between technology as a tool for expansion and technology as a driver of\nprecarity, ran through every conversation. Shockingly, over 63% of creatives and 75% of\ntechnologists do not feel represented by any institution (including guild, studio) in the fight\nfor creative rights in tech. Job displacement emerged as a much stronger worry than\nintellectual property.\nWhat’s therefore clear is that artists and creatives present a united front on the need for a\nworld with more opportunities and possibilities, and the desire to feel like someone is\nfighting for them.\n\n6. AI challenges the moral and economic logic of creation.\nAs AI makes content easier and faster to produce, it disrupts the values that underpin\ncreative labor. If something can be made instantly and cheaply, why make it at all? And\nwhat principles, beyond speed and efficiency, should guide the future of creative work?\nThe case of Toonstar, the start-up behind StEvEn & Parker, illustrates this shift. Toonstar’s\nfounder explained how AI is used throughout production, from st",
+    "summary": "voiced about AI was job displacement.",
+    "keywords": [
+      "creative",
+      "displacement",
+      "used",
+      "technology",
+      "creatives"
+    ]
+  },
+  {
+    "id": "chunk-51",
+    "offset": 50,
+    "text": "should guide the future of creative work?\nThe case of Toonstar, the start-up behind StEvEn & Parker, illustrates this shift. Toonstar’s\nfounder explained how AI is used throughout production, from story development to\nimagery and dubbing for overseas audiences: “By leaning into the technology, we can\nmake full episodes 80 percent faster and 90 percent cheaper than industry norms.”\nThis logic of optimization spills over into consumption, too:\nParticipant: “Smaller units of time are easier to sell.”\nParticipant: “[N]ow it's very short form…[Y]ou need a hook, you need something to bring\nsomebody in the first three seconds.”\nFor many creators, this runs counter to why they began making content in the first place.\nNarrative and story, the deeper pull of creative work, are often sacrificed in favor of speed\nand scale. As participants repeatedly emphasized, creative purpose sometimes defies\nmarket logic; what is meaningful to make is not always what sells, or what algorithms\nfavor.\nParticipants also questioned the quality of AI-generated work. As one put it:\n\n“I have yet to see a literary piece produced by AI that really kind of, like, touches my soul\nand or makes me kind of like, contem",
+    "summary": "should guide the future of creative work?",
+    "keywords": [
+      "creative",
+      "work",
+      "toonstar",
+      "story",
+      "make"
+    ]
+  },
+  {
+    "id": "chunk-52",
+    "offset": 51,
+    "text": "nts also questioned the quality of AI-generated work. As one put it:\n\n“I have yet to see a literary piece produced by AI that really kind of, like, touches my soul\nand or makes me kind of like, contemplate.”\n\n30\n\n\f\n​\nWhile some AI researchers argue that machines will eventually match or exceed human\ncreativity, current studies suggest otherwise: human-human pairs still outperform both\nhuman-AI and AI-AI collaborations in generating diverse, original ideas.\nPodcasts like The Machine Kills have pointed out that arguments against AI creativity often\nrest on “romantic authorship”: the belief that human art has an ineffable value simply\nbecause it is human-made. The Assemblies, however, articulated what might constitute\nthis ‘ineffable’ value: the human ability to feel, remember, inherit, limit, and transmit\nmeaning as well as the innate, evolutionary drive to create that no machine can claim.\nStill, the tension remains unresolved: AI is reshaping the economics of creativity, but it has\nyet to answer why we create, or what makes art worth making.​\n\n7. Generative AI is the latest development in the trend towards a\nfrictionless world.\nAI is accelerating a long-standing trend in technology",
+    "summary": "nts also questioned the quality of AI-generated work.",
+    "keywords": [
+      "human",
+      "like",
+      "creativity",
+      "kind",
+      "makes"
+    ]
+  },
+  {
+    "id": "chunk-53",
+    "offset": 52,
+    "text": "to answer why we create, or what makes art worth making.​\n\n7. Generative AI is the latest development in the trend towards a\nfrictionless world.\nAI is accelerating a long-standing trend in technology: removing friction from both how we\ncreate and how we consume. This loss of friction feels convenient, but it changes us.\nTechnology has been steadily erasing physical and cognitive effort for decades, from\nonline shopping to ride-hailing apps. As one participant noted: “Even when you think of\nordering a car ride share, it's frictionless. You don't have to go outside the elements and\nhail a car or wait or call.”\nConvenience can be liberating, but it also erodes our patience for effort. Another\nparticipant described how this shift feels in daily life:\n\n“The loss of the tactile is a part of the frictionless experience. We experience touch less.\nApple has the sound effect of a button being pushed [yet] there's no button being pushed\nany longer. Maybe we need to have more buttons… I'll tell you my patience for friction is\nless than [it] used to be. I get angrier at technology that isn't instantly giving me what I ask\nof it… I feel that road rage feeling that people describe. I feel that w",
+    "summary": "to answer why we create, or what makes art worth making.​\n\n7.",
+    "keywords": [
+      "frictionless",
+      "technology",
+      "friction",
+      "create",
+      "trend"
+    ]
+  },
+  {
+    "id": "chunk-54",
+    "offset": 53,
+    "text": "ou my patience for friction is\nless than [it] used to be. I get angrier at technology that isn't instantly giving me what I ask\nof it… I feel that road rage feeling that people describe. I feel that with buttons that aren't\nbuttons… and I think that that… is a frictionless addiction that the world has given me.”\nAI has now brought this logic to creativity and media consumption. Short-form video feeds\nand algorithmic recommendation loops keep users scrolling endlessly. A 2024 review\nfound that 31% of US adults who use social media doomscroll frequently, a figure that\njumps to 51% for Gen Z. This behavior has been linked to anxiety, lower life satisfaction,\nand weakened engagement with the physical world.\n\n31\n\n\f\n​\nIn advertising and platform design, friction is often treated as a flaw to be engineered\naway. Yet research suggests that “positive friction”, small pauses, tactile feedback,\ndeliberate steps in a process, can improve human-AI interactions and even lead to\nhealthier, more meaningful engagement. Examples include Tesla’s steering wheel alert\nwhen autopilot drivers lose focus, or adding tactile responses back into digital tools.\nParticipants lead with a provocation: if AI is g",
+    "summary": "ou my patience for friction is\nless than [it] used to be.",
+    "keywords": [
+      "friction",
+      "feel",
+      "buttons",
+      "world",
+      "media"
+    ]
+  },
+  {
+    "id": "chunk-55",
+    "offset": 54,
+    "text": "ngful engagement. Examples include Tesla’s steering wheel alert\nwhen autopilot drivers lose focus, or adding tactile responses back into digital tools.\nParticipants lead with a provocation: if AI is going to keep accelerating and smoothing out\nevery step of creative and cultural experience, how might we design friction back in?​\n\n8. AI has the power to randomize….Or homogenize. Machine\nintelligence is systemic, not sentient.\nAcross the Assemblies, participants reframed AI as a systemic condition: an infrastructure\nthat shapes creative environments. Its influence is ambient and driven by design choice.\nSeeing AI this way allowed participants to interrogate how its systems are built, what\nfeedback loops they create, and whose values they carry.\nOnline, AI output is often dismissed as “slop” that is cheap, fast, and devoid of perspective.\nParticipants compared the training process to scraping from a global junkyard: a vast pile\nof data mashed together, in contrast to human creation, which is shaped by deliberate\nchoices and a lifetime of experiences. This ‘junkyard’ aesthetic can create the illusion of\nobjectivity, as though a machine trained on everything knows everything. In reality",
+    "summary": "ngful engagement.",
+    "keywords": [
+      "participants",
+      "back",
+      "creative",
+      "design",
+      "machine"
+    ]
+  },
+  {
+    "id": "chunk-56",
+    "offset": 55,
+    "text": "is shaped by deliberate\nchoices and a lifetime of experiences. This ‘junkyard’ aesthetic can create the illusion of\nobjectivity, as though a machine trained on everything knows everything. In reality, the\nsystem reflects the perspectives of those who built and trained it.\nResearch backs this up. A recent study warns of a “monoculture of knowers”: if AI is\ntreated as a singular, authoritative voice in science or culture, it risks replacing diverse\nhuman perspectives with one homogenized point of view, built on hidden assumptions.\nAnother study found that even with varied training data, generative AI tends toward\nsameness over time.\nAnd yet, part of AI’s appeal is the opposite: the promise of decentralization, weirdness, and\nunpredictability. Only 20 years ago, Time magazine named “You” its Person of the Year,\ncelebrating YouTube’s early power to hand creativity to anyone with time and passion.\nBack then, Time asked with disbelief: “Who actually sits down after a long day at work and\nsays… I’m going to make a movie starring my pet iguana?” Today, YouTube is the largest\nstreaming platform in the world, reshaping media production and consumption entirely.\nSo, will AI push this even fu",
+    "summary": "is shaped by deliberate\nchoices and a lifetime of experiences.",
+    "keywords": [
+      "time",
+      "trained",
+      "everything",
+      "perspectives",
+      "built"
+    ]
+  },
+  {
+    "id": "chunk-57",
+    "offset": 56,
+    "text": "ys… I’m going to make a movie starring my pet iguana?” Today, YouTube is the largest\nstreaming platform in the world, reshaping media production and consumption entirely.\nSo, will AI push this even further? Could it fuel a new wave of strange, boundary-breaking\nart? Some participants thought so:\n\n32\n\n\f\n​\n“[W]hen AI art is good, it's because it's so [expletive] weird. I feel like a lot of people only\nsee very, very sterile versions of AI art, but when you get deep in it and you're not on the\ncensored models, the stuff coming out of there is just so far beyond what a person would\nmake. It can be terrifying. You actually make an image and you're like the FBI could maybe\narrest me because of this image…like gore. Really, really weird mutant porn. Really, really\njust intense, non-human, scary alien shit. But most people don't see that because it's been\nsterilized by platform capitalism to not let you see that…”\nThis irony is ever present: AI holds the potential to expand creativity into chaotic,\nunsettling new spaces, yet the systems built around it often drive toward sameness and\nefficiency. As AI’s generative capacity improves, the question remains whether the\nstructures we build will",
+    "summary": "ys… I’m going to make a movie starring my pet iguana?” Today, YouTube is the largest\nstreaming platform in the world, reshaping media production and consumption",
+    "keywords": [
+      "really",
+      "make",
+      "like",
+      "platform",
+      "weird"
+    ]
+  },
+  {
+    "id": "chunk-58",
+    "offset": 57,
+    "text": "otic,\nunsettling new spaces, yet the systems built around it often drive toward sameness and\nefficiency. As AI’s generative capacity improves, the question remains whether the\nstructures we build will let it stay weird, or force it to flatten everything into one\nperspective.\n\n9. Resistance is not rejection, but redesign.\nThe Assemblies did not argue for rejecting AI outright. Instead, participants imagined how\ntechnology could be reframed and rebuilt to reflect creative values rather than override\nthem. Could AI systems embed ethics, friction, curiosity, and care? Could they support\nsustainable creative economies instead of undermining them?\nAcross sessions, participants identified opportunities for change. They called for tools\nthat honor human intention, profit models that let artists thrive, and platforms that slow\ndown attention rather than exploit it. A few reflections captured this spirit of optimism and\npossibility:\nParticipant: “[W]e all have a desire to create that's not going to be replaced…That's\nsomething that's distinctly human and will always belong to us. How we capitalize on that\nand turn it into an ecosystem where people are making money is the question…So I think",
+    "summary": "otic,\nunsettling new spaces, yet the systems built around it often drive toward sameness and\nefficiency.",
+    "keywords": [
+      "systems",
+      "question",
+      "instead",
+      "participants",
+      "creative"
+    ]
+  },
+  {
+    "id": "chunk-59",
+    "offset": 58,
+    "text": "to be replaced…That's\nsomething that's distinctly human and will always belong to us. How we capitalize on that\nand turn it into an ecosystem where people are making money is the question…So I think\nit's about finding the balance.”\nParticipant: “I find that on some intuitive level, friction feels right…there's something about\nslowing down things that are too slippery. Actually introducing things that maybe create\ncheckpoints, create the human-in-the-loop effect. When things feel too slippery, make\nthem a little bit harder.”\nParticipant: “I mean, streaming could be interesting… co-opting streaming and turning it\ninto a very, very creative force… a contemplative way of thinking about streaming flow.”\nThe Assemblies made clear that resistance doesn’t mean shutting the door on AI. It means\ntaking back the design process and asking how technology can serve human creativity\nfirst and foremost.\n33\n\n\f\nV. Hollywood’s 8 Rules For AI\nFrom the five Assemblies of artists, performers, technologists, and storytellers, it became\nclear people felt strongly that AI needs to work for creativity, not against it. The\nAssemblies served as a space for a community to imagine what creativity is in a radic",
+    "summary": "to be replaced…That's\nsomething that's distinctly human and will always belong to us.",
+    "keywords": [
+      "human",
+      "things",
+      "streaming",
+      "assemblies",
+      "creativity"
+    ]
+  },
+  {
+    "id": "chunk-60",
+    "offset": 59,
+    "text": ", and storytellers, it became\nclear people felt strongly that AI needs to work for creativity, not against it. The\nAssemblies served as a space for a community to imagine what creativity is in a radical\nnew way, and also generate core insights with each other about creativity’s relationship to\nAI. Finally, these insights lead us to the following 8 Rules for designing technology that\nsustains, not strips, human imagination.\n\n1. Build For Process, Not Just Output\nDesign systems that support the process of creation not only the production of results.\nCreativity is not just about efficiency or outcome, but also about discovery, friction, failure,\nand transformation. AI tools should support exploration, not shortcut it.\n\nExample: A24’s approach to filmmaking famously allows directors creative freedom and\nlong development periods, resulting in distinctive, award-winning work. In tech, platforms\nshould prioritize features that support iterative exploration and the development of\ncreators’ skills and facilities instead of one-click generation. This can mean actively\ninvolving creators in the decision-making process by allowing them to give feedback\nthroughout the generation process and by",
+    "summary": ", and storytellers, it became\nclear people felt strongly that AI needs to work for creativity, not against it.",
+    "keywords": [
+      "creativity",
+      "process",
+      "support",
+      "work",
+      "insights"
+    ]
+  },
+  {
+    "id": "chunk-61",
+    "offset": 60,
+    "text": "lls and facilities instead of one-click generation. This can mean actively\ninvolving creators in the decision-making process by allowing them to give feedback\nthroughout the generation process and by offering multiple input modalities (such as\nsketches, stills, voice notes, or mood references). On the philanthropic side, funders\nshould support long term grant and fellowship programs focused on skill development.\n\n2. Encourage Randomness and Glitchiness\nAI is appealing because its outputs can often surprise us. Creativity thrives at these\nmoments of surprise and wonder. To realize this potential, systems should be designed to\nencourage artists to be messy and embrace the glitch. This also means investigating what\nstages of the creative process benefit most from human-AI collaboration and deliberately\nencouraging training and sampling methods that amplify quirkier, more random outputs.\nDon’t overdetermine the world.\n\nExample: AI companies can co-create a creativity model that promotes “glitchiness,” or\nless probable outputs which screenwriters can use as they explore different ideas and\npathways for their work. This could be used during the ideation phase of screenwriting, so\nthat sc",
+    "summary": "lls and facilities instead of one-click generation.",
+    "keywords": [
+      "process",
+      "outputs",
+      "generation",
+      "encourage",
+      "glitchiness"
+    ]
+  },
+  {
+    "id": "chunk-62",
+    "offset": 61,
+    "text": "litchiness,” or\nless probable outputs which screenwriters can use as they explore different ideas and\npathways for their work. This could be used during the ideation phase of screenwriting, so\nthat screenwriters can “meand[er] through a latent ‘idea space’ and curat[e] the model\noutputs that they find most meaningful.” An overdetermined world, on the contrary, is one\nwhere Google’s “I’m feeling lucky” disappears altogether, for example.\n\n34\n\n\f\n​\n3. Keep Friction In The Creative Flow\nAvoid optimizing creativity into frictionless experiences. Moments of constraint, pain,\nattention, time pressure, limitation, were repeatedly identified as vital to depth and\nmeaning. Systems should allow for discomfort and limitation. Design moments that\nconstrain us and make us think.\n\nExample: Platforms like BeReal intentionally slow down social sharing by allowing only one\nunedited post a day. Use variables beyond time and clicks to measure audience\nengagement. User wellbeing, satisfaction, and mental health might push technical\nimplementations towards a slower and constrained experience. Intercept doomscrolling\nwith moments of pause.\n\n4. Protect Lineage and Give Credit\nAI tools should not sever cre",
+    "summary": "litchiness,” or\nless probable outputs which screenwriters can use as they explore different ideas and\npathways for their work.",
+    "keywords": [
+      "moments",
+      "outputs",
+      "screenwriters",
+      "example",
+      "time"
+    ]
+  },
+  {
+    "id": "chunk-63",
+    "offset": 62,
+    "text": "ealth might push technical\nimplementations towards a slower and constrained experience. Intercept doomscrolling\nwith moments of pause.\n\n4. Protect Lineage and Give Credit\nAI tools should not sever creative work from its lineage. Design systems that acknowledge\nhistory, context, and cultural origin. Machines borrow from human expression. AI should\ntrace where its inspirations come from.\n\nExample: The Adobe Content Credentials focuses on metadata labelling and data\nprovenance for digital content. Embedding traceability at scale could give credit to original\ncreators and communities whose work trains AI. In general, creating chains of context and\nhistoricity in content ensures it’s never static and divorced from creative community acts.\n\n5. Put Human Purpose at the Center\nDesign systems that foreground why something is being created. Many participants\nemphasized that AI can replicate form but not purpose. AI should ask and adapt to creator\nintent, making purpose, not just pattern, the starting point.\n\nExample: AI tools should have greater personalization and customizability to each user’s\nintent and specific use case. Canva’s design assistant asks users for some measure of\nintent (pos",
+    "summary": "ealth might push technical\nimplementations towards a slower and constrained experience.",
+    "keywords": [
+      "design",
+      "content",
+      "purpose",
+      "intent",
+      "lineage"
+    ]
+  },
+  {
+    "id": "chunk-64",
+    "offset": 63,
+    "text": "rting point.\n\nExample: AI tools should have greater personalization and customizability to each user’s\nintent and specific use case. Canva’s design assistant asks users for some measure of\nintent (poster, ad, invitation) before suggestions.\n\n6. Make AI Transparent and Conversational\nParticipants described a need for AI systems that are not black boxes. Transparency, in\nthis context, means two things: first, the ability to understand how a model and its levers\ninfluence the output; and second, control over those levers. Artists and creatives want to\nsee how decisions are made, step in to guide them, and feedback results in real time. ​\n​\n​\n\n35\n\n\f\nEasily understandable, fine-grain control mechanisms give creators greater agency over\nthe direction and feel of their work.\n\nApplication: GitHub Copilot shows its code suggestions in real time, letting developers\nreject or refine results. Creative AI could do the same for song lyrics, animation frames, or\nstoryboards. AI tools can make control mechanisms like temperature and guidance more\ntransparent and modifiable through a clear user interface.\n\n7. Value Deliberate Slowness and Depth\nSpeed should not be the default metric. Participants c",
+    "summary": "rting point.",
+    "keywords": [
+      "control",
+      "tools",
+      "greater",
+      "user",
+      "intent"
+    ]
+  },
+  {
+    "id": "chunk-65",
+    "offset": 64,
+    "text": "mechanisms like temperature and guidance more\ntransparent and modifiable through a clear user interface.\n\n7. Value Deliberate Slowness and Depth\nSpeed should not be the default metric. Participants called for tools that allow space for\ncontemplation and depth. Design for layered work, allowing time for ideas to grow instead\nof forcing instant delivery.\n\nExample: Filmmakers like Terrence Malick famously spend years editing films to find their\nfinal form. AI could introduce deliberate checkpoints or time delays to support depth over\noutput velocity.\n\n8. Design for the Whole Creative Ecosystem\nDesign with the understanding that creativity is relational and systemic, not an isolated\ncapability. This means designing with awareness of how AI systems affect labor, culture,\neducation, ecology, and emotional life. AI must be built with a priori consideration of\necosystem effects, not as a bolt-on feature.\n\nExample: Creative Commons licensing historically reshaped sharing on the internet by\nbalancing openness and rights. Similar systemic reforms, rethinking licensing, royalties,\nand attribution in AI training, could protect human creative economies while allowing\ninnovation.\n\nThe Takeaway:",
+    "summary": "mechanisms like temperature and guidance more\ntransparent and modifiable through a clear user interface.",
+    "keywords": [
+      "depth",
+      "design",
+      "creative",
+      "like",
+      "deliberate"
+    ]
+  },
+  {
+    "id": "chunk-66",
+    "offset": 65,
+    "text": "ancing openness and rights. Similar systemic reforms, rethinking licensing, royalties,\nand attribution in AI training, could protect human creative economies while allowing\ninnovation.\n\nThe Takeaway:\nHollywood’s creative community isn’t asking to roll back AI. They’re asking to redesign it\nand to build tools and systems that honor the slow, messy, human work of making\nmeaning. Anything less risks turning culture into ‘slop’ at scale.\n##\n\n36\n\n\f\n\n====\n\nToday's conversation is so, so special. Um, you know, we try to cram in as many filmmakers and films that we wanna champion into the talks program, so we rarely dedicate. An entire round table to one film, but with black news terms and conditions directed by Khalil Joseph and made with an incredible kind of galaxy of uh, artists, we knew we had to do it because this is not just a film, it's like a cinematic universe, and there's so much there to unpack.\n\nUh, there's so many layers. I mean, how many of you have seen it? Okay, most of you, so you know exactly what I'm talking about. So I'm really honored that we were able to put this together and that too. It's such a stellar lineup and I'm gonna invite them onto the stage one by one. Fi",
+    "summary": "ancing openness and rights.",
+    "keywords": [
+      "human",
+      "creative",
+      "asking",
+      "know",
+      "film"
+    ]
+  },
+  {
+    "id": "chunk-67",
+    "offset": 66,
+    "text": "o you know exactly what I'm talking about. So I'm really honored that we were able to put this together and that too. It's such a stellar lineup and I'm gonna invite them onto the stage one by one. First up, Khalil Joseph, the director of Black Nails,\n\nza Shaw, who, uh, a collaborator and appears in the film. As you'll recognize, \n\nlet's go Za\n\nMaunde, uh, one of the writers on the film.\n\nRaven Jackson, who was here a couple years ago. \n\nLet's\n\ndirector of all Dirt Gross Taste. Let's \n\ngo. Raven\n\nSavannah, leaf Savannah, the Director of Earth, mama, \n\neverybody.\n\nAnd today's moderator. John Esri Goff, an amazing filmmaker, curator, and program officer at the Ford Foundation. \n\nJohn,\n\nthank you all for joining us. And uh, over to you John. \n\nAlright, thank you so much. Wow, so excited for this conversation today. Um, just to kick it off, um. I wanna acknowledge that, you know, for, for black people and for communities whose histories and existence have been marginalized or erased or extracted, storytelling is much more than entertainment.\n\nYou know, it's continuity, it's um, it's resistance, it's ritual. And so what all of these artists here. Our part of is a continuum. You know, it",
+    "summary": "o you know exactly what I'm talking about.",
+    "keywords": [
+      "know",
+      "director",
+      "john",
+      "black",
+      "film"
+    ]
+  },
+  {
+    "id": "chunk-68",
+    "offset": 67,
+    "text": "racted, storytelling is much more than entertainment.\n\nYou know, it's continuity, it's um, it's resistance, it's ritual. And so what all of these artists here. Our part of is a continuum. You know, it is not born in an abyss, you know, it, it, it is, it is something that predates the technology of a camera. Some people have said that, you know, miss unseen and stuff, and the rituals that we see predates the camera itself, you know, so.\n\nUh, I think of Oscar Michel, I think of Julie Dash. I think of Kevin Jerome Everson, who insists that his work may not explain itself. You know, it, it, it is, um, something that reveals time itself. And so, um, black news is an, a single object, an ecosystem. It is a pulse that connects imagination. Rhythm community.\n\nIt's a living cont continuum of black thought and image. And so, um, with that in mind, I I, I, I wanna ask Khalil, um, this question, um, you stated that black news is less of a film and more of a space to enter a collage of memory, resistance, and imagination. What world were you trying to build? With this project.\n\nUm, thank you. That's a great question. Thank you guys for all coming. It means a lot for us to be able to be up here",
+    "summary": "racted, storytelling is much more than entertainment.",
+    "keywords": [
+      "know",
+      "itself",
+      "think",
+      "black",
+      "resistance"
+    ]
+  },
+  {
+    "id": "chunk-69",
+    "offset": 68,
+    "text": "stance, and imagination. What world were you trying to build? With this project.\n\nUm, thank you. That's a great question. Thank you guys for all coming. It means a lot for us to be able to be up here and talk together. I'm a big fan of Savannah Leaf. She doesn't realize I'm more of a fan, probably of hers than she understands. Um, and honestly, Raven as well. I've, I've told her in person, but I haven't really all on wax.\n\nTold her. How much of a fan of hers I am. And Mevo and Kza are probably my two richest collaborations I've had in, in my creative career. So it's, it's an honor to be up here with these folks. Um, to answer your question, one of the things I noticed as I've always wanted to make films in my life, and I notice sometimes with the history of black cinema, there's this insistence of.\n\nA kind of commitment to reality. So, you know, I love Boys in the Hood. I love even Killers of Sheep, these kinds of movies. But there's like this idea that we need to render what we experience. Um, I kind of want to say exclusively, and I've always understood Hollywood to be make believe, right? I've also understood Hollywood to be a very powerful tool.\n\nAnd world making. So our unders",
+    "summary": "stance, and imagination.",
+    "keywords": [
+      "world",
+      "thank",
+      "question",
+      "here",
+      "probably"
+    ]
+  },
+  {
+    "id": "chunk-70",
+    "offset": 69,
+    "text": "ence. Um, I kind of want to say exclusively, and I've always understood Hollywood to be make believe, right? I've also understood Hollywood to be a very powerful tool.\n\nAnd world making. So our understanding of AI is what Hollywood told us AI is, whether it's, you know, the movie AI or if you talk to real futurists and industrialists, they're really trying to figure out how to make Blade Runner a reality, right? So our ideas of the future, whether it's something as extreme as Blade Runner and AI or something more, you know, uh, pedestrian.\n\nWes Anderson or something like that are things that filmmakers and novelists and artists have created for us to walk into. So as a black person, I'm like, I don't wanna walk into what I've understood the, our reality as to. So in many ways there's a perpetuation of our existence as we keep rendering it over and over and over again.\n\nSo there was. Um, it was important to me to kind of create the future I wanna see and not the, the reality I've always understood. \n\nYeah. I mean, whether it's the black box or the white cube, I mean. For us. Uh, it's a cathedral and I mean, I ran into ery Macci outside who saw the film last night. And I mean, he sai",
+    "summary": "ence.",
+    "keywords": [
+      "understood",
+      "mean",
+      "hollywood",
+      "whether",
+      "reality"
+    ]
+  },
+  {
+    "id": "chunk-71",
+    "offset": 70,
+    "text": "understood. \n\nYeah. I mean, whether it's the black box or the white cube, I mean. For us. Uh, it's a cathedral and I mean, I ran into ery Macci outside who saw the film last night. And I mean, he said seeing it with the audience and hearing the call and the response and people just reacting to the encyclopedic references, he said it was cathartic, you know, and for anyone who's been to a movie theater with a black audience, that is our, our release, you know?\n\nYeah. And if you think about the history of black life in America, it's. It's a, it's essentially, um, a series of imaginative like freedom for enslaved people was an insane thought that had a huge imaginative leap. There was no idea that that was even a possibility. It was, it was, IM an impossibility. If you really understood the circumstances and the realities they were faced with, but the Harriet Tubmans of the world and the hundreds and thousands of others.\n\nWho imagined a brighter future that required Hollywood level imaginative leaps, right? Or Dr. King or anybody we want to kind of valorize Now, historically, looking back, that shit was impossible. The white water fountains, that there was no other version of that, t",
+    "summary": "understood.",
+    "keywords": [
+      "mean",
+      "black",
+      "imaginative",
+      "understood",
+      "yeah"
+    ]
+  },
+  {
+    "id": "chunk-72",
+    "offset": 71,
+    "text": "native leaps, right? Or Dr. King or anybody we want to kind of valorize Now, historically, looking back, that shit was impossible. The white water fountains, that there was no other version of that, that was reality as they understood it. So it required a huge imaginative leap.\n\nSo as filmmakers and storytellers for me. I'm just pulling from what my family and my father and my mother taught me was our history. It's like, oh, I have to create the future that I wanna walk into. And not necessarily what I understood to be \n\nright. The, the freedom of form, I mean, we've done it with music, right?\n\nAnd once you break form or. Break anything. And you think of what Tony Morrison said, um, the responsibility of freedom. I'm paraphrasing. You know, you gotta free somebody else, you know, and, and, and Raven in, in your work, you know, you use stillness and quietness and, and, and in your narrative structure, can, can you talk about the, the intentionality behind that and, and how you want audiences to.\n\nUm, sit and reflect with the images and, and, and the, um, sort of the stillness in, in your work? \n\nUh, yes. Um, and it's an honor to be here talking on this panel. I'm, uh, I really love",
+    "summary": "native leaps, right?",
+    "keywords": [
+      "right",
+      "know",
+      "your",
+      "want",
+      "understood"
+    ]
+  },
+  {
+    "id": "chunk-73",
+    "offset": 72,
+    "text": "ences to.\n\nUm, sit and reflect with the images and, and, and the, um, sort of the stillness in, in your work? \n\nUh, yes. Um, and it's an honor to be here talking on this panel. I'm, uh, I really love kil and his work and so I'm really grateful to be here and with you all. Um, but I, in my work. Or in alter roads, I was really interested in honoring the pace.\n\nIt seemed like certain moments wanted, you know, and if it felt like the moment wanted to linger, to allow it to linger and not feel constrained to like cut it if it didn't want it. Like to, to move at a certain pace if it was asking for stillness or slowness. Um, and I also, I, I like, I really thought a lot.\n\nUm, and this came to me after the edit was done that I would often say before screening the film, that I would like the audience as an invitation to let the film wash over you, um, and to be in your body. Because I think, I hope that that stillness, that space is. Yes. Also an invitation to like really be present.\n\nUm, so that's a lot I was thinking about with that \n\ninvitation to be present. Kenza. \n\nWell, Raven, will you tell the people the name of the film you're talking about? Yes. It's \n\nAlder Road, taste of Salt.",
+    "summary": "ences to.",
+    "keywords": [
+      "like",
+      "really",
+      "stillness",
+      "work",
+      "film"
+    ]
+  },
+  {
+    "id": "chunk-74",
+    "offset": 73,
+    "text": "hat's a lot I was thinking about with that \n\ninvitation to be present. Kenza. \n\nWell, Raven, will you tell the people the name of the film you're talking about? Yes. It's \n\nAlder Road, taste of Salt. My First \n\nYes. \n\nAnd so Incredible for, for those who don't know 'cause I haven't really talked about it openly yet, is I, I openly invited.\n\nCertain collaborators and filmmakers specifically to, um, be featured in my film, which there, we, there was no protocol necessarily, and I had only seen Raven's short films. Her, she was still in post-production for alders alder roads. And um, I called her out of the blue. She's the only, I think, key collaborator who I didn't previously know.\n\nI cold called her and I said, Hey, I'm making this project. I would love for you to, um. Kind of col, like be on the track with me, essentially. And she, to her credit, she showed up and brought her own cinematographer, jumbo, fre genius collaboration in their own right. Yes. And got busy in a way that I, I still am, you know, I, I see.\n\nSo Bradford Young and I were shooting in another part of the environment and Raven and Jumo were shooting in another. And on the last day, Bradford and I finished early,",
+    "summary": "hat's a lot I was thinking about with that \n\ninvitation to be present.",
+    "keywords": [
+      "raven",
+      "know",
+      "film",
+      "alder",
+      "openly"
+    ]
+  },
+  {
+    "id": "chunk-75",
+    "offset": 74,
+    "text": "still am, you know, I, I see.\n\nSo Bradford Young and I were shooting in another part of the environment and Raven and Jumo were shooting in another. And on the last day, Bradford and I finished early, and so we, and it was this, it was an environment just like this. She was shooting in a movie theater and Bradford and I got to sit in the back and watch Raven and Jomo work.\n\nAnd I've seen other filmmakers work, and I've never experienced a more elegant filmmaker. Direct actors. And I actually was taking notes. She doesn't realize this. I was like, oh, this is how you can relate to, I mean, everyone in the crowd, all the extras, everybody was so calm and so patient. Nobody was rushing.\n\nThe ad wasn't yelling, they were behind schedule. No one cared. And it was amazing. You know, it was, to this day, it was, uh, of. A moment I'll forever remember. Oh, thank you Khalil. \n\nThank you. But when Khalil calls, you answer that call and you show up. You know? There's no way I was saying no to that. So \n\nthank you Kza.\n\nUm, you also work in theater, um, and you also work through ritual and embodiment. How did that shape your collaboration here? \n\nY'all were just talking about white boxes and b",
+    "summary": "still am, you know, I, I see.",
+    "keywords": [
+      "work",
+      "know",
+      "bradford",
+      "shooting",
+      "thank"
+    ]
+  },
+  {
+    "id": "chunk-76",
+    "offset": 75,
+    "text": "t. So \n\nthank you Kza.\n\nUm, you also work in theater, um, and you also work through ritual and embodiment. How did that shape your collaboration here? \n\nY'all were just talking about white boxes and black boxes and how we gather there was that, uh, I don't know if anyone was there, not last night, night before Saturday, but there's, there's this beautiful moment where that long shot of, as Shakur comes up and we all started clapping and I was like, you know, there's probably a memorial service in Havana.\n\nIf there was one in New York that y'all knew about, I didn't know about it. And it was like there was a need in that room. Like we had a need together in that room, and it felt almost like, like we were feeding the art object. You know what I mean? Like the film needs something from all of us. Um, and I've been thinking, I thought about that a lot last night.\n\nI, I've had the pleasure of working on a art center in Kigali, Rwanda that's gonna open in December. And the first thing we did was like, put up a tapestry and put a bunch of performances in front of it. And have people eat in that space and that sense of how are we going to feed the art objects in our lives?\n\nAnd when this",
+    "summary": "t.",
+    "keywords": [
+      "like",
+      "know",
+      "night",
+      "work",
+      "boxes"
+    ]
+  },
+  {
+    "id": "chunk-77",
+    "offset": 76,
+    "text": "d was like, put up a tapestry and put a bunch of performances in front of it. And have people eat in that space and that sense of how are we going to feed the art objects in our lives?\n\nAnd when this film gets devoured by the world on its own terms, I look forward to the conditions that, uh, people will set up to watch it and to imbibe it together. And I hope we gather like not in a white box and not in a black, like some, some next thing. We need some next way of watching film together.\n\nAnd I feel like this is a real provocation towards that. \n\nYeah. It's gotta evolve. I mean, they say it's a distribution crisis, but I think it's a media film appreciation, literacy crisis, and we have to reimagine consumption because it's, it's, uh, it's a public health issue. Speak ahead. \n\nYeah. That's amazing.\n\nUm, Savannah now, now your work, um, at at Bridges Sports. Spirit Cinema. Can you talk about how, how rhythm guides your process? \n\nUm, rhythm. Rhythm, uh, I think, I don't know. I, I, I guess like as a. I, I was an athlete for people that don't know, and that's where like, um, I started my li life and um, uh, I transitioned from sports to, uh, making films and I think.\n\nUm, we were jus",
+    "summary": "d was like, put up a tapestry and put a bunch of performances in front of it.",
+    "keywords": [
+      "like",
+      "people",
+      "film",
+      "think",
+      "rhythm"
+    ]
+  },
+  {
+    "id": "chunk-78",
+    "offset": 77,
+    "text": "ess like as a. I, I was an athlete for people that don't know, and that's where like, um, I started my li life and um, uh, I transitioned from sports to, uh, making films and I think.\n\nUm, we were just talking about this up there that is like this spatial awareness that I think I translate into film. And, um, some of that comes from like, uh, envisioning what you're about to film and looking at all the possibilities and what's gonna go wrong and coming up with solutions in your head ahead of time.\n\nSome of that comes from like, intuitiveness on the court. That was like my specialty back then was like, um. So I, I, I wasn't a great practice player, um, but I was great on the court at game time and it was about like making these like quick decisions. Sometimes your body responds before your mind does, you know, and so when I think about rhythm or pacing or, um, I don't know if this is answering your question, but like.\n\nI think about those sort of split decisions and what you're intuitively feeling like you need to do in the moment and, and, um, you, you prepare so much beforehand. You know, you write a script or in my case I write a script and I, um, shot list endlessly and I do all",
+    "summary": "ess like as a.",
+    "keywords": [
+      "like",
+      "know",
+      "think",
+      "your",
+      "making"
+    ]
+  },
+  {
+    "id": "chunk-79",
+    "offset": 78,
+    "text": "ely feeling like you need to do in the moment and, and, um, you, you prepare so much beforehand. You know, you write a script or in my case I write a script and I, um, shot list endlessly and I do all this stuff with everybody, um, to prepare.\n\nBut then when it comes to like on the day on the set with a couple actors, it's like you're just waiting for that like. Impulse or that like flicker of like, oh, that feels honest. And, um, that I don't, I don't know if that's a rhythm or what it is, but it's, it's like, that's what I'm searching for. And, and that's what like excites me and creating art, I guess.\n\nYeah. And collaboration. Teamwork. \n\nYeah. And collaboration as well. Yeah. \n\nYeah. Yeah. And, um. It. Can you bring a, a unique lens to world building, um, a technologist lens? C Can you talk about how you translate code, interface or systems into narrative? \n\nUm. It is fascinating to hear myself describe that way. Um, I, uh, thank you.\n\nUm, but I, um, I, I've worked in tech. I am not, uh, I'm, I wouldn't call myself a technologist 'cause I'm not technical. I don't code. Um, what I did, uh, for, uh, the software company I worked for was long-term forecasting and sort of futures r",
+    "summary": "ely feeling like you need to do in the moment and, and, um, you, you prepare so much beforehand.",
+    "keywords": [
+      "like",
+      "yeah",
+      "prepare",
+      "know",
+      "write"
+    ]
+  },
+  {
+    "id": "chunk-80",
+    "offset": 79,
+    "text": "t, uh, I'm, I wouldn't call myself a technologist 'cause I'm not technical. I don't code. Um, what I did, uh, for, uh, the software company I worked for was long-term forecasting and sort of futures research. Um, and, uh. Doing that within an organization is, um, well, lemme take a step back.\n\nAny form, uh, any, any system sense of time is a certain rhythm of, uh, rhythm of narration, right? With a company you are, um, usually you have a quarterly cadence, right? Um, you have also sometimes that's punctuated by your competitor dropping a product or, you know, some other fluctuation in the market somewhere else.\n\nThat changes behavior and changes people's sense of time. And, um, I don't come from that world. Uh, I'm a poet, um, and I've always been very, uh, driven by my ear. Um, and so that, that, that aspect of thinking about the future is natural to me and I've done a lot of work. Um, you know, in, uh, in philanthropy, in communities, in uh, sort of other sort of org organizing spaces, um, trying to offset my corporate footprint and help, uh, help us sort of imagine futures otherwise.\n\nUm, and one of my collaborators within that work, uh, oh, another quarter of the futurist write",
+    "summary": "t, uh, I'm, I wouldn't call myself a technologist 'cause I'm not technical.",
+    "keywords": [
+      "sort",
+      "company",
+      "futures",
+      "sense",
+      "time"
+    ]
+  },
+  {
+    "id": "chunk-81",
+    "offset": 80,
+    "text": "s, um, trying to offset my corporate footprint and help, uh, help us sort of imagine futures otherwise.\n\nUm, and one of my collaborators within that work, uh, oh, another quarter of the futurist writers room is here. Tony. Patrick. What \n\nup Tony? \n\nAnd, and I'll say that when you are, when we are and, and you know, futures is not like some priesthood, like everybody has a stake in it. Um, when we try to relax our hold right on.\n\nThe rhythm, uh, uh, or the, the style of narration of futures that's given to us, right? And start reaching for something else. Um, you have to find a way to disrupt that rhythm. And I think something, the first thing that smacked me in the face when, uh, Khalil sent me the first clip of, of black news, um, and I'm talking about the installation project here, the two channel version was that it felt like something that was.\n\nWorking really hard and really intentionally and really conscious of sound, right. Um, to disrupt that rhythm for you, right? And to buy your suspension of time. I'm also a fantasy writer, so half of the game there is to get people to let go of how they expect things to be. I think if. If anything, that is sort of my specialty in my wo",
+    "summary": "s, um, trying to offset my corporate footprint and help, uh, help us sort of imagine futures otherwise.",
+    "keywords": [
+      "right",
+      "futures",
+      "like",
+      "rhythm",
+      "something"
+    ]
+  },
+  {
+    "id": "chunk-82",
+    "offset": 81,
+    "text": "your suspension of time. I'm also a fantasy writer, so half of the game there is to get people to let go of how they expect things to be. I think if. If anything, that is sort of my specialty in my work across mediums, across context is like, let this wash away.\n\nRight? Um, when, uh, you know, when sort of a, a Caterpillar decides it's time to change. First they form their cocoon and then they completely liquefy. And within any system, within any group of people, within any gathering, that is the most terrifying thing. Is to let go of what we know ourselves to be and to reach for something else.\n\nAnd I think, um, that's what I try to help, uh, people do. That's what I hope my, you know, my art does. And that's what I felt, um, that I think that's the resonance that, uh, that got me and Khalil talking on the phone for like four hours when, when we had our first phone call. Um, but that's, that's kind of how I see, um, rhythm and transformation and, and, uh.\n\nMaking worlds. \n\nLet's stay there. Go ahead and, yeah, I was to speak to a little bit of some of the stuff that me and Mevo collaborated on there. Kza plays a character in the film named Fila Aku, who is a reincarnation of WEB D",
+    "summary": "your suspension of time.",
+    "keywords": [
+      "people",
+      "think",
+      "know",
+      "time",
+      "sort"
+    ]
+  },
+  {
+    "id": "chunk-83",
+    "offset": 82,
+    "text": "there. Go ahead and, yeah, I was to speak to a little bit of some of the stuff that me and Mevo collaborated on there. Kza plays a character in the film named Fila Aku, who is a reincarnation of WEB Du Bois in the future as, uh, artist, as a curator, as a writer, as a scholar. And there's something that we created called The Resonance Field, which exists in the middle of the Atlantic Ocean.\n\nAnd it's a kind of land art. It's a kind of take on land art. You know, technically it's ocean art, but there's a whole, a whole bunch of scholarship and research that went into the residence field that MEbA and I talked about a lot. But we never discuss it in the film. We just kind of refer to it. It's almost like the force in Star Wars, it's something you kind of keep mentioning, but never really detailing and, uh, any, any kind of granular, uh, and.\n\nI called someone at Stanford and I said, Hey, can, can a, can the scholar that I met in Africa do a lecture? Her character in the film? Yeah. And they were like, sure, you know, can you gimme some more details? And I kind of gave them this fictional account of this person that I met in West Africa, and they were like, that sounds super interesti",
+    "summary": "there.",
+    "keywords": [
+      "kind",
+      "film",
+      "like",
+      "yeah",
+      "character"
+    ]
+  },
+  {
+    "id": "chunk-84",
+    "offset": 83,
+    "text": "hey were like, sure, you know, can you gimme some more details? And I kind of gave them this fictional account of this person that I met in West Africa, and they were like, that sounds super interesting.\n\nLike, you know, let, let's, let's talk about it. Cut to. We go to Stanford to have to do a lecture with Chu. So Kase is in character as Fu you know, uh, she doesn't exist. She has the makeup, she has the fake accent, and Mebo writes a lecture for the Stanford\n\nfaculty and students. Technically, arguably some of the smartest right people in the country. In the African American department literature department, everybody's there and after the lecture, they're coming up to fmi Lao asking her to cite her in their research as a result of Meos being able to comport himself into now, uh, a Stanford level scholar.\n\nPresenting his foundings and his scholarship based on a fictional thing that we created in the middle of the Atlantic Ocean. And \n\nthat's just kind, hold on, hold on, hold on, hold on. To be fair, we had spent like three years with Sia Hartman and Fred Moton and Christina Sharpe and like all these crazy scholars coming through the writer's room.\n\nAnd I'm trying to, you know, mi",
+    "summary": "hey were like, sure, you know, can you gimme some more details?",
+    "keywords": [
+      "like",
+      "know",
+      "hold",
+      "stanford",
+      "lecture"
+    ]
+  },
+  {
+    "id": "chunk-85",
+    "offset": 84,
+    "text": "on. To be fair, we had spent like three years with Sia Hartman and Fred Moton and Christina Sharpe and like all these crazy scholars coming through the writer's room.\n\nAnd I'm trying to, you know, mix some of that down into, I was there too, a 45 minute lecture. \n\nI'm not writing that lecture though. I'm just \n\nOkay. There were lots of other brilliant people in the room. Kza was there. Khalil was there, so it, it was not me. \n\nAnd so it's really the, it's the two of these that work together to create the Fila Aku kind of universe that I would still love to find a way to, to, to get out into the, the, the world that at one point we talked about Fumi, Lale only appearing in character and we'll talk about world building.\n\nThat was something I wanted to do with the film is. Actually get the resident field and fumi out to the world first. So by the time they watched the film, they're, they were already predisposed to what the residents field was and who she was. Again, it's kind of like. I learned this from Star Wars. They released a comic book of Star Wars before the movie came out.\n\nAs you know, it's, it's, it, it targets that audience, right? The, that group. And it did so well that",
+    "summary": "on.",
+    "keywords": [
+      "like",
+      "world",
+      "room",
+      "know",
+      "lecture"
+    ]
+  },
+  {
+    "id": "chunk-86",
+    "offset": 85,
+    "text": "learned this from Star Wars. They released a comic book of Star Wars before the movie came out.\n\nAs you know, it's, it's, it, it targets that audience, right? The, that group. And it did so well that it helped get people lined up. That that's really what created people lined up around the block. And Star Wars came out in 1977. \n\nI'm glad we didn't do it. I'm gonna tell you why. I was watching it on Saturday and I was thinking about artifice.\n\nAnd how much, what to me makes the kind of narrative intervention in the 70, how many, 85 minutes we're together is this sense of artificial, this ness, this outside of American psychological realism as the default performance cadence of watching someone on screen. And so I think it's that. I, I wonder if it would've worked if it were natural because it's so arched.\n\nThat's a good point. That's a good point. I mean, that's what the universe has. I. Determined to be so, \n\nHey, uh, what June Jordan say, uh, we are not the problem, we are the possibility. Um, and you, you hinted at it in terms of the realism and Hollywood films, and so I wanna unpack that a little bit, uh, in terms of race and how you deal with it and work.\n\nUm, \n\nI mean, I'm cu",
+    "summary": "learned this from Star Wars.",
+    "keywords": [
+      "star",
+      "wars",
+      "came",
+      "people",
+      "lined"
+    ]
+  },
+  {
+    "id": "chunk-87",
+    "offset": 86,
+    "text": "ility. Um, and you, you hinted at it in terms of the realism and Hollywood films, and so I wanna unpack that a little bit, uh, in terms of race and how you deal with it and work.\n\nUm, \n\nI mean, I'm curious what the, what they think too in terms of like, uh. Like the movies you would make. If so, there's a, there's, there's something that happens in Hollywood for anyone here who's a filmmaker. Even if you're successful, people can, people tend to default into what they think will get made as opposed to what someone taught me, which changed my whole thing is what don't like what will never get made right.\n\nIf I, if I start from that premise, like, just write the thing that you don't ever think. No one, like Hollywood is never gonna. Pick up the phone once they read or they, and that, I mean, black News is a version of that. Some of the best films I think, that have been made in Hollywood are versions of that.\n\nBut I'm curious what y'all's version of of that, like if someone wrote you a blank check, you know, like really thinking outside the box. \n\nYeah. The line between expectation freedom.\n\nYeah, I mean, what comes up for me is that, um, there's a project that I'm excited about. I'm",
+    "summary": "ility.",
+    "keywords": [
+      "like",
+      "hollywood",
+      "think",
+      "terms",
+      "mean"
+    ]
+  },
+  {
+    "id": "chunk-88",
+    "offset": 87,
+    "text": "lank check, you know, like really thinking outside the box. \n\nYeah. The line between expectation freedom.\n\nYeah, I mean, what comes up for me is that, um, there's a project that I'm excited about. I'm not gonna like go too deep into it, but that is, is playing, still playing. I love playing with form, you know, in my work. And I love what Kalo just said. What's the project you have that will never get made? I feel like something that's come up for me is that we also have to give ourselves permission, you know, to like really, um.\n\nAllow ourselves to explore that deeply. I think it can be, often it's, uh, at least in my experience, it's you, you want your practical in a lot of ways. Like, well, if I wanna put all this time into writing a script or into pitching something, let me have it be the thing I know will get made and just keep this to myself.\n\nAnd it's been really freeing for me to really give myself permission to explore different faucets of myself. You know, I've done one feature. My next one isn't necessarily gonna be. Uh, uh, exactly like that, you know, and I'm excited about that. Um, but that's what comes up for me off of that.\n\nYeah, I'm like a very practical thinker.",
+    "summary": "lank check, you know, like really thinking outside the box.",
+    "keywords": [
+      "like",
+      "know",
+      "really",
+      "yeah",
+      "playing"
+    ]
+  },
+  {
+    "id": "chunk-89",
+    "offset": 88,
+    "text": "re. My next one isn't necessarily gonna be. Uh, uh, exactly like that, you know, and I'm excited about that. Um, but that's what comes up for me off of that.\n\nYeah, I'm like a very practical thinker. Um, some, uh, so like, uh. I, I, I've been, I, I guess like off the back of Earth Mama, which was the film I, yeah, the film I did. Um, I got into a space where I was like, man, I feel like I, in filmmaking, you have to wait for other people to give you permission to make anything, um, financially.\n\nUm, and so, uh, I decided to make a short, um, which was called Run. And, um, I just like self financed it and made it, and it showed in the gallery space and then made run too, you know, and, and, and like, um, we did that for the past two years and I had a team of people that are close collaborators and that was like me doing the thing that like, where I wasn't thinking about anybody else other than like me and what I wanted to tell at that time.\n\nAnd. I'm actually in those pieces. So it like, in a way, it's like my version of like a self portrait painting, you know? Um, and when I think about like a feature length, like narrative feature length, I might convert that to a feature length.",
+    "summary": "re.",
+    "keywords": [
+      "like",
+      "know",
+      "feature",
+      "length",
+      "yeah"
+    ]
+  },
+  {
+    "id": "chunk-90",
+    "offset": 89,
+    "text": ", in a way, it's like my version of like a self portrait painting, you know? Um, and when I think about like a feature length, like narrative feature length, I might convert that to a feature length. But like it's really hard to even sit down, sit down and write oftentimes because.\n\nMy headspace goes to something really practical. I wanna make the things I write. Um, and it, it's hard to break that like, mental barrier of like, yeah, maybe if I was solely a writer, um, I would break that mental barrier. But as a filmmaker, it really, it becomes hard to think outside of like, um, yeah, the practicalities of making a project.\n\nThat's why I think a film like this is so important. Because it expands what you feel is possible. Like, I love what you said, like it takes imagination first. And when I, I watched it for the first time, like, uh, last night, years ago. Well, I watched cuts early. Well, I watched my first time last night, like, and it was just like, Ugh.\n\nI'm so grateful this film exists because I think expands when we're talking about being practical. Like if you were being practical, this never would exist, you know? And so I'm grateful for your insistence on that, on pushin",
+    "summary": ", in a way, it's like my version of like a self portrait painting, you know?",
+    "keywords": [
+      "like",
+      "think",
+      "feature",
+      "length",
+      "really"
+    ]
+  },
+  {
+    "id": "chunk-91",
+    "offset": 90,
+    "text": "exists because I think expands when we're talking about being practical. Like if you were being practical, this never would exist, you know? And so I'm grateful for your insistence on that, on pushing that because yeah, I think that's really important. \n\nOne of the things too, I mean, for any film, I'm assuming there's filmmakers and creators in the crowd, uh, it is an assumption, but I just have to assume and.\n\nWhen you go to see from, when I go to see a Christopher Nolan film or I don't know, a PTA, it's just so overwhelming to think like, yeah, that's what I'm gonna do. I mean, as much as I, you know, know that I'm gifted and talented, I can do anything that I want. I also recognize like, uh, I don't know if that's my way of creating necessarily, you know?\n\nUm, and so I, I would say for you guys, we all have. I mean, one of the things I noticed, I mean, I know it's called Black World making, but I was talking my wife Anya, who produced the film. I was like, it almost feels like we should be talking about how we found our voices or something, because that's ultimately what distinguishes each one of us.\n\nYou know, it's like we all have an individual unique voice that got us to th",
+    "summary": "exists because I think expands when we're talking about being practical.",
+    "keywords": [
+      "know",
+      "like",
+      "mean",
+      "think",
+      "talking"
+    ]
+  },
+  {
+    "id": "chunk-92",
+    "offset": 91,
+    "text": "should be talking about how we found our voices or something, because that's ultimately what distinguishes each one of us.\n\nYou know, it's like we all have an individual unique voice that got us to the place that we're at, and that's what makes any one of y'all U unique. Um, whether it's a hundred million dollars or, you know, $50,000 or whatever it is, I, you know, we're also living in an amazing time where you don't need that much stuff.\n\nI mean, you know, everyone knows Kai Knot's bigger than anybody in this room, you know, in terms of if we, in terms of creating something at this moment, and that's, he didn't, he didn't have anything but his camera on his. You know, but that's his voice. He's comfortable and he is confident in that space. I'm not saying that's, but if you're a filmmaker, there's a way that your voice is gonna resonate simply and profoundly, that you don't need a lot of money, and it's really about figuring that out.\n\nI mean, I'm a big fan of all these people up here, and it's because of all the stuff I've watched, of all the stuff I've read, their voice just like cut right through in small and profound ways. I mean, I'll never forget. Kne Kza and I met through",
+    "summary": "should be talking about how we found our voices or something, because that's ultimately what distinguishes each one of us.",
+    "keywords": [
+      "know",
+      "voice",
+      "stuff",
+      "mean",
+      "something"
+    ]
+  },
+  {
+    "id": "chunk-93",
+    "offset": 92,
+    "text": "e, and it's because of all the stuff I've watched, of all the stuff I've read, their voice just like cut right through in small and profound ways. I mean, I'll never forget. Kne Kza and I met through our partners. They're friends. My wife and her partner were friends.\n\nFormer partner, former partner, sorry, excuse right. Her former partner were friends and we met at our house casually, not, not much exchange and cut to, it might've been years later, two years later, we were both getting an award during COVID and we were in a cohort. And it was on Zoom, and I was like, God, I recognize her.\n\nOh, that's, that's, oh, okay. That's on you. Okay. Yeah, yeah, yeah. Hey, what's going on? And then we, she gave an acceptance speech. She was the first one to give an acceptance. I've told her this. She was the first one to give an acceptance speech, and it was, it was off the dome. I didn't see no paper. And it was so intimidating, and so profound, and so beautiful and so thoughtful.\n\nThat I know for me and I can think of all the other cohorts, we were so shook that we had to go after her and like give an acceptance speech and I called her after that and invited her to participate in black new",
+    "summary": "e, and it's because of all the stuff I've watched, of all the stuff I've read, their voice just like cut right through in small and profound ways.",
+    "keywords": [
+      "partner",
+      "acceptance",
+      "like",
+      "friends",
+      "former"
+    ]
+  },
+  {
+    "id": "chunk-94",
+    "offset": 93,
+    "text": "for me and I can think of all the other cohorts, we were so shook that we had to go after her and like give an acceptance speech and I called her after that and invited her to participate in black news. That was how her voice cut through was in an acceptance speech. I hadn't seen her theatrical work.\n\nI did my research after I heard her acceptance speech and I was like, oh, she's incredible. But it shows in really subtle, in different profound ways, is what I'm trying to say. \n\nThere's something about this idea, hearing both of you talk about what you would do with a blank check and then practicality and everything.\n\nAnd Raven, you using the word insistence. You're the only person who had shot a feature length narrative film that Khalil invited into the organism. Everybody else. Hadn't had nothing to do with that before. And the insistence, the leadership, the auteurship that it takes to have lateralized process to invite people into creativity, to give people space for voice, is ferocious.\n\nAnd you and Anya have been killers on behalf of everyone in the project. And I was, I was, I have. Been flabbergasted by and continue to be like the section of the film that I had the honor of",
+    "summary": "for me and I can think of all the other cohorts, we were so shook that we had to go after her and like give an acceptance speech and I called her after that and",
+    "keywords": [
+      "like",
+      "acceptance",
+      "speech",
+      "give",
+      "invited"
+    ]
+  },
+  {
+    "id": "chunk-95",
+    "offset": 94,
+    "text": "ious.\n\nAnd you and Anya have been killers on behalf of everyone in the project. And I was, I was, I have. Been flabbergasted by and continue to be like the section of the film that I had the honor of directing one a shot. Made it in of this hallway. You double shot? No, no, no. That wasn't No, no, no. I'm just trying to talk about one shot.\n\nMy point is about one shot. \n\nI'm not gonna interrupt you. \n\nMy point, my point is about one shot. There are, there are several. I'm very proud. Um, but I was trying to talk about one thing, which is this hallway of Du Bois walking. It's like a, a big white stripe in these doors. Um, and him going through, and I was thinking about s DI's text and thinking about that shot, and that was really like the, the level of freedom to imagine that is ob is absurd, Khalil.\n\nAnd it is, it is a product of the insistence that you made. Um, on, on behalf of everyone, and so I just have to say that publicly. \n\nThank you. But there's also, so if anyone has ever heard of the Underground Museum in Los Angeles was started by my brother, and he was a painter and a very straightforward painter.\n\nAnd at one point in his gallery representation, he told his gallery tha",
+    "summary": "ious.",
+    "keywords": [
+      "shot",
+      "point",
+      "like",
+      "behalf",
+      "everyone"
+    ]
+  },
+  {
+    "id": "chunk-96",
+    "offset": 95,
+    "text": "rd of the Underground Museum in Los Angeles was started by my brother, and he was a painter and a very straightforward painter.\n\nAnd at one point in his gallery representation, he told his gallery that he wanted to do more than just paint canvases of black bodies, and they discouraged him to do so. Yeah, and what that created was a profound divorce between my brother and the traditional art world. This is back in early two thousands when the idea of being a successful artist and not having a gallery, I mean, still to this day, I don't know anybody who can do it.\n\nAnd he, at the time, my, my father had passed away recently and left my brother and I some money, and he, my brother, spent all his money on creating what you guys have maybe have heard of as the Underground Museum, but there was no. Uh, no one had done anything like that before. There was no business model.\n\nThere was no suggestion that he was gonna be successful. His wife was saying, you're spending all of our money not making canvases that sell into this space that you don't own, that has no business model. And, and I say that to say he was really focusing his energy on what he understood to be his voice.\n\nI mean, he ha",
+    "summary": "rd of the Underground Museum in Los Angeles was started by my brother, and he was a painter and a very straightforward painter.",
+    "keywords": [
+      "brother",
+      "gallery",
+      "money",
+      "underground",
+      "museum"
+    ]
+  },
+  {
+    "id": "chunk-97",
+    "offset": 96,
+    "text": "ng canvases that sell into this space that you don't own, that has no business model. And, and I say that to say he was really focusing his energy on what he understood to be his voice.\n\nI mean, he had. Alienated and ostracized everybody in the art world that was gonna make him any type of fame, money, or notoriety. And now he's passed away. But the Underground Museum absolutely is supporting his market as an artist, if that makes sense. So his paintings not unlike Warhol, are a result of the work he did outside of the painting.\n\nDoes that make sense? So your voice sometimes is not even just like what you make. It's in Ken's case, it's her acceptance speech for this random award online that shook me to my core. I, I wish I could have recorded it. I would love to share it one day. I mean, it was, do you remember that? You remember that?\n\nI mean, I'm still intimidated when I think about it, like. I, I, I want to be able to, to do that one day. Yeah. So, \n\nyeah, I think that's what competition and capitalism does. It suppresses individual voices, right? Because, um, this western idea that there's a singular truth, you know, um, I have a friend, Hamad Uma, um, he, he said, why are Amer",
+    "summary": "ng canvases that sell into this space that you don't own, that has no business model.",
+    "keywords": [
+      "mean",
+      "make",
+      "voice",
+      "sense",
+      "does"
+    ]
+  },
+  {
+    "id": "chunk-98",
+    "offset": 97,
+    "text": "ition and capitalism does. It suppresses individual voices, right? Because, um, this western idea that there's a singular truth, you know, um, I have a friend, Hamad Uma, um, he, he said, why are Americans so.\n\nAlways speak of singular truths when Rumi said truth came down and was broken like a mirror, and we all got a piece of it, you know, so we all are holding a piece of the truth. And so that's why it's important for everyone to use their individual voice. And I see it all the time where people say, oh, so and so is making a film about this.\n\nI can't do it. And it's like, who cares? Because it's gonna be a different film when you make it. \n\nHow many filmmakers are in the audience? Many. Amazing. Amazing. Oh, is there time for q and a? Yep. Okay. Open up.\n\nIs that okay? Are you guys Yeah. \n\nYeah. Okay. With the QA. \n\nThere's a mic coming. \n\nWe've got a mic. \n\nWe can hear you guys too though, by if you guys.\n\nHello. Um, my name is Kason. I only raised my hand so fast, so I have to go in a second, so I, to make sure I got my question out. Uh, huge fan of this panel. Huge fan of everybody. Khalil specifically, uh, black news changed so much for me and I want to ask about that becau",
+    "summary": "ition and capitalism does.",
+    "keywords": [
+      "truth",
+      "okay",
+      "guys",
+      "individual",
+      "singular"
+    ]
+  },
+  {
+    "id": "chunk-99",
+    "offset": 98,
+    "text": "in a second, so I, to make sure I got my question out. Uh, huge fan of this panel. Huge fan of everybody. Khalil specifically, uh, black news changed so much for me and I want to ask about that because you, that came out maybe a couple years before I really started doing this.\n\nWhen I started doing this, I was looking for more people who looked at me, honestly, that were making films and doing things. I was like, you need to watch this. You need to watch this. And, uh, it was like you were saying, very disruptive and that was really beautiful to me 'cause I'd only seen one type of thing and I knew that there was more to making this than just one way, you know, just like a three act structure.\n\nBut there's more than one way condensing a lot to a question because we see that now and we know that. And, and to me that's like a very prolific film that we've seen. Do you feel, how do you find ways to continue to be. Disruptive when people expect disruption. \n\nIt's, uh, this film was made a result of the source material, which was black news, the work of art.\n\nIf I was adapting a Zuno Hurston book or something, I don't think it would show up like this necessarily. Um, but that goes back",
+    "summary": "in a second, so I, to make sure I got my question out.",
+    "keywords": [
+      "like",
+      "doing",
+      "question",
+      "huge",
+      "black"
+    ]
+  },
+  {
+    "id": "chunk-100",
+    "offset": 99,
+    "text": "result of the source material, which was black news, the work of art.\n\nIf I was adapting a Zuno Hurston book or something, I don't think it would show up like this necessarily. Um, but that goes back to my thing about your voice. Your voice will determine everything, and everybody here has an individual voice in the same way, and everybody will never be. No. The universe will never recreate any version of us.\n\nAnd so if your work looks like other people, it sounds like other people, that's just your process of figuring out your voice. I think in the beginning I could, please correct me if I'm wrong, you guys, but for me in the beginning, my work was me working through people that I like. Cinematographers, you know, other filmmakers, you know, I mean, I can, there was like moments where I would literally try to recreate the same focal length, the same lighting conditions.\n\nRight? And I don't know anybody whose work ultimate. I remember when I first started making stuff, I was like, I, I had no context. And it was kind of uncomfortable because it didn't look like the people. If I told you who I was trying to emulate, you would, you would laugh out loud because it's so different.\n\nYou",
+    "summary": "result of the source material, which was black news, the work of art.",
+    "keywords": [
+      "like",
+      "your",
+      "work",
+      "voice",
+      "people"
+    ]
+  },
+  {
+    "id": "chunk-101",
+    "offset": 100,
+    "text": "had no context. And it was kind of uncomfortable because it didn't look like the people. If I told you who I was trying to emulate, you would, you would laugh out loud because it's so different.\n\nYou know, it's kind of like Goddard trying to, you know, if you talk to Goddard, he said Humphrey Bogart was his guy there. His films only nothing like Humphrey Humphrey Bogart's film. So, um, I, for me it always comes down to voice and training. You gotta learn your craft. Number I, I, I probably prioritize that over your voice.\n\n'cause your voice will emerge. But if you learn, right, and if you learn cinematography, you learn working with actors. If you learn production design, just dump, jump deep into the craft. Just like Kobe Bryant, all of the greatest basketball players you love, they have a style that emerged, but they know their fundamentals are no, their left hand is stronger than your right.\n\nRight. That's because they work, work, work, work, work. And that's my, that's what I would encourage any filmmaker in the audience is like, learn your craft better than anybody, better than anybody. And now on YouTube, there's no excuse. There's no excuse. \n\nYeah. \n\nThank you.\n\nHi. Um, my",
+    "summary": "had no context.",
+    "keywords": [
+      "learn",
+      "like",
+      "your",
+      "work",
+      "know"
+    ]
+  },
+  {
+    "id": "chunk-102",
+    "offset": 101,
+    "text": "d encourage any filmmaker in the audience is like, learn your craft better than anybody, better than anybody. And now on YouTube, there's no excuse. There's no excuse. \n\nYeah. \n\nThank you.\n\nHi. Um, my name is Jam K. Very grateful to be here. And thank you for, um. Yeah. Thank you for this world that y'all have created. I'm asking a question with grace of first drafts 'cause I think, I'm trying to blend a couple things together. So let me know if this isn't coherent. But, um, Kasei, you said something on Friday that I've been thinking about a lot.\n\nYou were talking about, uh, living in the many. As a form and as this counter to, um, individualism, right? The idea of the hero or the idea of the individual author. Um, and that's something that seems like it's very present in the way y'all have collaborated on this project and other projects. And I'm wondering if you can talk a little bit about the, um, collaboration with ancestors in the process of.\n\nMaking the film. Editing the film, writing the film. I mean, I think that from the reference to, uh, cultural ancestors, the resonance field as an ancestor, like these enslaved Africans who are in the water, um, Khalil references to your",
+    "summary": "d encourage any filmmaker in the audience is like, learn your craft better than anybody, better than anybody.",
+    "keywords": [
+      "like",
+      "thank",
+      "film",
+      "your",
+      "better"
+    ]
+  },
+  {
+    "id": "chunk-103",
+    "offset": 102,
+    "text": "ting the film. I mean, I think that from the reference to, uh, cultural ancestors, the resonance field as an ancestor, like these enslaved Africans who are in the water, um, Khalil references to your family and your brother, and, you know, may both of their memories be a blessing.\n\nUm, yeah, I'm, I'm, I'm just wondering if you, if y'all can talk about. How ancestors were present in the process view. And also I think I'd be remiss, maybe if I didn't mention the first time I saw, uh, alter road Taste of Salt in the theater. Um, I could feel my grandmother's hands at the end. My grandmother passed away 20 years ago.\n\nYou know, I, I, I complete, it took me a second to actually register what it was that I was feeling because I recognized and I couldn't place it. Um, and so this idea that, that. That connection isn't lost, that that connection is present. Thinking about the film as ritual, and again, think about how we feed it and how it feeds us, I think I'm really curious about, about that connection to ancestors and how it was present in your work.\n\nBecause I think as an audience member, it was something that was very present for me, um, viewing the film.\n\nYeah. First off, that's a re",
+    "summary": "ting the film.",
+    "keywords": [
+      "think",
+      "present",
+      "film",
+      "ancestors",
+      "your"
+    ]
+  },
+  {
+    "id": "chunk-104",
+    "offset": 103,
+    "text": "connection to ancestors and how it was present in your work.\n\nBecause I think as an audience member, it was something that was very present for me, um, viewing the film.\n\nYeah. First off, that's a really beautiful comment and thank you for sharing that. I'm really moved. Um, but I thought a lot about my grandmothers in the making. I'm speaking of UD Rose now. Um, I thought a lot about my grandmothers. I had a lot of conversations I wouldn't have had if not for that film. And so I'm really grateful that I was in the process of making it and they were still alive and I could have those conversations with, but I looked a lot at my maternal grandmother in particular's grand, uh, photo albums.\n\nShe's from Crystal Springs, Mississippi. We ended up filming in Mississippi. It was a reference for, uh, costume, location, all of that. And, um, and so, yeah, I, I mean, I know for me, my process will evolve as I make more work, but I, I hold stuff like that close. Some of the characters' names are personal to me, so it feels close to me when I'm making it.\n\nBecause I want that, and I don't need to tell anybody. I don't always tell folks what's really close to me, but I know I need, I like anch",
+    "summary": "connection to ancestors and how it was present in your work.",
+    "keywords": [
+      "really",
+      "making",
+      "close",
+      "present",
+      "work"
+    ]
+  },
+  {
+    "id": "chunk-105",
+    "offset": 104,
+    "text": "personal to me, so it feels close to me when I'm making it.\n\nBecause I want that, and I don't need to tell anybody. I don't always tell folks what's really close to me, but I know I need, I like anchors like that when I'm making the work. \n\nOkay. Um, that's a great question. Um, for me, I think I, like, I, I didn't know half of my, uh, I didn't know my black side of my family.\n\nI, I don't know my father until I was 30. So like, I didn't know that side of me. And, um, and so some of my work is about like, uh, connecting to that side of me through like art, you know, and through creating and, um, researching like that, that was, that was a part of this film that. It really resonated with me was like, kind of like journey tracking your life.\n\nLike I did 23 and me, and like, you know, like try to piece together, um, my lineage and, um, so yeah, I think that's like really present in like everything I do, every writing, I do everything. Like that's, you know, I'm not even aware of it, like, seeps through because it's like me trying to understand. How I'm, you know, the person I'm today.\n\nSo, um, it's like unavoidable, you know? Or is that the right word? It is like it's, it is gonna be",
+    "summary": "personal to me, so it feels close to me when I'm making it.",
+    "keywords": [
+      "like",
+      "know",
+      "really",
+      "didn",
+      "side"
+    ]
+  },
+  {
+    "id": "chunk-106",
+    "offset": 105,
+    "text": "seeps through because it's like me trying to understand. How I'm, you know, the person I'm today.\n\nSo, um, it's like unavoidable, you know? Or is that the right word? It is like it's, it is gonna be there no matter what\n\nthis question.\n\nThank you.\n\nHi. Um, so I was very struck by the ability of you all to be able to sort of like translate African time and spirit into the space of, um, film and just like the screen. Um, and they're like, at the end of the movie, one of the characters says, oh, like, do you remember the future? And I've just been thinking about that for a few days.\n\n'cause I wanted to go see the film on Friday. And this is, so this is kind of a question I'm like also talking and just trying to work through it myself and wanna hear from y'all actually also like what that meant also, like, not even what it meant, but like what? Like when coming to that question in the process, like how did you come to that question?\n\nBecause there's so many images and. Words and scholars that like are in this piece. So it's just like, how did you deal with time? Because it is interesting because we kind of have to let go of time to not only experience the film, but I also know also wh",
+    "summary": "seeps through because it's like me trying to understand.",
+    "keywords": [
+      "like",
+      "question",
+      "know",
+      "time",
+      "film"
+    ]
+  },
+  {
+    "id": "chunk-107",
+    "offset": 106,
+    "text": "that like are in this piece. So it's just like, how did you deal with time? Because it is interesting because we kind of have to let go of time to not only experience the film, but I also know also when also when making it probably like you had to also do that as well.\n\nSo like how just Yeah, just can you talk about that a little bit because it's very, you know, it's very amazing. \n\nThank you. Uh, that's a very good question. Thank you. Um,\n\nuh, do you remember the future Sadia Hartman wrote that line? Uh, I can only interpret it the way I interpret it, but it kind of goes back to what I was saying a little bit earlier. And if you think about the realities that we now live in, being at Lincoln Center, being at this panel making the movies that we make, going to the schools that we go to, et cetera, is a result of these, um, people in the past who held a vision of the future that didn't exist, that we now live in effortlessly.\n\nYou know, our ancestors, um, like my grandmother can't even fathom what I do for a living. Like it. There's no context. My parents don't, there is no model for what I do. There is no model for what my brother made. There's no, and that's a bit of. Uh, this is",
+    "summary": "that like are in this piece.",
+    "keywords": [
+      "like",
+      "know",
+      "time",
+      "kind",
+      "only"
+    ]
+  },
+  {
+    "id": "chunk-108",
+    "offset": 107,
+    "text": "fathom what I do for a living. Like it. There's no context. My parents don't, there is no model for what I do. There is no model for what my brother made. There's no, and that's a bit of. Uh, this is my interpretation of what City of Hartman wrote. I'm not, you're gonna have to ask her the next time you corner her at a cafe or a lecture or something.\n\nUm, but there is something about having a vision of the future so strong that doesn't yet exist. That obviously becomes so realized and so real that people like you and me are just take it for granted, you know? Like I, I take getting on the train for granted, staying in the hotel. I'm staying right now for granted using my American Express for granted.\n\nLike these kind of things that just my grandmother couldn't have fathom, but I'm, I'm imagining was the hope and the dream for her grandchildren. You know? Um, so I talked to these guys sometimes about this. We're living in a really intense moment, you know, as we always have. Uh, and I have ideas about what the future looks like that I'm just so, I feel so strong about, but it's also, it sounds insane, but I can't imagine It sounds as insane of like our reality for people who are in",
+    "summary": "fathom what I do for a living.",
+    "keywords": [
+      "like",
+      "granted",
+      "know",
+      "fathom",
+      "living"
+    ]
+  },
+  {
+    "id": "chunk-109",
+    "offset": 108,
+    "text": "have ideas about what the future looks like that I'm just so, I feel so strong about, but it's also, it sounds insane, but I can't imagine It sounds as insane of like our reality for people who are in bondage in this country.\n\nLike I, they can't even, it's a psychedelic experience, but if they were to walk into this room and experience. Just talk, for example, you know, and so that, that for me is some kind of, you know, remember the future, something like, right, my vision of the future is nowhere as insane. No matter how crazy it is.\n\nIt's not gonna be as, as insane as things that have actually already transpired for us or something that make sense. It doesn't address all the other incredible questions about African time and the film and making the film and all that, but. \n\nIf, if I may, um, I think there's, uh, it took a lot to make anybody comfortable with this version of the world, and it takes a lot to foreclose, any other conceivable way of being.\n\nAnd, um, we don't, we are taught to invisibilize all of that work, right, that the state does, or, you know. The country or you know, whatever you are inside of your organization does to make itself seem inevitable. But there is a",
+    "summary": "have ideas about what the future looks like that I'm just so, I feel so strong about, but it's also, it sounds insane, but I can't imagine It sounds as insane o",
+    "keywords": [
+      "like",
+      "insane",
+      "know",
+      "future",
+      "make"
+    ]
+  },
+  {
+    "id": "chunk-110",
+    "offset": 109,
+    "text": "ht to invisibilize all of that work, right, that the state does, or, you know. The country or you know, whatever you are inside of your organization does to make itself seem inevitable. But there is a constant culling of other imaginaries, of other futures, of other bodies, of other ways that things could be.\n\nAnd so to me, when I hear, remember the future, one of the first things I think of is recovering. Right. Some of those, uh, some of those foreclosed possibilities, right? Um, there was never, I don't think there was ever a human who couldn't imagine what it was like\n\nto walk freely, you know? Um, there were, uh, I think a lot of, there's a lot of. Energy that it requires to make that less than possible for someone. Right? Um, and so I think just first going back in into the histories and seeing what people tried, right? My parents, for instance, um, one, one of the, um, one of my favorite books called World, world Making After Empire, my parents, um, were the first generation, um.\n\nMy dad was born a colonial subject, right within his childhood. They received national sovereignty and in a lot of different ways, they watched that, you know, have uh, effects that they, you know,",
+    "summary": "ht to invisibilize all of that work, right, that the state does, or, you know.",
+    "keywords": [
+      "right",
+      "know",
+      "think",
+      "first",
+      "does"
+    ]
+  },
+  {
+    "id": "chunk-111",
+    "offset": 110,
+    "text": ".\n\nMy dad was born a colonial subject, right within his childhood. They received national sovereignty and in a lot of different ways, they watched that, you know, have uh, effects that they, you know, didn't hope for, didn't wish for, right? And then their, their dream of sovereignty became let's get to the States.\n\nRight? Um, this is a failed project and, uh. It, it wasn't 'cause they didn't try, right? It wasn't 'cause everybody was always corrupt. Right? It wasn't because nobody had a dream of a functioning society. Right? Or like holding onto your own minerals, right? It's never because of that. But, uh, it's, it's made inconceivable in some ways.\n\nTo imagine or act otherwise. Right. Um, and we, you know, we've all learned a lot about the mechanisms that make that possible, but we don't get to spend as much time thinking about the mechanisms of gaining any degree of freedom. Right. In your own personal life. Right. And what you do tomorrow. And there's a concept called, um, anarchist calisthenics.\n\nAnd it starts with the premise that one day you are gonna be. Required for your own freedom, for your own protection, for the sake of your community to break a really big law, right?",
+    "summary": ".",
+    "keywords": [
+      "right",
+      "your",
+      "know",
+      "didn",
+      "wasn"
+    ]
+  },
+  {
+    "id": "chunk-112",
+    "offset": 111,
+    "text": "st calisthenics.\n\nAnd it starts with the premise that one day you are gonna be. Required for your own freedom, for your own protection, for the sake of your community to break a really big law, right? If you're living right, something you're doing is being made illegal by people who do not want for you to feel as free as you should as a person walking under the sun, right?\n\nAnd so if you don't start taking any. Degree of freedom to imagine yourself outside of the strictures that are made for you now. Then when that day comes, you're gonna fail because you're human. Right? And this is a lesson that our ancestors have known, that our ancestors have learned, and that, you know, we've built a society to remove this lesson from ourselves because it requires something of you.\n\nUm. And so when I hear, remember the future, one of those things is like reclaim that responsibility, right? To try, you know, to just gain that extra degree of freedom and take on, you know, that stress of I gotta do something with this. Mm-hmm. \n\nYeah. Sadia Hartman reminds us that we live in the afterlife of property, right?\n\nAnd, um. Black news, um, offers us the afterlife of possibility. You know, it's a livin",
+    "summary": "st calisthenics.",
+    "keywords": [
+      "right",
+      "know",
+      "your",
+      "freedom",
+      "something"
+    ]
+  },
+  {
+    "id": "chunk-113",
+    "offset": 112,
+    "text": "something with this. Mm-hmm. \n\nYeah. Sadia Hartman reminds us that we live in the afterlife of property, right?\n\nAnd, um. Black news, um, offers us the afterlife of possibility. You know, it's a living archive. It's the evolution of a fugitive broadcast. And, um, I just appreciate you all for your generosity, for, for your work, you know, and for your imagination and creativity. And thank you.",
+    "summary": "something with this.",
+    "keywords": [
+      "your",
+      "afterlife",
+      "know",
+      "something",
+      "yeah"
+    ]
+  }
+]

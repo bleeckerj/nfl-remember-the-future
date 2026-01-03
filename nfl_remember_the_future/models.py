@@ -22,6 +22,7 @@ class ArticleSpec:
     draft_tokens: Optional[int] = None
     image_prompt_tokens: Optional[int] = None
     draft: str = ""
+    design_fiction: Dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass
